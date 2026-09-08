@@ -40,3 +40,14 @@ Cas d'utilisation :
 - Vérifier la disponibilité : Le réceptionniste vérifie la disponibilité des chambres.
 - Enregistrer une arrivée : Le réceptionniste enregistre l'arrivée d'un client et lui attribue une chambre.
 - Gérer les services supplémentaires : Le réceptionniste ajoute ou supprime des services supplémentaires pour une réservation (par exemple, petit-déjeuner, blanchisserie).
+
+
+## 1. Class diagram
+
+### 1.1. Système de gestion des étudiants
+
+- Considérez un système de gestion des étudiants dans une université
+- Les étudiants peuvent s'inscrire à des cours et obtenir leurs notes
+- Chaque étudiant a un nom, un numéro d'étudiant unique et une date de naissance
+- Chaque cours a un nom, un code unique et un enseignant responsable
+- Chaque note est associée à un étudiant, un cours et une valeur numérique
