@@ -42,12 +42,34 @@ Cas d'utilisation :
 - Gérer les services supplémentaires : Le réceptionniste ajoute ou supprime des services supplémentaires pour une réservation (par exemple, petit-déjeuner, blanchisserie).
 
 
-## 1. Class diagram
+## 2. Class diagram
 
-### 1.1. Système de gestion des étudiants
+
+### 2.1. Système de gestion des étudiants
+
 
 - Considérez un système de gestion des étudiants dans une université
 - Les étudiants peuvent s'inscrire à des cours et obtenir leurs notes
 - Chaque étudiant a un nom, un numéro d'étudiant unique et une date de naissance
 - Chaque cours a un nom, un code unique et un enseignant responsable
 - Chaque note est associée à un étudiant, un cours et une valeur numérique
+
+
+### 2.2 Chess
+
+
+Détails :
+
+- ChessGame (classe gérant tout le jeu)
+  - Elle doit gérer le plateau de jeu
+
+- Board (plateau du jeu)
+    - Contient les cases du plateau
+
+- Case (case du plateau)
+    - Les propriétés nécessaires à la réalisation d'une case
+
+- Piece (classe représentants toutes les pièces du plateau)
+    - Les propriétés relatives à une pièce
+
+Il faut modéliser toutes les pièces du jeu : Pawn (Pion), Rock (Tour), Knight (Cavalier), Bishop (Fou), King (Roi) et Queen (Reine)
