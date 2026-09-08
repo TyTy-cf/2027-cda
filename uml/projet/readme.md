@@ -30,11 +30,9 @@ Plusieurs utilisateurs seront sur le site :
 - [x] S'inscrire
 - [x] Filtrer les biens
 - [x] Modifier la langue du site
-- [ ] Regarder le détail d'un bien
-- [ ] Consulter les CGU
-- [ ] Effecteur une demande de contact
-- [ ] Effecteur une demande d'assistance pour un logement
-- [ ] Vérifier les disponibilités (lié au détail peut-être ?)
+- [x] Regarder le détail d'un bien
+- [x] Consulter les CGU
+- [x] Effecteur une demande d'assistance pour un logement
 
 
 ##### User connecté
@@ -45,18 +43,17 @@ Plusieurs utilisateurs seront sur le site :
 - [x] Annuler la réservation
 - [x] Consulter la liste des partenaires / services supplémentaires
 - [x] Reçoit les newsletters
-- [ ] Déposer un avis sur sa réservation (nécessite d'avoir passé une résevation ?)
-- [ ] Modifier un avis sur sa réservation
-- [ ] Supprimer un avis sur sa réservation qu'il a déposé)
-- [ ] Se déconnecter
-- [ ] Ajouter un logement en favoris
-- [ ] Supprimer un logement en favoris
-- [ ] Modifier son mot de passe
-- [ ] Modifier ses infos perso
-- [ ] Modifier une réservation
-- [ ] Supprimer son compte et ses données
-- [ ] Consulter l'historique de ses commandes
-- [ ] Effectuer une demande de support pour une réservation
+- [x] Déposer un avis sur sa réservation
+- [x] Modifier un avis sur sa réservation
+- [x] Se déconnecter
+- [x] Ajouter un logement en favoris
+- [x] Supprimer un logement en favoris
+- [x] Modifier son mot de passe
+- [x] Modifier ses infos perso
+- [x] Modifier une réservation
+- [x] Supprimer son compte et ses données
+- [x] Consulter l'historique de ses commandes
+- [x] Effectuer une demande de support pour une réservation
 
 
 ##### Gestionnaire
@@ -69,10 +66,11 @@ Plusieurs utilisateurs seront sur le site :
 - [x] Supprimer un logement
 - [x] Consulter un dashboard de ses logements attribués
 - [x] Répondre aux demandes de supports
-- [ ] Exporter ses stats
-- [ ] Effecteur une demande de contact
-- [ ] Effecteur une demande d'assistance pour un logement
-- [ ] Confirme les avis des users ?
+- [x] Consulter les stats
+- [x] Exporter ses stats
+- [x] Répondre à une demande d'assistance pour une réservation
+- [x] Répondre à une demande de support pour un logement
+- [x] Peut modérer les avis
 
 
 ##### Admin
@@ -86,9 +84,8 @@ Plusieurs utilisateurs seront sur le site :
 - [x] Modifier les logements
 - [x] Ajouter un logement
 - [x] Supprimer un logement
-- [ ] Exporter ses stats
-- [ ] Effecteur une demande de contact
-- [ ] Effecteur une demande d'assistance pour un logement
+- [x] Consulter les stats
+- [x] Exporter ses stats
 
 
 #### Contenu des entités métiers
