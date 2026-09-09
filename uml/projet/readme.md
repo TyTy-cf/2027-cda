@@ -156,6 +156,9 @@ Plusieurs utilisateurs seront sur le site :
 - [x] finishedAt
 - [x] peopleQty
 - [x] status [PENDING, PAYED, IN_PROGRESS, PASSED]
+- [x] ManyToOne -> Property
+- [x] ManyToOne -> User
+- [x] ManyToMany -> Extra
 
 
 ##### Support
