@@ -73,3 +73,18 @@ Détails :
     - Les propriétés relatives à une pièce
 
 Il faut modéliser toutes les pièces du jeu : Pawn (Pion), Rock (Tour), Knight (Cavalier), Bishop (Fou), King (Roi) et Queen (Reine)
+
+
+## 3. Diagramme d'activé
+
+
+### 3.1.
+
+
+Reprendre le système de la bibliothèque (fait en cas d’utilisation).
+
+Pour rappel :
+- L’utilisateur souhaite emprunter un livre
+- Le système vérifie la disponibilité
+- Si le livre est disponible, alors l’utilisateur peut l’emprunter, il a ensuite la possibilité de le faire ou d’annuler
+- Si le livre n’est pas disponible, alors l’utilisateur est informé et peut donc emprunter un autre livre ou abandonner.
