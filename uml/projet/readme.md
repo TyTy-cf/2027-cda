@@ -169,6 +169,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] createdAt
 - [x] content
 - [x] title
+- [x] ManyToOne -> TitleSupport
 
 
 ##### TitleSupport
