@@ -75,7 +75,7 @@ Détails :
 Il faut modéliser toutes les pièces du jeu : Pawn (Pion), Rock (Tour), Knight (Cavalier), Bishop (Fou), King (Roi) et Queen (Reine)
 
 
-## 3. Diagramme d'activé
+## 3. Diagramme d'activité
 
 
 ### 3.1.
