@@ -91,14 +91,121 @@ Plusieurs utilisateurs seront sur le site :
 #### Contenu des entités métiers
 
 
-##### Les propriétés
+##### Property
 
 
-- [x] Prix
-- [x] Disponibilités
+- [x] name
+- [x] price
+- [x] description
+- [x] ?locationOther
+- [x] slug
+- [x] ManyToOne -> ?Location
+- [x] OneToMany -> Media
+- [x] OneToMany -> ModifierPrice
+- [x] OneToMany -> PropertyCharacteristic
+- [x] OneToMany -> Review
+
+
+##### Location
+
+
+- [x] country
+- [x] city
+- [x] zipcode
+- [x] streetNumber
+- [x] street
+- [x] latitude
+- [x] longitude
+
+
+#### ModifierPrice
+
+
+- [x] ?startedAt
+- [x] ?finishedAt
+- [ ] amount
+- [ ] type (€ or %)
+- [x] ManyToOne -> Property
+
+
+##### CharacteristicLabel
+
+
+- [x] name
+- [x] valueType
+
+
+##### PropertyCharacteristic
+
+
+- [x] ManyToOne -> CharacteristicLabel
+- [x] ManyToOne -> Property
+- [x] value
+
+
+##### Booking
+
+
+- [x] startedAt
+- [x] finishedAt
+- [x] peopleQty
+- [ ] status [PENDING, PAYED, PASSED]
+
+
+##### Assistance
+
+
+- [x] ManyToOne -> Booking
+- [x] createdAt
+
+
+##### Support
+
+
+- [x] ManyToOne -> Property
+- [x] createdAt
+
+
+
+##### Media
+
+
+- [x] name
+- [x] extension
+- [x] size
+- [x] ManyToOne -> Property
+
+
+##### User
+
+
+- [x] email
+- [x] roles [USER, MANAGER, ADMIN]
+- [x] password
+- [x] OneToMany -> Favorite
+
+
+##### Favorite
+
+
+- [x] createdAt
+- [x] ManyToOne -> Property
+- [x] ManyToOne -> User
+
+
+##### Review
+
+
+- [x] createdAt
+- [x] content
+- [x] ManyToOne -> Property
+- [x] ManyToOne -> User
 
 
 #### Questions supplémentaires
 
 
-- À quel moment apparaît l'adresse exacte du lieu ?
+- Existera t'il un prix variable en fonction du jour de la semaine ? O/N
+- Précision sur l'assitance / support
+- Confirmer infos les users
+- Propriétés gérées par un ou plusieurs gestionnaires ?
