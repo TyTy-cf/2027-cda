@@ -229,7 +229,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] content
 - [x] rating
 - [x] status [PENDING, VALIDATED, HIDDEN]
-- [x] ManyToOne -> Property
+- [x] ManyToOne -> Booking
 - [x] ManyToOne -> User
 
 
