@@ -104,7 +104,6 @@ Plusieurs utilisateurs seront sur le site :
 - [x] OneToMany -> Media
 - [x] OneToMany -> ModifierPrice
 - [x] OneToMany -> PropertyCharacteristic
-- [x] OneToMany -> Review
 - [x] OneToMany -> Extra
 
 
