@@ -97,6 +97,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] name
 - [x] price
 - [x] description
+- [x] withdrawal (h)
 - [x] ?locationOther
 - [x] slug
 - [x] ManyToOne -> ?Location
@@ -104,6 +105,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] OneToMany -> ModifierPrice
 - [x] OneToMany -> PropertyCharacteristic
 - [x] OneToMany -> Review
+- [x] OneToMany -> Extra
 
 
 ##### Location
@@ -146,6 +148,8 @@ Plusieurs utilisateurs seront sur le site :
 ##### Booking
 
 
+- [x] createdAt
+- [x] updatedAt
 - [x] startedAt
 - [x] finishedAt
 - [x] peopleQty
@@ -180,7 +184,7 @@ Plusieurs utilisateurs seront sur le site :
 
 
 - [x] email
-- [x] roles [USER, MANAGER, ADMIN]
+- [x] roles **[USER, MANAGER, ADMIN]**
 - [x] password
 - [x] OneToMany -> Favorite
 
@@ -198,14 +202,40 @@ Plusieurs utilisateurs seront sur le site :
 
 - [x] createdAt
 - [x] content
+- [x] status [PENDING, VALIDATED, HIDDEN]
 - [x] ManyToOne -> Property
 - [x] ManyToOne -> User
+
+
+##### Extra (?)
+
+
+- [x] name
+- [x] description
+- [x] price
+- [x] ManyToOne -> Property
+
+
+##### Partner (?)
+
+
+- [x] name
+- [x] description
+- [x] price
+- [x] ManyToOne -> Property
+- [x] ManyToOne -> Location
 
 
 #### Questions supplémentaires
 
 
 - Existera t'il un prix variable en fonction du jour de la semaine ? O/N
-- Précision sur l'assitance / support
-- Confirmer infos les users
+- Précision sur l'assistance / support
+- Confirmer infos sur les users (renseigner à l'inscription)
 - Propriétés gérées par un ou plusieurs gestionnaires ?
+- Est-ce que les extras sont impactés par la modification des prix ?
+- Est-ce que les partenaires sont impactés par la modification des prix ?
+- Comment fonctionnent les extras ?
+- Comment fonctionnent les partenaires ?
+- Newsletter ?
+- Réduction à partir d'un nombre de jours ?
