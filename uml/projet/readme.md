@@ -125,9 +125,11 @@ Plusieurs utilisateurs seront sur le site :
 
 - [x] ?startedAt
 - [x] ?finishedAt
-- [ ] amount
-- [ ] type (€ or %)
-- [x] ManyToOne -> Property
+- [x] ?days: JSON
+- [x] amount
+- [x] type (€ or %)
+- [x] ManyToOne -> ?Property
+- [x] ManyToOne -> ?Extra
 
 
 ##### CharacteristicLabel
@@ -153,22 +155,24 @@ Plusieurs utilisateurs seront sur le site :
 - [x] startedAt
 - [x] finishedAt
 - [x] peopleQty
-- [ ] status [PENDING, PAYED, PASSED]
-
-
-##### Assistance
-
-
-- [x] ManyToOne -> Booking
-- [x] createdAt
+- [x] status [PENDING, PAYED, IN_PROGRESS, PASSED]
 
 
 ##### Support
 
 
-- [x] ManyToOne -> Property
+- [x] ManyToOne -> ?Property
+- [x] ManyToOne -> ?Booking
 - [x] createdAt
+- [x] content
+- [x] title
 
+
+##### TitleSupport
+
+
+- [x] title
+- [x] type [SUPPORT, ASSISTANCE]
 
 
 ##### Media
@@ -184,9 +188,17 @@ Plusieurs utilisateurs seront sur le site :
 
 
 - [x] email
-- [x] roles **[USER, MANAGER, ADMIN]**
+- [x] roles **[USER, PARTNER, MANAGER, ADMIN]**
 - [x] password
+- [x] lastname
+- [x] firstname
+- [x] birthedAt
+- [x] isIdentityVerified
+- [x] ?description
+- [x] activationCode
+- [x] OneToOne -> ?Location
 - [x] OneToMany -> Favorite
+- [x] ManyToMany -> Property
 
 
 ##### Favorite
@@ -197,45 +209,43 @@ Plusieurs utilisateurs seront sur le site :
 - [x] ManyToOne -> User
 
 
+##### Newsletter
+
+
+- [x] createdAt
+- [x] template
+- [x] content
+- [x] ManyToMany -> Booking
+
+
 ##### Review
 
 
 - [x] createdAt
 - [x] content
+- [x] rating
 - [x] status [PENDING, VALIDATED, HIDDEN]
 - [x] ManyToOne -> Property
 - [x] ManyToOne -> User
 
 
-##### Extra (?)
+##### Extra
 
 
 - [x] name
 - [x] description
 - [x] price
 - [x] ManyToOne -> Property
+- [x] OneToMany -> ModifierPrice
 
 
-##### Partner (?)
+##### Offer
 
 
 - [x] name
 - [x] description
+- [x] url
 - [x] price
 - [x] ManyToOne -> Property
 - [x] ManyToOne -> Location
-
-
-#### Questions supplémentaires
-
-
-- Existera t'il un prix variable en fonction du jour de la semaine ? O/N
-- Précision sur l'assistance / support
-- Confirmer infos sur les users (renseigner à l'inscription)
-- Propriétés gérées par un ou plusieurs gestionnaires ?
-- Est-ce que les extras sont impactés par la modification des prix ?
-- Est-ce que les partenaires sont impactés par la modification des prix ?
-- Comment fonctionnent les extras ?
-- Comment fonctionnent les partenaires ?
-- Newsletter ?
-- Réduction à partir d'un nombre de jours ?
+- [x] ManyToOne -> User
