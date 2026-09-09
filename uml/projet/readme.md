@@ -159,6 +159,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] ManyToOne -> Property
 - [x] ManyToOne -> User
 - [x] ManyToMany -> Extra
+- [x] OneToOne -> ?Review
 
 
 ##### Support
@@ -229,8 +230,7 @@ Plusieurs utilisateurs seront sur le site :
 - [x] content
 - [x] rating
 - [x] status [PENDING, VALIDATED, HIDDEN]
-- [x] ManyToOne -> Booking
-- [x] ManyToOne -> User
+- [x] OneToOne -> Booking
 
 
 ##### Extra
