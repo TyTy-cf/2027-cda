@@ -1,0 +1,15 @@
+services:
+  node:
+    image: node:24
+    container_name: cours-ts
+    working_dir: /home/node/app
+    user: node
+    volumes:
+      - ./:/home/node/app
+      - node_modules:/home/node/app/node_modules
+    stdin_open: true
+    tty: true
+    command: sleep infinity
+
+volumes:
+  node_modules:
