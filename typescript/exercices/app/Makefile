@@ -15,7 +15,7 @@ down:
 	@docker compose down
 
 node:
-	@docker compose exec cours-ts bash
+	@docker compose exec node bash
 
 l-node:
-	@docker compose logs cours-ts -f
+	@docker compose logs node -f
