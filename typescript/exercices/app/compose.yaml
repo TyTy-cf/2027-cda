@@ -1,12 +1,9 @@
 services:
   node:
-    build: .
+    image: node:24
     working_dir: /home/node/app
-    user: node
+    user: root
     volumes:
       - ./:/home/node/app
     stdin_open: true
     tty: true
-
-volumes:
-  node_modules:
