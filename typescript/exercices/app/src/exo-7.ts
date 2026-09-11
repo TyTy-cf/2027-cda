@@ -23,8 +23,8 @@ export function filterProductsInStock(products: Product[]): Product[] {
   return inStockProducts;
 }
 
-export function calculateStockValue(products: Product[]) {
-  let totalValue = 0;
+export function calculateStockValue(products: Product[]): number {
+  let totalValue: number = 0;
   for (const product of products) {
     totalValue += product.priceExcludingTax * product.stock;
   }
