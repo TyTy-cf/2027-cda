@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eefaf9c1-1e85-4ca1-bd9f-bd4ede1a9e47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/examen/DiagrammeActivitéDistributeurAutomatique.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen/DiagrammeClasseAllocin-Ish.drawio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,9 @@
           <execution>
             <execution>
               <execution>
-                <execution />
+                <execution>
+                  <execution />
+                </execution>
               </execution>
             </execution>
           </execution>
@@ -67,6 +68,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Quentin",
+    "last_opened_file_path": "/home/ipme/Cours/CDA/2027-cda",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm"
@@ -96,7 +98,8 @@
       <workItem from="1788958333236" duration="124000" />
       <workItem from="1788958490639" duration="4024000" />
       <workItem from="1789022217142" duration="3366000" />
-      <workItem from="1789027824668" duration="7960000" />
+      <workItem from="1789027824668" duration="9561000" />
+      <workItem from="1789108456916" duration="22000" />
     </task>
     <servers />
   </component>
