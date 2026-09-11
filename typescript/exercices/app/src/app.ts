@@ -1,3 +1,4 @@
-import {exoZero} from "./exemple.ts";
+import {exoZero} from "./example.ts";
 
-console.log(exoZero())
+console.log(exoZero());
+
