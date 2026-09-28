@@ -2,45 +2,60 @@
 
 class Topic
 {
+
+  public array $comments = [];
+
   public function __construct() {}
 
-  private int $id {
+  public int $id {
     get => $this->id;
     set => $value;
   }
 
-  private string $title {
+  public string $title {
     get => $this->title;
     set => $value;
   }
 
-  private string $content {
+  public string $content {
     get => $this->content;
     set => $value;
   }
 
-  private string $picture {
+  public string $picture {
     get => $this->picture;
     set => $value;
   }
 
-  private dateTime $createdAt {
+  public DateTime $createdAt {
     get => $this->createdAt;
     set => $value;
   }
 
-  private ?dateTime $updatedAt = null {
+  public ?DateTime $updatedAt = null {
     get => $this->updatedAt;
     set => $value;
   }
 
-  private User $author {
+  public User $author {
     get => $this->author;
     set => $value;
   }
 
-  private Category $category {
+  public Category $category {
     get => $this->category;
     set => $value;
+  }
+
+  public function getComments(): array
+  {
+    return $this->comments;
+  }
+
+  public function addComment(Comment $comment): self
+  {
+    $this->comments[] = $comment;
+    $comment->topic = $this;
+    return $this;
   }
 }

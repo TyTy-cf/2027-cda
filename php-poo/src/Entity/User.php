@@ -5,42 +5,42 @@ class User
   public function __construct() {}
 
 
-  private int $id {
+  public int $id {
     get => $this->id;
     set => $value;
   }
 
-  private string $email {
+  public string $email {
     get => $this->email;
     set => $value;
   }
 
-  private string $password {
+  public string $password {
     get => $this->password;
     set => $value;
   }
 
-  private string $nickname {
+  public string $nickname {
     get => $this->nickname;
     set => $value;
   }
 
-  private string $picture {
+  public string $picture {
     get => $this->picture;
     set => $value;
   }
 
-  private dateTime $birthAt {
+  public DateTime $birthAt {
     get => $this->birthAt;
     set => $value;
   }
 
-  private dateTime $createdAt {
+  public DateTime $createdAt {
     get => $this->createdAt;
     set => $value;
   }
 
-  private array $roles = ["ROLE_USER"] {
+  public array $roles = ["ROLE_USER"] {
     get => $this->roles;
     set => $value;
   }

@@ -4,38 +4,43 @@ class Comment
 {
   public function __construct() {}
 
-  private int $id {
+  public int $id {
     get => $this->id;
     set => $value;
   }
 
-  private string $content {
+  public string $content {
     get => $this->content;
     set => $value;
   }
 
-  private dateTime $createdAt {
+  public DateTime $createdAt {
     get => $this->createdAt;
     set => $value;
   }
 
-  private ?dateTime $updatedAt {
+  public ?DateTime $updatedAt {
     get => $this->updatedAt;
     set => $value;
   }
 
-  private User $author {
+  public User $author {
     get => $this->author;
     set => $value;
   }
 
-  private Topic $topic {
+  public Topic $topic {
     get => $this->topic;
-    set =>$value;
+    set => $value;
   }
 
-  private ?Comment $parent {
+  public ?Comment $parent {
     get => $this->parent;
+    set => $value;
+  }
+
+  public array $children = [] {
+    get => $this->children;
     set => $value;
   }
 }

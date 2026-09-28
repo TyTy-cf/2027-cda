@@ -4,34 +4,33 @@ class Vote
 {
   public function __construct() {}
 
-  private int $id {
+  public int $id {
     get => $this->id;
     set => $value;
   }
 
-  // Value is either -1 or 1.
-  private int $value = -1 {
+  public int $value = -1 {
     get => $this->value;
     set {
-      if ($value !== -1 && $value !== 1) {
-        throw new InvalidArgumentException('Vote value must be -1 or 1.');
+      if (!$value === -1 || $value === 1) {
+        return;
       }
 
       $this->value = $value;
     }
   }
 
-  private dateTime $createdAt {
+  public DateTime $createdAt {
     get => $this->createdAt;
     set => $value;
   }
 
-  private User $author {
+  public User $author {
     get => $this->author;
     set => $value;
   }
 
-  private Comment $comment {
+  public Comment $comment {
     get => $this->comment;
     set => $value;
   }
