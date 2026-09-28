@@ -10,7 +10,7 @@ services:
         image: mariadb:11.5.2
         environment:
             MARIADB_ROOT_PASSWORD: root
-            MARIADB_DATABASE: db_steamish
+            MARIADB_DATABASE: db_fakeddit
         ports:
             - 3306:3306
         volumes:
