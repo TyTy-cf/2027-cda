@@ -1,11 +1,14 @@
 <?php
 
-use Entity\Category;
+    use Entity\Category;
 
-include "include.php";
+    include "include.php";
 
     $category = new Category();
+    $category->id = 1;
+    $category->name = "Football";
 
+    echo '(' . $category->id . ') ' . $category->name . '<br>';
 
 ?>
 
