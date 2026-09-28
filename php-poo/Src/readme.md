@@ -95,16 +95,8 @@ Pour **chacune** des 6 classes listées ci-dessus :
 
 1. Nommée au singulier et en PascalCase : `User`, `Category`, `Topic`, `Comment`, `Vote`, `Favorite`
 2. Déclarez **chaque attribut en `private`** et typé
-3. Avec un **getter** et un **setter** pour chaque attribut (encapsulation !)
-4. Les setters retournent `static` afin de pouvoir chaîner les appels :
-
-```php
-$user = (new User())
-    ->setEmail('carter.davis1@example.com')
-    ->setNickname('CarterDavis1');
-```
-
-5. Pensez aux valeurs par défaut : un `User` a des `roles` vides par défaut, un `Topic` n'a pas de `updatedAt` à sa création, etc.
+3. Avec un **getter** et un **setter** pour chaque attribut (encapsulation !), en "property hooks"
+4. Pensez aux valeurs par défaut : un `User` a des `roles` vides par défaut, un `Topic` n'a pas de `updatedAt` à sa création, etc.
 
 
 ## Partie 2 : les relations entre objets
