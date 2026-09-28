@@ -5,6 +5,8 @@ services:
             target: php
         volumes:
             - ./:/var/www/html
+        ports:
+            - 8000:8000
 
     mariadb:
         image: mariadb:11.5.2
