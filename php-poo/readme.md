@@ -21,6 +21,8 @@
     - les attributs ne sont pas publique (sauf dans le cadre de DTO, **D**ata **T**ransfert **O**bject : avoir un objet non-persisté en base de données, souvent ses attributs sont publiques)
     - on accède aux attributs par le biais de GETTER/SETTER, qui sont des méthodes publiques permettant de modifier/récupérer l'attribut
 - Le **__constructor**, il s'agit de comment la classe doit être instanciée, il est appelé lorque l'on fait un `new`
+- On accède aux attributs/méthodes de l'instance de la classe par le mot-clé `$this`
+- À ne pas confondre ave le `self::`, qui lui faire référence au nom de classe !
 - **Un objet est une instance de classe**
 - `final` : ce mot-clé se place sur un attribut `objet` ou une méthode ou une classe, il aide à la compréhension du code : 
   - Sur une classe, il indique que la classe définie **tout ses attributs à la création et qu'ils ne changeront jamais** (service)
@@ -38,6 +40,7 @@ class ProductController extends AbstractController {
 
     #[Route(path: '', name: 'app_product_index')]
     public function index(ProductRepository $productRepository, Request $request): Response {
+        // self::class <=> ProductController::class : self fait référence seulement au nom de la classe !
         $itemPerPage = $request->query->get('itemPerPage', self::ITEM_PER_PAGE);
         $products = $productRepository->findByLimit($nbItems);
 
@@ -90,11 +93,12 @@ class B extends A {
 }
 ```
 
-  - Ici, on dit que B étend de A, donc que B est un A, B est donc une instance de A
+  - Ici, on dit que B étend de A, donc que B est un A, **B est donc une instance de A, B possède à la fois le type B, et le type A !**
   - Pour les attributs, via la relation entre les deux classes :
     - B a accès à l'attribut `$anAttr` de A
     - B n'a pas accès à l'attribut `$aPvAttr` de A
     - A n'a pas accès à l'attribut `$myPvAttr` de B ; **les attributs de B ne sont jamais répercutés dans A** (sauf public...) !
+  - Une classe ne peut `extends` qu'une seule autre classe !
 
 - `override` : c'est le fait de permettre aux enfants de réécrire un comportement (méthode) du parent
 
@@ -113,6 +117,90 @@ class B extends A {
 ```
 
   - Ici, B a choisit de réécrire le comportement de la classe parente, la méthode `doSomething` redéfinie de l'enfant est priopritaire sur celle de la classe parente !
+  - Le mot clé `super` permet de rappeler les comportements de la classe parente, `super::doSomthing()` cela exécuterai le comportement de la classe parente en plus du comportement de la classe enfant
+
+
+### Les classes abstraites
+
+
+- On déclare une classe abstraite en utilisant le mot clé `abstract` : `abstract class A`
+- C'est une classe qui ne s'instancie pas, on doit forcément passer par ses classes enfants
+- Déclarer une classe abstraite permet aussi de déclarer des méthodes abstraites dans celle-ci, une méthode abstraite ne contient que la signature de la méthode et devra être forcément implémentée via les classes enfants
+
+Exemple :
+
+```php
+abstract class A {
+    public abstract function doSomething(): void; // Seulement la signature, pas d'implémentation de la méthode !
+}
+
+class B extends A {
+    public function doSomething(): void {
+        echo "From the B child !" // Implémentation forcée de la méthode !
+    }
+}
+
+class C extends A {
+    public function doSomething(): void {
+        echo "From the C child !" // Implémentation forcée de la méthode !
+    }
+}
+```
+
+
+### Trait
+
+
+- Permet de déclarer des attributs et/ou méthodes, qui seront commun à toutes les classes le réutilisant
+- On le déclare avec le mot clé `trait` :
+
+```php
+trait CoreAttributes {
+
+    private int $id;
+
+    private string $name;
+    
+    public function getId(): int {
+        return $this->id;
+    }
+    
+    public function setName(string $name): string {
+        return $this->name;
+    }
+    
+    public function getName(): string {
+        return $this->name;
+    }
+
+}
+```
+
+### Les interfaces
+
+
+- Une interface permet de déclarer des comportements (méthodes) qui seront commun à des objets, qui de base n'ont rien en commun
+- On déclare une interface avec le mot clé `interface`
+- Pour indiquer qu'une classe utilise cette interface, on utilise le mot clé `implements`
+- Une interface contient seulement **des signatures de méthodes**, obligeant ainsi les classes l'implémentant à définir un comportement dans celle-ci
+- Lorsqu'une classe implémente une interface, elle prend le type de celle-ci en plus
+- Une classe peut implémenter **plusieurs interfaces** !
+
+Exemple :
+
+```php
+interface A {
+    public function aRandomMethod(): void;
+}
+
+class B implements A { // B est de type B, et aussi de type A !
+
+    public function aRandomMethod(): void {
+        echo "B implements method aRandomMethod from A";
+    }
+
+}
+```
 
 
 
