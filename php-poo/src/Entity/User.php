@@ -49,4 +49,12 @@ class User
   {
     return in_array("ROLE_ADMIN", $this->roles);
   }
+
+  
+  public function getAge(): int
+  {
+    $now = new DateTime();
+    $interval = $now->diff($this->birthAt);
+    return $interval->y;
+  }
 }
