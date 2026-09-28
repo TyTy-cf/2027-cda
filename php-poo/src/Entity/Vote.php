@@ -2,6 +2,10 @@
 
 class Vote
 {
+
+  private const UP = 1;
+  private const DOWN = -1;
+
   public function __construct() {}
 
   public int $id {
@@ -9,14 +13,12 @@ class Vote
     set => $value;
   }
 
-  public int $value = -1 {
+  public int $value {
     get => $this->value;
     set {
-      if ($value !== -1 && $value !== 1) {
-        throw new InvalidArgumentException('Vote value must be -1 or 1.');
+      if ($value === self::DOWN || $value === self::UP) {
+        $this->value = $value;
       }
-
-      $this->value = $value;
     }
   }
 
