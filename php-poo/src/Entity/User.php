@@ -44,4 +44,9 @@ class User
     get => $this->roles;
     set => $value;
   }
+
+  public function isAdmin(): bool
+  {
+    return in_array("ROLE_ADMIN", $this->roles);
+  }
 }
