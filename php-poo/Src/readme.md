@@ -95,16 +95,8 @@ Pour **chacune** des 6 classes listées ci-dessus :
 
 1. Nommée au singulier et en PascalCase : `User`, `Category`, `Topic`, `Comment`, `Vote`, `Favorite`
 2. Déclarez **chaque attribut en `private`** et typé
-3. Avec un **getter** et un **setter** pour chaque attribut (encapsulation !)
-4. Les setters retournent `static` afin de pouvoir chaîner les appels :
-
-```php
-$user = (new User())
-    ->setEmail('carter.davis1@example.com')
-    ->setNickname('CarterDavis1');
-```
-
-5. Pensez aux valeurs par défaut : un `User` a des `roles` vides par défaut, un `Topic` n'a pas de `updatedAt` à sa création, etc.
+3. Avec un **getter** et un **setter** pour chaque attribut (encapsulation !), en "property hooks"
+4. Pensez aux valeurs par défaut : un `User` a des `roles` vides par défaut, un `Topic` n'a pas de `updatedAt` à sa création, etc.
 
 
 ## Partie 2 : les relations entre objets
@@ -149,3 +141,41 @@ Ajoutez les méthodes suivantes :
   - `isEdited(): bool` : vrai si le sujet a été modifié
 - `Comment`
   - `getScore(): int` : somme des valeurs de ses votes
+
+
+## Partie 5 : les repositories
+
+
+Un **repository** est la classe chargée de faire le lien entre la base de données et nos entités : il exécute les requêtes SQL et transforme chaque ligne récupérée en objet PHP.
+
+Le fichier `Src/Repository/AbstractRepository.php` contient déjà toutes les requêtes communes (`fetchAll()`, `fetchById()`, `fetchBy()`, `create()`, `updateById()`, `deleteById()`). Chaque entité aura son propre repository qui en **hérite**.
+
+> Avant de commencer, vérifiez que la base `db_fakeddit` contient bien les données (http://localhost:8080). Sinon, importez-les avec `make db`.
+
+**Dans un premier temps, on ne s'occupe que de `Category`.** Les autres repositories seront faits plus tard.
+
+1. Créez le fichier `Src/Repository/CategoryRepository.php`, avec une classe `CategoryRepository` qui hérite de `AbstractRepository`, puis incluez-le dans `Src/include.php`
+2. Le constructeur de `CategoryRepository` ne prend **aucun paramètre**. Il appelle le constructeur parent avec le nom de la base (`db_fakeddit`) et le nom de la table (`category`)
+3. Implémentez la méthode abstraite `createObjectByAssocArray(array $array): object`, qui reçoit une ligne SQL sous forme de tableau associatif, par exemple :
+
+```php
+[
+    'id' => 11,
+    'name' => 'Photography',
+    'parent_id' => 1,
+]
+```
+
+   et doit retourner un objet `Category` rempli :
+   - `id` et `name` se recopient directement
+   - `parent_id` est un entier : s'il n'est pas `null`, récupérez la catégorie parente **via le repository lui-même** (`$this->fetchById(...)`) pour renseigner le parent de l'objet
+
+4. Dans `Src/index.php`, testez votre repository :
+   - affichez la liste de **toutes** les catégories (`fetchAll()`), en indiquant pour chacune le nom de sa catégorie parente si elle en a une
+   - affichez la catégorie d'id `11` et vérifiez que son parent est bien `Technology`
+   - affichez les 5 premières sous-catégories de `Technology` (`fetchBy()`, avec le paramètre `parent_id`)
+
+5. Pour aller plus loin :
+   - Que se passe-t-il si on appelle `fetchById(9999)` ? Corrigez le comportement pour que la méthode retourne `null` lorsque la catégorie n'existe pas
+   - Ajoutez une méthode `fetchRoots(): array` dans `CategoryRepository`, qui retourne uniquement les catégories sans parent (attention : en SQL, on ne compare pas une valeur à `NULL` avec `=`, mais avec `IS NULL` !)
+   - Créez une nouvelle catégorie avec `create()`, modifiez son nom avec `updateById()`, puis supprimez-la avec `deleteById()`

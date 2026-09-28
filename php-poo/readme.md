@@ -152,6 +152,7 @@ class C extends A {
 
 
 - Permet de déclarer des attributs et/ou méthodes, qui seront commun à toutes les classes le réutilisant
+- On réutilise un trait dans une classe via le mot clé `use`
 - On le déclare avec le mot clé `trait` :
 
 ```php
@@ -172,6 +173,12 @@ trait CoreAttributes {
     public function getName(): string {
         return $this->name;
     }
+
+}
+
+class A {
+
+    use CoreAttribute;
 
 }
 ```
