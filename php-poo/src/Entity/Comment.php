@@ -43,4 +43,32 @@ class Comment
     get => $this->children;
     set => $value;
   }
+
+  /** @var list<Vote> */
+  public array $votes = [] {
+    get => $this->votes;
+    set {
+      foreach ($value as $vote) {
+        if (!$vote instanceof Vote) {
+          throw new InvalidArgumentException('Comments can only contain Vote objects.');
+        }
+      }
+
+      $this->votes = $value;
+    }
+  }
+
+  public function addVote(Vote $vote): void
+  {
+    $this->votes[] = $vote;
+  }
+
+  public function getScore(): int
+  {
+    $score = 0;
+    foreach ($this->votes as $vote) {
+      $score += $vote->value;
+    }
+    return $score;
+  }
 }

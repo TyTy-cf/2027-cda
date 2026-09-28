@@ -12,8 +12,8 @@ class Vote
   public int $value = -1 {
     get => $this->value;
     set {
-      if (!$value === -1 || $value === 1) {
-        return;
+      if ($value !== -1 && $value !== 1) {
+        throw new InvalidArgumentException('Vote value must be -1 or 1.');
       }
 
       $this->value = $value;

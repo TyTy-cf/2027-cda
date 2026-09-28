@@ -58,4 +58,9 @@ class Topic
     $comment->topic = $this;
     return $this;
   }
+
+  public function isEdited(): bool
+  {
+    return $this->updatedAt !== null;
+  }
 }
