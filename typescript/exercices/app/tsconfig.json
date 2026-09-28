@@ -6,8 +6,8 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
-    "sourceMap": true,
-    "noEmitOnError": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
     "rewriteRelativeImportExtensions": true,
     "allowImportingTsExtensions": true
   },
