@@ -5,14 +5,7 @@ namespace Entity;
 class Category
 {
 
-    public ?int $id = null {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
+    use IdTrait;
 
     public ?string $name {
         get {
@@ -21,6 +14,11 @@ class Category
         set {
             $this->name = $value;
         }
+    }
+
+    public ?Category $parent {
+        get => $this->parent;
+        set => $this->parent = $value;
     }
 
 

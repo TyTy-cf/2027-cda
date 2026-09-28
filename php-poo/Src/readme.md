@@ -104,9 +104,7 @@ Pour **chacune** des 6 classes listées ci-dessus :
 
 1. Les attributs de type objet (`$author`, `$topic`, `$parent`...) représentent déjà un côté des relations. Ajoutez les relations **inverses** sous forme de tableaux, avec des méthodes `add...()` / `remove...()` / `get...()` :
    - `Category` : ses sous-catégories (`getChildren()`, `addChild()`, `removeChild()`)
-   - `Topic` : ses commentaires (`getComments()`, `addComment()`, `removeComment()`)
-   - `Comment` : ses réponses (`getReplies()`) et ses votes (`getVotes()`)
-   - `User` : ses sujets, ses commentaires et ses favoris
+   - `Topic` : ses commentaires (`addComment()`, `removeComment()`)
 2. Lorsqu'on ajoute un élément d'un côté de la relation, l'autre côté doit être mis à jour automatiquement :
 
 ```php
@@ -123,7 +121,8 @@ Plusieurs classes partagent les mêmes attributs, il faut éviter la duplication
 1. Créez un **trait** `IdTrait` contenant l'attribut `$id` et son getter/setter, puis utilisez-le dans toutes les entités
 2. Créez un **trait** `TimestampableTrait` contenant `$createdAt` (initialisé à la date courante dans le constructeur de la classe) et `$updatedAt` (nullable), avec leurs getters/setters
    - Quelles classes l'utilisent entièrement ? Lesquelles n'ont besoin que de `$createdAt` ? Adaptez (un second trait `CreatedAtTrait` est une bonne piste)
-3. Créez une **interface** `AuthoredInterface` avec les méthodes `getAuthor(): User` et `isAuthor(User $user): bool`, implémentée par toutes les classes possédant un auteur (`Topic`, `Comment`, `Vote`)
+3. Créez une **trait** `AuthorTrait` contenant l'attribut `$user` et son getter/setter, puis utilisez-le dans toutes les entités
+4. Créez une **interface** `CreatedAtInterface` contenant la méthode `setCreatedAt`
 
 
 ## Partie 4 : les règles métier
