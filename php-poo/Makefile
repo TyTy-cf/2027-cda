@@ -1,8 +1,8 @@
 DOCKER_COMPOSE ?= docker compose
 DOCKER_USER ?= "$(shell id -u):$(shell id -g)"
 ENV ?= "dev"
-PREFIX ?= "db_pokemons"
-DB_NAME="db_pokemons"
+PREFIX ?= "db_fakeddit"
+DB_NAME="db_fakeddit"
 
 init:
 	@$(MAKE) up-build
@@ -12,7 +12,7 @@ init:
 
 db:
 	@echo "DELETE DB... and importing initial database structure and data..."
-	@docker compose exec -T mariadb mariadb -uroot -proot $(DB_NAME) < ./bdd_pokemons.sql
+	@docker compose exec -T mariadb mariadb -uroot -proot $(DB_NAME) < ./fakeddit.sql
 	@echo "Database import completed."
 
 up:
