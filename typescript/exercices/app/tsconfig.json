@@ -6,10 +6,10 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
-    "sourceMap": true,
-    "noEmitOnError": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
     "rewriteRelativeImportExtensions": true,
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
