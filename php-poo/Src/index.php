@@ -1,6 +1,11 @@
 <?php
 
-    include "include.php";
+use Entity\Category;
+
+include "include.php";
+
+    $category = new Category();
+
 
 ?>
 
