@@ -6,31 +6,38 @@ use Entity\Category;
 
 class CategoryRepository extends AbstractRepository
 {
-    public function __construct()
+
+    protected function __construct()
     {
-        parent::__construct('category');
+        parent::__construct();
+        $this->table = 'category';
     }
 
-    public function createObjectByAssocArray(array $array): Category
+    protected function createObjectByAssocArray(array $array): object
     {
         $category = new Category();
         $category->id = $array['id'];
         $category->name = $array['name'];
-        if($array['parent_id'] != null){
+
+        if ($array['parent_id'] !== null) {
+            /** @var Category $parent */
             $parent = $this->findById($array['parent_id']);
             $category->parent = $parent;
-        }else{
+        } else {
             $category->parent = null;
         }
+
         return $category;
     }
 
-    public function getAssocArrayByObject(Object $object): array
+    protected function getAssocArrayByObject(object $object): array
     {
+        /** @var Category $object */
         return [
             'id' => $object->id,
             'name' => $object->name,
-            'parent_id' => $object->parent,
+            'parent_id' => $object->parent->id,
         ];
     }
+
 }
