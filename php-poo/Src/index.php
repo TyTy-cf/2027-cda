@@ -19,7 +19,7 @@ $topics = $topicRepo->findBy([], ['created_at' => 'DESC'], 12);
 
 <div class="row">
     <?php foreach ($topics as $topic) { ?>
-        <div class="col-md-4 col-12">
+        <div class="col-lg-4 col-sm-6 col-12">
             <div class="card">
                 <img src="<?= $topic->picture . '?r=' . $topic->id ?>" class="card-img-top" alt="...">
                 <div class="card-body">
