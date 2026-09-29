@@ -2,14 +2,17 @@
 
 namespace Repository;
 
-use DateTime;
 use Entity\Category;
+
 class CategoryRepository extends AbstractRepository
 {
-    public function __construct()
+
+    protected function __construct()
     {
-        parent::__construct('category');
+        parent::__construct();
+        $this->table = 'category';
     }
+
     protected function createObjectByAssocArray(array $array): object
     {
         $category = new Category();
@@ -17,10 +20,10 @@ class CategoryRepository extends AbstractRepository
         $category->name = $array['name'];
 
         if ($array['parent_id'] !== null) {
+            /** @var Category $parent */
             $parent = $this->findById($array['parent_id']);
             $category->parent = $parent;
-        }
-        else{
+        } else {
             $category->parent = null;
         }
 
@@ -29,10 +32,12 @@ class CategoryRepository extends AbstractRepository
 
     protected function getAssocArrayByObject(object $object): array
     {
+        /** @var Category $object */
         return [
             'id' => $object->id,
             'name' => $object->name,
             'parent_id' => $object->parent->id,
         ];
     }
+
 }

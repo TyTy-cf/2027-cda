@@ -5,32 +5,48 @@ namespace Repository;
 use DateTime;
 use Entity\Category;
 use Entity\Topic;
+use Entity\User;
+
 class TopicRepository extends AbstractRepository
 {
-    public function __construct()
+
+    protected function __construct()
     {
-        parent::__construct('topic');
+        parent::__construct();
+        $this->table = 'topic';
     }
 
     protected function createObjectByAssocArray(array $array): object
     {
-        $cr = new CategoryRepository();
+        $cr = CategoryRepository::getInstance();
+        $ur = UserRepository::getInstance();
 
         $topic = new Topic();
         $topic->id = $array['id'];
-        $topic->title = $array['nickname'];
+        $topic->title = $array['title'];
         $topic->content = $array['content'];
-        $topic->createdAt = new DateTime($array['created_at']);
-        $topic->updatedAt = new DateTime($array['birth_at']);
         $topic->picture = $array['picture'];
-        $topic->category = $cr->;
+        $topic->createdAt = new DateTime($array['created_at']);
 
+        $topic->updatedAt = null;
+        if (isset($array['updated_at'])) {
+            $topic->updatedAt = new DateTime($array['updated_at']);
+        }
+
+        /** @var Category $category */
+        $category = $cr->findById($array['category_id']);
+        $topic->category = $category;
+
+        /** @var User $user */
+        $user = $ur->findById($array['author_id']);
+        $topic->author = $user;
 
         return $topic;
     }
 
     protected function getAssocArrayByObject(object $object): array
     {
-        // TODO: Implement getAssocArrayByObject() method.
+        return [];
     }
+
 }
