@@ -2,25 +2,26 @@
 
 namespace Repository;
 
+use Entity\Category;
+
 class CategoryRepository extends AbstractRepository
 {
-    public function __construct()
+
+    protected function __construct()
     {
-        parent::__construct('category');
+        parent::__construct();
+        $this->table = 'category';
     }
 
-    /**
-     * @throws \DateMalformedStringException
-     */
-    protected function createObjectByAssocArray(array $array): Category
+    protected function createObjectByAssocArray(array $array): object
     {
         $category = new Category();
         $category->id = $array['id'];
         $category->name = $array['name'];
 
-        if($array['parent_id'] != null){
+        if ($array['parent_id'] !== null) {
             /** @var Category $parent */
-            $parent = $category->parent_id = $array['parent_id'];
+            $parent = $this->findById($array['parent_id']);
             $category->parent = $parent;
         } else {
             $category->parent = null;
@@ -31,11 +32,12 @@ class CategoryRepository extends AbstractRepository
 
     protected function getAssocArrayByObject(object $object): array
     {
-        /** @var User $object */
+        /** @var Category $object */
         return [
             'id' => $object->id,
-            'title' => $object->title,
+            'name' => $object->name,
             'parent_id' => $object->parent->id,
         ];
     }
+
 }
