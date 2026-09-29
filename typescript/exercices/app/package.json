@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "typescript": "^7.0.2"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
