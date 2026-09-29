@@ -6,13 +6,13 @@ include "include.php";
 include "Templates/header.php";
 
 $topicRepository = new TopicRepository();
-$topics = $topicRepository->findBy([], ['created_at' => 'DESC'], 10);
+$topics = $topicRepository->findBy([], ['created_at' => 'DESC'], 12);
 
 ?>
 
 <h1>Les derniers topics</h1>
 
-<main class="container d-flex flex-wrap gap-3">
+<main class="container d-flex justify-content-around flex-wrap gap-3">
   <?php foreach ($topics as $topic) : ?>
     <div class="card" style="width: 18rem;">
       <img class="card-img-top" src="<?= $topic->picture . "?r=" . $topic->id ?>" alt="Card image cap">
