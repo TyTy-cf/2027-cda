@@ -3,6 +3,8 @@ services:
         build:
             dockerfile: Dockerfile
             target: php
+        ports:
+            - 8000:8000
         volumes:
             - ./:/var/www/html
 
@@ -12,7 +14,7 @@ services:
             MARIADB_ROOT_PASSWORD: root
             MARIADB_DATABASE: db_fakeddit
         ports:
-            - 3306:3306
+            - 3307:3306
         volumes:
             - mariadb:/var/lib/mysql
 
@@ -20,7 +22,7 @@ services:
         image: phpmyadmin/phpmyadmin
         restart: always
         ports:
-            - 8080:80
+            - 8081:80
         environment:
             PMA_HOST: mariadb
             PMA_PORT: 3306
