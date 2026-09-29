@@ -23,7 +23,7 @@ $topics = $topicRepository->findBy([], ['created_at' => 'DESC'], 10);
         <p class="card-text">Par : <?= $topic->author->nickname ?></p>
         <p class="card-text">Catégorie : <?= $topic->category->name ?></p>
         <p class="card-text"> <?= $topic->updatedAt ? "Mis à jour le : " . $topic->updatedAt->format('d/m/Y') : "" ?></p>
-        <a href="topic.php?id=<?= $topic->id ?>" class="btn btn-primary">Voir le topic</a>
+        <a href="./Templates/topic_show.php?id=<?= $topic->id ?>" class="btn btn-primary">Voir le topic</a>
       </div>
     </div>
   <?php endforeach; ?>
