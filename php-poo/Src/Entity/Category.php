@@ -16,7 +16,7 @@ class Category implements EntityInterface
         }
     }
 
-    public ?Category $parent {
+    public ?Category $parent = null {
         get => $this->parent;
         set => $this->parent = $value;
     }
