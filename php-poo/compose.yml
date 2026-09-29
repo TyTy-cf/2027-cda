@@ -3,6 +3,8 @@ services:
         build:
             dockerfile: Dockerfile
             target: php
+        ports:
+            - 8000:8000
         volumes:
             - ./:/var/www/html
 
