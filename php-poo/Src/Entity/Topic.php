@@ -90,4 +90,11 @@ class Topic
         $this->comments[] = $comment;
         return $this;
     }
+
+    public function removeComment(Comment $comment): void
+    {
+        if (null !== $index = array_search($comment, $this->comments)) {
+            unset($this->comments[$index]);
+        }
+    }
 }
