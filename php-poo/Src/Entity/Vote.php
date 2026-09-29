@@ -2,38 +2,28 @@
 
 namespace Entity;
 
-use DateTime;
-use Trait\CreatedAtTrait;
-use Trait\IdTrait;
-
-enum VoteValue: int
+class Vote implements CreatedAtInterface, EntityInterface
 {
-    case POSITIVE = 1;
-    case NEGATIVE = -1;
-}
 
+    private const UP = 1;
+    private const DOWN = -1;
 
-class Vote
-{
-    use IdTrait, CreatedAtTrait;
+    use IdTrait;
+    use AuthorTrait;
+    use CreatedAtTrait;
 
-    public VoteValue $value {
+    public ?int $value {
         get {
             return $this->value;
         }
         set {
-            $this->value = $value;
+            if ($value === self::UP || $value === self::DOWN) {
+                $this->value = $value;
+            }
         }
     }
-    public  User $author {
-        get {
-            return $this->author;
-        }
-        set {
-            $this->author = $value;
-        }
-    }
-    public Comment $comment {
+
+    public ?Comment $comment {
         get {
             return $this->comment;
         }
@@ -41,4 +31,5 @@ class Vote
             $this->comment = $value;
         }
     }
+
 }
