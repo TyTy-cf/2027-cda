@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class Comment implements CreatedAtInterface
+class Comment implements CreatedAtInterface, EntityInterface
 {
 
     use IdTrait;

@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class Favorite implements CreatedAtInterface
+class Favorite implements CreatedAtInterface, EntityInterface
 {
 
     use IdTrait;

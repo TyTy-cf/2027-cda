@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class User implements CreatedAtInterface
+class User implements CreatedAtInterface, EntityInterface
 {
 
     use IdTrait;
@@ -56,6 +56,15 @@ class User implements CreatedAtInterface
         }
         set {
             $this->roles = $value;
+        }
+    }
+
+    public ?string $activationCode {
+        get {
+            return $this->activationCode;
+        }
+        set {
+            $this->activationCode = $value;
         }
     }
 

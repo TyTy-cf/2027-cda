@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class Vote implements CreatedAtInterface
+class Vote implements CreatedAtInterface, EntityInterface
 {
 
     private const UP = 1;

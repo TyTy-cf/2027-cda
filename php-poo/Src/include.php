@@ -7,6 +7,7 @@ include_once "Entity/AuthorTrait.php";
 include_once "Entity/CreatedAtTrait.php";
 include_once "Entity/TimestampableTrait.php";
 include_once "Entity/CreatedAtInterface.php";
+include_once "Entity/EntityInterface.php";
 
 include_once "Entity/Category.php";
 include_once "Entity/User.php";
