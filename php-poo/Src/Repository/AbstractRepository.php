@@ -13,14 +13,33 @@ abstract class AbstractRepository
 
     protected PDO $pdo;
 
-    public function __construct(protected string $table)
+    protected string $table;
+
+    /** @var array<class-string, AbstractRepository> une instance par classe de repository */
+    private static array $instances = [];
+
+    protected static int $nbInstances = 1;
+    protected int $currentInstance = 0;
+
+    protected function __construct()
     {
         $this->pdo = new PDO(
             "mysql:host=mariadb;dbname=db_fakeddit;port=3306",
             "root",
             "root"
         );
+
         $this->pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+        $this->currentInstance = AbstractRepository::$nbInstances;
+        AbstractRepository::$nbInstances++;
+    }
+
+    public static function getInstance(): self
+    {
+        if (!isset(static::$instances[static::class])) {
+            static::$instances[static::class] = new static();
+        }
+        return static::$instances[static::class];
     }
 
     public function findAll(): array

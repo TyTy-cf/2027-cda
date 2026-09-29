@@ -9,33 +9,38 @@ use Entity\User;
 
 class TopicRepository extends AbstractRepository
 {
-    public function __construct()
+
+    protected function __construct()
     {
-        parent::__construct('topic');
+        parent::__construct();
+        $this->table = 'topic';
     }
 
     protected function createObjectByAssocArray(array $array): Topic
     {
-        $ur = new UserRepository();
-        $cr = new CategoryRepository();
-
-        //dump($array);
+        $cr = CategoryRepository::getInstance();
+        $ur = UserRepository::getInstance();
 
         $topic = new Topic();
         $topic->id = $array['id'];
         $topic->title = $array['title'];
         $topic->content = $array['content'];
+        $topic->picture = $array['picture'];
         $topic->createdAt = new DateTime($array['created_at']);
+
+        $topic->updatedAt = null;
         if (isset($array['updated_at'])) {
             $topic->updatedAt = new DateTime($array['updated_at']);
         }
-        /** @var User $author */
-        $author = $ur->findById($array['author_id']);
-        $topic->author = $author;
+
         /** @var Category $category */
-        $category =$cr->findById($array['category_id']);
+        $category = $cr->findById($array['category_id']);
         $topic->category = $category;
-        $topic->picture = $array['picture'];
+
+        /** @var User $user */
+        $user = $ur->findById($array['author_id']);
+        $topic->author = $user;
+
         return $topic;
     }
 

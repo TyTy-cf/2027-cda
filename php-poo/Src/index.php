@@ -1,9 +1,17 @@
 <?php
 
+use Entity\Topic;
+use Repository\CategoryRepository;
 use Repository\TopicRepository;
 
+session_start();
+
 include "include.php";
-    include "Templates/header.php";
+include "Templates/header.php";
+
+$topicRepo = TopicRepository::getInstance();
+/** @var array<Topic> $topics */
+$topics = $topicRepo->findBy([], ['created_at' => 'DESC'], 12);
 
 ?>
 
@@ -20,7 +28,9 @@ foreach ($tr->findBy([], ['created_at'=>'DESC'], 10) as $topic) {
 </div>
 
 <?php
+
     include "Templates/footer.php";
+
 ?>
 
 
