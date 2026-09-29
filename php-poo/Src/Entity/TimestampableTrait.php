@@ -4,8 +4,10 @@ namespace Entity;
 
 trait TimestampableTrait
 {
+
     use CreatedAtTrait;
-    private ?DateTime $updatedAt {
+
+    public ?\DateTime $updatedAt {
         get {
             return $this->updatedAt;
         }
@@ -13,4 +15,5 @@ trait TimestampableTrait
             $this->updatedAt = $value;
         }
     }
+
 }

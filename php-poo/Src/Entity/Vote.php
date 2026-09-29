@@ -2,22 +2,28 @@
 
 namespace Entity;
 
-use DateTime;
-
-class Vote
+class Vote implements CreatedAtInterface, EntityInterface
 {
+
+    private const UP = 1;
+    private const DOWN = -1;
+
     use IdTrait;
-    Use CreatedAtTrait;
-    private const $value = 1;
-    private User $author {
+    use AuthorTrait;
+    use CreatedAtTrait;
+
+    public ?int $value {
         get {
-            return $this->author;
+            return $this->value;
         }
         set {
-            $this->author = $value;
+            if ($value === self::UP || $value === self::DOWN) {
+                $this->value = $value;
+            }
         }
     }
-    private Comment $comment {
+
+    public ?Comment $comment {
         get {
             return $this->comment;
         }
@@ -25,4 +31,5 @@ class Vote
             $this->comment = $value;
         }
     }
+
 }

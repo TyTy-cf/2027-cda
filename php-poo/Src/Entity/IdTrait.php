@@ -4,7 +4,8 @@ namespace Entity;
 
 trait IdTrait
 {
-    private int $id {
+
+    public ?int $id = null {
         get {
             return $this->id;
         }
@@ -12,4 +13,10 @@ trait IdTrait
             $this->id = $value;
         }
     }
+
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
 }

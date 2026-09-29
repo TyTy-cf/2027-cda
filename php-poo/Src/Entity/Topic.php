@@ -2,13 +2,14 @@
 
 namespace Entity;
 
-use DateTime;
-
-class Topic
+class Topic implements CreatedAtInterface, EntityInterface
 {
+
     use IdTrait;
     use TimestampableTrait;
-    private string $title {
+    use AuthorTrait;
+
+    public ?string $title {
         get {
             return $this->title;
         }
@@ -16,7 +17,7 @@ class Topic
             $this->title = $value;
         }
     }
-    private string $content {
+    public ?string $content {
         get {
             return $this->content;
         }
@@ -24,7 +25,7 @@ class Topic
             $this->content = $value;
         }
     }
-    private string $picture {
+    public ?string $picture {
         get {
             return $this->picture;
         }
@@ -32,15 +33,7 @@ class Topic
             $this->picture = $value;
         }
     }
-    private User $author {
-        get {
-            return $this->author;
-        }
-        set {
-            $this->author = $value;
-        }
-    }
-    private Category $category {
+    public ?Category $category {
         get {
             return $this->category;
         }
@@ -48,4 +41,29 @@ class Topic
             $this->category = $value;
         }
     }
+
+    /**
+     * @var array<Comment>
+     */
+    public array $comments = [];
+
+    public function getComments(): array
+    {
+        return $this->comments;
+    }
+
+    public function addComment(Comment $comment): self
+    {
+        $this->comments[] = $comment;
+
+        return $this;
+    }
+
+    public function removeComment(Comment $comment): void
+    {
+        if (null !== $index = array_search($comment, $this->comments)) {
+            unset($this->comments[$index]);
+        }
+    }
+
 }

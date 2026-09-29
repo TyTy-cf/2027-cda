@@ -117,7 +117,7 @@ class B extends A {
 ```
 
   - Ici, B a choisit de réécrire le comportement de la classe parente, la méthode `doSomething` redéfinie de l'enfant est priopritaire sur celle de la classe parente !
-  - Le mot clé `super` permet de rappeler les comportements de la classe parente, `super::doSomthing()` cela exécuterai le comportement de la classe parente en plus du comportement de la classe enfant
+  - Le mot clé `parent` permet de rappeler les comportements de la classe parente, `parent::doSomthing()` cela exécuterai le comportement de la classe parente en plus du comportement de la classe enfant
 
 
 ### Les classes abstraites
