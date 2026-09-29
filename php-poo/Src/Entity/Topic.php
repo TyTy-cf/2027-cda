@@ -66,4 +66,9 @@ class Topic implements CreatedAtInterface, EntityInterface
         }
     }
 
+    public function isEdited(): bool
+    {
+        return $this->updatedAt !== null;
+    }
+
 }

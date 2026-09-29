@@ -2,6 +2,8 @@
 
 namespace Entity;
 
+use DateTime;
+
 class User implements CreatedAtInterface, EntityInterface
 {
 
@@ -68,4 +70,24 @@ class User implements CreatedAtInterface, EntityInterface
         }
     }
 
+    public function getRoles(): array
+    {
+        if (empty($this->roles)) {
+            return ["ROLE_USER"];
+        }
+        else{
+            return $this->roles;
+        }
+    }
+
+    public function isAdmin(): bool
+    {
+        return array_any($this->roles, fn($role) => $role === "ROLE_ADMIN");
+    }
+
+    public function getAge(): int
+    {
+        $age = new DateTime()->diff($this->birthAt);
+        return $age->y;
+    }
 }

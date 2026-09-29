@@ -21,5 +21,8 @@ class Category implements EntityInterface
         set => $this->parent = $value;
     }
 
-
+    public function isRoot(): bool
+    {
+        return $this->parent === null;
+    }
 }
