@@ -187,3 +187,11 @@ Le fichier `Src/Repository/AbstractRepository.php` contient déjà toutes les re
 - Cela impliquera de faire :
   - TopicRepository (et ses implémentations nécessaires !)
   - Il y aura peut être un petit piège... (le Topic possède des clés étrangères ? Il faudra les prendre en compte lors de la récupération de l'objet, **PEUT-ÊTRE** faudra t'il faire communiquer les Repository entre eux :wink_wink:)
+
+
+## Partie 7 : afficher les commentaires d'un topic
+
+
+- Créer un fichier `topic_show.php` à la racine de `src`
+- Il doit récupérer un ID de topic EXISTANT (vérifications à faire) en $_GET
+- On va ensuite récupérer ce topic PUIS ses commentaires (faire deux requêtes, car j'ai vraiment la flemme de gérer le cas de figure de la boucle infinie), ces commentaires seront triés de plus récent au moins récent

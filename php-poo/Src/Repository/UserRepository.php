@@ -8,9 +8,10 @@ use Entity\User;
 class UserRepository extends AbstractRepository
 {
 
-    public function __construct()
+    protected function __construct()
     {
-        parent::__construct('user');
+        parent::__construct();
+        $this->table = 'user';
     }
 
     /**
