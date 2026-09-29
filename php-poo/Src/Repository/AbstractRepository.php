@@ -113,12 +113,15 @@ abstract class AbstractRepository
         return $objects;
     }
 
-    public function findById(int $id): object
+    public function findById(int $id): object | null
     {
         $sql = "SELECT * FROM $this->table WHERE id = :id;";
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute(["id" => $id]);
         $assocArray = $stmt->fetch(PDO::FETCH_ASSOC);
+        if(!$assocArray) {
+            return null;
+        }
         return $this->createObjectByAssocArray($assocArray);
     }
 
