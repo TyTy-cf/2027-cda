@@ -4,15 +4,21 @@ namespace Entity;
 
 class Category
 {
-
-    private ?int $id = null {
+    use IdTrait;
+    private string $name {
         get {
-            return $this->id;
+            return $this->name;
         }
         set {
-            $this->id = $value;
+            $this->name = $value;
         }
     }
-
-
+    private ?Category $parent {
+        get {
+            return $this->parent;
+        }
+        set {
+            $this->parent = $value;
+        }
+    }
 }
