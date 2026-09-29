@@ -2,82 +2,70 @@
 
 namespace Entity;
 
-class User
+class User implements CreatedAtInterface, EntityInterface
 {
-public int $id {
-    get {
-        return $this->id;
-    }
-    set {
-        $this->id = $value;
-    }
-}
 
-public string $email{
-    get {
-        return $this->email;
-    }
-    set {
-        $this->email = $value;
-    }
-}
+    use IdTrait;
+    use CreatedAtTrait;
 
-public array $roles {
-    get {
-        return $this->roles;
+    public ?string $email {
+        get {
+            return $this->email;
+        }
+        set {
+            $this->email = $value;
+        }
     }
-    set {
-        $this->roles = $value;
+    public ?string $password {
+        get {
+            return $this->password;
+        }
+        set {
+            $this->password = $value;
+        }
     }
-}
+    public ?string $nickname {
+        get {
+            return $this->nickname;
+        }
+        set {
+            $this->nickname = $value;
+        }
+    }
+    public ?string $picture {
+        get {
+            return $this->picture;
+        }
+        set {
+            $this->picture = $value;
+        }
+    }
+    public ?\DateTime $birthAt {
+        get {
+            return $this->birthAt;
+        }
+        set {
+            $this->birthAt = $value;
+        }
+    }
 
-public string $password{
+    public ?array $roles {
+        get {
+            $this->roles[] = 'ROLE_USER';
+            $this->roles;
+        }
+        set {
+            $this->roles = $value;
+        }
+    }
 
-    get {
-        return $this->password;
+    public ?string $activationCode {
+        get {
+            return $this->activationCode;
+        }
+        set {
+            $this->activationCode = $value;
+        }
     }
-    set {
-        $this->password = $value;
-    }
-}
-public string $nickname{
-
-    get {
-        return $this->nickname;
-    }
-    set {
-        $this->nickname = $value;
-    }
-}
-
-public string $picture{
-
-    get {
-        return $this->picture;
-    }
-    set {
-        $this->picture = $value;
-    }
-}
-
-public \DateTime $birthAt{
-
-    get {
-        return $this->birthAt;
-    }
-    set {
-        $this->birthAt = $value;
-    }
-}
-
-public \DateTime $createdAt{
-
-    get {
-        return $this->createdAt;
-    }
-    set {
-        $this->createdAt = $value;
-    }
-}
 
 }

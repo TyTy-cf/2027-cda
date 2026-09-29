@@ -2,106 +2,68 @@
 
 namespace Entity;
 
-class Topic
+class Topic implements CreatedAtInterface, EntityInterface
 {
-public int $id{
 
-    get {
-        return $this->id;
+    use IdTrait;
+    use TimestampableTrait;
+    use AuthorTrait;
+
+    public ?string $title {
+        get {
+            return $this->title;
+        }
+        set {
+            $this->title = $value;
+        }
     }
-    set {
-        $this->id = $value;
+    public ?string $content {
+        get {
+            return $this->content;
+        }
+        set {
+            $this->content = $value;
+        }
     }
-}
-
-public string $title{
-
-    get {
-        return $this->title;
+    public ?string $picture {
+        get {
+            return $this->picture;
+        }
+        set {
+            $this->picture = $value;
+        }
     }
-    set {
-        $this->title = $value;
+    public ?Category $category {
+        get {
+            return $this->category;
+        }
+        set {
+            $this->category = $value;
+        }
     }
-}
 
-public string $content{
+    /**
+     * @var array<Comment>
+     */
+    public array $comments = [];
 
-    get {
-        return $this->content;
+    public function getComments(): array
+    {
+        return $this->comments;
     }
-    set {
-        $this->content = $value;
+
+    public function addComment(Comment $comment): self
+    {
+        $this->comments[] = $comment;
+
+        return $this;
     }
-}
 
-public string $picture{
-
-    get {
-        return $this->picture;
+    public function removeComment(Comment $comment): void
+    {
+        if (null !== $index = array_search($comment, $this->comments)) {
+            unset($this->comments[$index]);
+        }
     }
-    set {
-        $this->picture = $value;
-    }
-}
-
-public \DateTime $createdAt{
-
-    get {
-        return $this->createdAt;
-    }
-    set {
-        $this->createdAt = $value;
-    }
-}
-
-public \DateTime $updateAt{
-
-    get {
-        return $this->updateAt;
-    }
-    set {
-        $this->updateAt = $value;
-    }
-}
-
-public User $author{
-
-    get {
-        return $this->author;
-    }
-    set {
-        $this->author = $value;
-    }
-}
-
-public Category $category{
-
-    get {
-        return $this->category;
-    }
-    set {
-        $this->category = $value;
-    }
-}
-
-public array $comments = [];
-
-public function getComments():array{
-    return $this->comments;
-}
-
-public function addComment(Comment $comment): self
-{
-    $this->comments[] = $comment;
-
-    return $this;
-}
-
-public function removeComment(Comment $comment):void
-{
-    if (null !== $index = array_search($comment, $this->comments)){
-        unset($this->comments[$index]);
-    }
-}
 
 }

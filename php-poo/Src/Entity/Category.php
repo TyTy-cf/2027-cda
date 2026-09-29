@@ -2,45 +2,24 @@
 
 namespace Entity;
 
-class Category
+class Category implements EntityInterface
 {
-public int $id{
 
-    get {
-        return $this->id;
-    }
-    set {
-        $this->id = $value;
-    }
-}
+    use IdTrait;
 
-public string $name{
-
-    get {
-        return $this->name;
-    }
-    set {
-        $this->name = $value;
-    }
-}
-
-public Category $parent{
-
-    get {
-        return $this->parent;
-    }
-    set {
-        $this->parent = $value;
-    }
-}
-    public function addChild(Category $category): static
-    {
-       return $this->addChild($category);
+    public ?string $name {
+        get {
+            return $this->name;
+        }
+        set {
+            $this->name = $value;
+        }
     }
 
-    public function removeChild(Category $category): static
-    {
-
+    public ?Category $parent {
+        get => $this->parent;
+        set => $this->parent = $value;
     }
+
 
 }

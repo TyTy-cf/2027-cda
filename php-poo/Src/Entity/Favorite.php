@@ -2,46 +2,28 @@
 
 namespace Entity;
 
-class Favorite
+class Favorite implements CreatedAtInterface, EntityInterface
 {
-public int $id{
 
-    get {
-        return $this->id;
-    }
-    set {
-        $this->id = $value;
-    }
-}
+    use IdTrait;
+    use CreatedAtTrait;
 
-public \DateTime $createdAt{
+    public ?Topic $topic {
+        get {
+            return $this->topic;
+        }
+        set {
+            $this->topic = $value;
+        }
+    }
 
-    get {
-        return $this->createdAt;
+    public ?User $user {
+        get {
+            return $this->user;
+        }
+        set {
+            $this->user = $value;
+        }
     }
-    set {
-        $this->createdAt = $value;
-    }
-}
-
-public User $user{
-
-    get {
-        return $this->user;
-    }
-    set {
-        $this->user = $value;
-    }
-}
-
-public Topic $topic{
-
-    get {
-        return $this->topic;
-    }
-    set {
-        $this->topic = $value;
-    }
-}
 
 }
