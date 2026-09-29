@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class Topic implements CreatedAtInterface
+class Topic implements CreatedAtInterface, EntityInterface
 {
 
     use IdTrait;

@@ -1,24 +1,14 @@
 <?php
 
-    use Entity\Category;
-
     include "include.php";
-
-    $category = new Category();
-    $category->id = 1;
-    $category->name = "Football";
-
-    echo '(' . $category->id . ') ' . $category->name . '<br>';
+    include "Templates/header.php";
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>2027 CDA PHP POO</title>
-    </head>
-    <body>
+<h1>Les derniers topics</h1>
 
-    </body>
-</html>
+<?php
+    include "Templates/footer.php";
+?>
+
+

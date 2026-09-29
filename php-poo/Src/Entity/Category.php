@@ -2,7 +2,7 @@
 
 namespace Entity;
 
-class Category
+class Category implements EntityInterface
 {
 
     use IdTrait;

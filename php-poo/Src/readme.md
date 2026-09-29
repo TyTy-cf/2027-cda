@@ -178,3 +178,12 @@ Le fichier `Src/Repository/AbstractRepository.php` contient déjà toutes les re
    - Que se passe-t-il si on appelle `fetchById(9999)` ? Corrigez le comportement pour que la méthode retourne `null` lorsque la catégorie n'existe pas
    - Ajoutez une méthode `fetchRoots(): array` dans `CategoryRepository`, qui retourne uniquement les catégories sans parent (attention : en SQL, on ne compare pas une valeur à `NULL` avec `=`, mais avec `IS NULL` !)
    - Créez une nouvelle catégorie avec `create()`, modifiez son nom avec `updateById()`, puis supprimez-la avec `deleteById()`
+
+
+## Partie 6 : afficher les topics
+
+
+- Dans le `index.php`, afficher sous forme de card "simpliste" les 10 derniers topics
+- Cela impliquera de faire :
+  - TopicRepository (et ses implémentations nécessaires !)
+  - Il y aura peut être un petit piège... (le Topic possède des clés étrangères ? Il faudra les prendre en compte lors de la récupération de l'objet, **PEUT-ÊTRE** faudra t'il faire communiquer les Repository entre eux :wink_wink:)
