@@ -2,31 +2,37 @@
 
 namespace Entity;
 
-class Comment
+class Comment implements CreatedAtInterface
 {
+
     use IdTrait;
-    public string $content {
-        get => $this->content;
-        set => $value;
-    }
-    public \DateTime $createdAt {
-        get => $this->createdAt;
-        set => $value;
-    }
-    public ?\DateTime $updatedAt {
-        get => $this->updatedAt;
-        set => $value;
-    }
-    public User $author {
-        get => $this->author;
-        set => $value;
-    }
-    public Topic $topic {
-        get => $this->topic;
-        set => $value;
+    use TimestampableTrait;
+    use AuthorTrait;
+
+    public ?string $content {
+        get {
+            return $this->content;
+        }
+        set {
+            $this->content = $value;
+        }
     }
     public ?Comment $parent {
-        get => $this->parent;
-        set => $value;
+        get {
+            return $this->parent;
+        }
+        set {
+            $this->parent = $value;
+        }
     }
+
+    public ?Topic $topic {
+        get {
+            return $this->topic;
+        }
+        set {
+            $this->topic = $value;
+        }
+    }
+
 }

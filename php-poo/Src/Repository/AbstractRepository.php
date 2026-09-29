@@ -1,14 +1,16 @@
 <?php
 
+use Entity\CreatedAtInterface;
+
 abstract class AbstractRepository
 {
 
     protected PDO $pdo;
 
-    public function __construct(string $db, protected string $table)
+    public function __construct(protected string $table)
     {
         $this->pdo = new PDO(
-            "mysql:host=mariadb;dbname=".$db.";port=3306",
+            "mysql:host=mariadb;dbname=db_fakeddit;port=3306",
             "root",
             "root"
         );
@@ -93,8 +95,11 @@ abstract class AbstractRepository
         return null;
     }
 
-    public function create(array $contents): object|null
+    public function create(object $object): object|null
     {
+        $this->handleCreatedAt($object);
+        $contents = $this->getAssocArrayByObject($object);
+
         $params = [];
         $strQuery = "INSERT INTO {$this->table} VALUES (null, ";
         foreach ($contents as $key => $value) {
@@ -129,6 +134,15 @@ abstract class AbstractRepository
         return $stmt->execute(["id" => $id]);
     }
 
+    protected function handleCreatedAt(object $object): void
+    {
+        if ($object instanceof CreatedAtInterface) {
+            $object->setCreatedAt(new DateTime());
+        }
+    }
+
     abstract protected function createObjectByAssocArray(array $array): object;
+
+    abstract protected function getAssocArrayByObject(object $object): array;
 
 }

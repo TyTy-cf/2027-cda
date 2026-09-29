@@ -2,53 +2,68 @@
 
 namespace Entity;
 
-class Topic
+class Topic implements CreatedAtInterface
 {
+
     use IdTrait;
-    public string $title {
-        get => $this->title;
-        set => $value;
+    use TimestampableTrait;
+    use AuthorTrait;
+
+    public ?string $title {
+        get {
+            return $this->title;
+        }
+        set {
+            $this->title = $value;
+        }
     }
-    public string $content {
-        get => $this->content;
-        set => $value;
+    public ?string $content {
+        get {
+            return $this->content;
+        }
+        set {
+            $this->content = $value;
+        }
     }
-    public string $picture {
-        get => $this->picture;
-        set => $value;
+    public ?string $picture {
+        get {
+            return $this->picture;
+        }
+        set {
+            $this->picture = $value;
+        }
     }
-    public \DateTime $createdAt {
-        get => $this->createdAt;
-        set => $value;
-    }
-    public ?\DateTime $updatedAt{
-        get => $this->updatedAt;
-        set => $value;
-    }
-    public User $author {
-        get => $this->author;
-        set => $value;
-    }
-    public Category $category {
-        get => $this->category;
-        set => $value;
+    public ?Category $category {
+        get {
+            return $this->category;
+        }
+        set {
+            $this->category = $value;
+        }
     }
 
+    /**
+     * @var array<Comment>
+     */
     public array $comments = [];
+
     public function getComments(): array
     {
         return $this->comments;
     }
+
     public function addComment(Comment $comment): self
     {
         $this->comments[] = $comment;
+
         return $this;
     }
 
     public function removeComment(Comment $comment): void
     {
-        if(null !== $index = array_search($comment, $this->comments)) {
+        if (null !== $index = array_search($comment, $this->comments)) {
             unset($this->comments[$index]);
         }
     }
+
 }

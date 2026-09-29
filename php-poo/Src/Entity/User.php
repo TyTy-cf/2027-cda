@@ -2,38 +2,61 @@
 
 namespace Entity;
 
-class User
+class User implements CreatedAtInterface
 {
-    public int $id {
-        get => $this->id;
-        set => $value;
+
+    use IdTrait;
+    use CreatedAtTrait;
+
+    public ?string $email {
+        get {
+            return $this->email;
+        }
+        set {
+            $this->email = $value;
+        }
     }
-    public string $email {
-        get => $this->email;
-        set => $value;
+    public ?string $password {
+        get {
+            return $this->password;
+        }
+        set {
+            $this->password = $value;
+        }
     }
-    public array $roles = ['ROLE_USER'] {
-        get => $this->roles;
-        set => $value;
+    public ?string $nickname {
+        get {
+            return $this->nickname;
+        }
+        set {
+            $this->nickname = $value;
+        }
     }
-    public string $password {
-        get => $this->password;
-        set => $value;
+    public ?string $picture {
+        get {
+            return $this->picture;
+        }
+        set {
+            $this->picture = $value;
+        }
     }
-    public string $nickname {
-        get => $this->nickname;
-        set => $value;
+    public ?\DateTime $birthAt {
+        get {
+            return $this->birthAt;
+        }
+        set {
+            $this->birthAt = $value;
+        }
     }
-    public string $picture {
-        get => $this->picture;
-        set => $value;
+
+    public ?array $roles {
+        get {
+            $this->roles[] = 'ROLE_USER';
+            $this->roles;
+        }
+        set {
+            $this->roles = $value;
+        }
     }
-    public \DateTime $birthAt {
-        get => $this->birthAt;
-        set => $value;
-    }
-    public \DateTime $createdAt {
-        get => $this->createdAt;
-        set => $value;
-    }
+
 }
