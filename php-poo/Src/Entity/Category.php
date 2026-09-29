@@ -2,18 +2,12 @@
 
 namespace Entity;
 
-class Category
+class Category implements EntityInterface
 {
-    public int $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
 
-    public string $name {
+    use IdTrait;
+
+    public ?string $name {
         get {
             return $this->name;
         }
@@ -23,12 +17,9 @@ class Category
     }
 
     public ?Category $parent {
-        get {
-            return $this->parent;
-        }
-        set {
-            $this->parent = $value;
-        }
+        get => $this->parent;
+        set => $this->parent = $value;
     }
+
 
 }

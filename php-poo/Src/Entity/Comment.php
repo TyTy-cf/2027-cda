@@ -2,20 +2,14 @@
 
 namespace Entity;
 
-use DateTime;
-
-class Comment
+class Comment implements CreatedAtInterface, EntityInterface
 {
-    public int $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
 
-    public string $content {
+    use IdTrait;
+    use TimestampableTrait;
+    use AuthorTrait;
+
+    public ?string $content {
         get {
             return $this->content;
         }
@@ -23,35 +17,16 @@ class Comment
             $this->content = $value;
         }
     }
-
-    public DateTime $createdAt {
+    public ?Comment $parent {
         get {
-            return $this->createdAt;
+            return $this->parent;
         }
         set {
-            $this->createdAt = $value;
+            $this->parent = $value;
         }
     }
 
-    public DateTime $updatedAt {
-        get {
-            return $this->updatedAt;
-        }
-        set {
-            $this->updatedAt = $value;
-        }
-    }
-
-    public User $author {
-        get {
-            return $this->author;
-        }
-        set {
-            $this->author = $value;
-        }
-    }
-
-    public Topic $topic {
+    public ?Topic $topic {
         get {
             return $this->topic;
         }
@@ -60,12 +35,4 @@ class Comment
         }
     }
 
-    public Comment $parent {
-        get {
-            return $this->parent;
-        }
-        set {
-            $this->parent = $value;
-        }
-    }
 }

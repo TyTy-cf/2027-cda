@@ -2,20 +2,14 @@
 
 namespace Entity;
 
-use DateTime;
-
-class Topic
+class Topic implements CreatedAtInterface, EntityInterface
 {
-    public int $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
 
-    public string $title {
+    use IdTrait;
+    use TimestampableTrait;
+    use AuthorTrait;
+
+    public ?string $title {
         get {
             return $this->title;
         }
@@ -23,8 +17,7 @@ class Topic
             $this->title = $value;
         }
     }
-
-    public string $content {
+    public ?string $content {
         get {
             return $this->content;
         }
@@ -32,8 +25,7 @@ class Topic
             $this->content = $value;
         }
     }
-
-    public string $picture {
+    public ?string $picture {
         get {
             return $this->picture;
         }
@@ -41,35 +33,7 @@ class Topic
             $this->picture = $value;
         }
     }
-
-    public DateTime $createdAt {
-        get {
-            return $this->createdAt;
-        }
-        set {
-            $this->createdAt = $value;
-        }
-    }
-
-    public ?DateTime $updatedAt {
-        get {
-            return $this->updatedAt;
-        }
-        set {
-            $this->updatedAt = $value;
-        }
-    }
-
-    public User $author {
-        get {
-            return $this->author;
-        }
-        set {
-            $this->author = $value;
-        }
-    }
-
-    public Category $category {
+    public ?Category $category {
         get {
             return $this->category;
         }
@@ -78,9 +42,12 @@ class Topic
         }
     }
 
-    public array $comments =[];
+    /**
+     * @var array<Comment>
+     */
+    public array $comments = [];
 
-    public function getComments() : array
+    public function getComments(): array
     {
         return $this->comments;
     }
@@ -88,6 +55,7 @@ class Topic
     public function addComment(Comment $comment): self
     {
         $this->comments[] = $comment;
+
         return $this;
     }
 
@@ -97,4 +65,5 @@ class Topic
             unset($this->comments[$index]);
         }
     }
+
 }

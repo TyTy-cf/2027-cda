@@ -2,21 +2,13 @@
 
 namespace Entity;
 
-use DateTime;
-
-class User
+class User implements CreatedAtInterface, EntityInterface
 {
 
-    public int $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
+    use IdTrait;
+    use CreatedAtTrait;
 
-    public string $email {
+    public ?string $email {
         get {
             return $this->email;
         }
@@ -24,17 +16,7 @@ class User
             $this->email = $value;
         }
     }
-
-    public array $roles = [] {
-        get {
-            return $this->roles;
-        }
-        set {
-            $this->roles = $value;
-        }
-    }
-
-    public string $password {
+    public ?string $password {
         get {
             return $this->password;
         }
@@ -42,8 +24,7 @@ class User
             $this->password = $value;
         }
     }
-
-    public string $nickname {
+    public ?string $nickname {
         get {
             return $this->nickname;
         }
@@ -51,7 +32,6 @@ class User
             $this->nickname = $value;
         }
     }
-
     public ?string $picture {
         get {
             return $this->picture;
@@ -60,8 +40,7 @@ class User
             $this->picture = $value;
         }
     }
-
-    public ?DateTime $birthAt {
+    public ?\DateTime $birthAt {
         get {
             return $this->birthAt;
         }
@@ -70,19 +49,23 @@ class User
         }
     }
 
-    public DateTime $createdAt {
+    public ?array $roles {
         get {
-            return $this->createdAt;
+            $this->roles[] = 'ROLE_USER';
+            $this->roles;
         }
         set {
-            $this->createdAt = $value;
+            $this->roles = $value;
         }
     }
 
-    public function addTopic() : array
-    {
-        return []
+    public ?string $activationCode {
+        get {
+            return $this->activationCode;
+        }
+        set {
+            $this->activationCode = $value;
+        }
     }
-
 
 }
