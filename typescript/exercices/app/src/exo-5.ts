@@ -1,8 +1,10 @@
 export function isPalindrome(text: string): boolean {
-  const cleaned: string = text.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  let reversed: string = "";
-  for (let i = cleaned.length - 1; i >= 0; i--) {
-    reversed += cleaned[i];
-  }
-  return cleaned === reversed;
+	const cleaned: string = text.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+	let reversed: string = "";
+
+	for (let i = cleaned.length - 1; i >= 0; i--) {
+		reversed += cleaned[i];
+	}
+  
+	return cleaned === reversed;
 }

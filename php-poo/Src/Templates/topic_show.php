@@ -18,7 +18,6 @@ if (!$topic) {
 
 $commentRepository = new CommentRepository();
 $comments = $commentRepository->findBy(['topic_id' => $_GET['id']], ['created_at' => 'ASC']);
-
 include "header.php";
 ?>
 
@@ -41,6 +40,9 @@ include "header.php";
           <div class="card-text p-3 d-flex flex-column gap-2">
             <p><?= $comment->content ?></p>
             <p>Le <?= $comment->createdAt->format('d/m/Y') ?></p>
+            <?php if ($comment->parent) : ?>
+              <p>En réponse à : <?= $comment->parent->author->nickname ?></p>
+            <?php endif; ?>
           </div>
         </div>
 

@@ -3,7 +3,9 @@
 export function countWords(sentence: string): { [key: string]: number } {
   const cleaned: string = sentence.replace(/[^a-zA-Z0-9\s]/g, "").toLowerCase();
   const words: string[] = cleaned.split(/\s+/);
+
   let result: { [key: string]: number } = {};
+  
   for (const word of words) {
     result[word] = (result[word] || 0) + 1;
   }
