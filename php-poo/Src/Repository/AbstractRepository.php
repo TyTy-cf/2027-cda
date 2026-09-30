@@ -66,8 +66,14 @@ abstract class AbstractRepository
             $conditions = [];
             foreach ($param as $key => $value) {
                 $this->assertValidColumn($key);
-                $conditions[] = "$key = :value_$key";
-                $bindValues['value_' . $key] = $value;
+                if ($value == null) {
+                    $conditions[] = "$key IS NULL";
+                }
+                else
+                {
+                    $conditions[] = "$key = :value_$key";
+                    $bindValues['value_' . $key] = $value;
+                }
             }
             $sql .= " WHERE " . implode(' AND ', $conditions);
         }

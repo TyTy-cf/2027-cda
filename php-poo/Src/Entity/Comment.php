@@ -17,11 +17,12 @@ class Comment implements CreatedAtInterface, EntityInterface
             $this->content = $value;
         }
     }
-    public ?Comment $parent {
+    public ?Comment $parent = null {
         get {
             return $this->parent;
         }
         set {
+            //$value->addChild($this);
             $this->parent = $value;
         }
     }
@@ -35,4 +36,35 @@ class Comment implements CreatedAtInterface, EntityInterface
         }
     }
 
+    private array $children = [];
+
+    public function getChildren(): array
+    {
+        return $this->children;
+    }
+
+    public function setChildren(array $children): void
+    {
+        $this->children = $children;
+    }
+
+    public function addChild(Comment $child): void
+    {
+        $this->children[] = $child;
+        $child->parent = $this;
+    }
+
+    public function addChildren(array $children): void
+    {
+        foreach ($children as $child) {
+            $this->addchild($child);
+        }
+    }
+
+    public function removeChild(Comment $child): void
+    {
+        if (($key = array_search($child, $this->children)) !== false) {
+            unset($this->children[$key]);
+        }
+    }
 }
