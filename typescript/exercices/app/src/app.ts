@@ -15,3 +15,4 @@ import {IPokemon} from "./interfaces/i-pokemon.ts";
     .then((response) => {
         console.log(response);
     });
+
