@@ -1,0 +1,39 @@
+# Exercices : API Kaamelott
+
+Documentation de l'API : https://kaamelott.xyz/#api
+
+URL de base de l'API : `https://kaamelott.xyz`
+
+**Contraintes :**
+
+- L'appel à l'API doit passer par la classe `FetchRequest`
+- Faire une classe `KaamelottApi` qui reprend les endpoints de l'API, son rôle est de simplifier les appels à l'API, en faisant par exemple :
+  - `(new KaamelottApi()).getRandomQuote()` => affiche directement une quote aléatoire
+- Les données reçues doivent être typées (pas de `any`), faire les interfaces adéquates
+- Si l'appel échoue, un message d'erreur doit être affiché à l'utilisateur
+
+Les résultats doivent être afficher en `console.log` pour le moment
+
+---
+
+## Exercice 1 : Une citation au hasard
+
+Au chargement de la page, on veut afficher une citation aléatoire de Kaamelott, `/api/v1/quote/random`
+
+Pour chaque citation, la page doit afficher :
+
+- le texte de la citation (`content`)
+- le nom du personnage qui la prononce (`characts`)
+- la saison (le livre) et l'épisode d'où elle est tirée (`season`, `episode`)
+
+À chaque rafraîchissement de la page, une nouvelle citation doit apparaître.
+
+---
+
+## Exercice 2 : Toutes les citations d'un personnage
+
+On reprend l'exercice 1.
+
+Le nom du personnage affiché sous la citation doit devenir cliquable. Lorsqu'on clique dessus, la page doit afficher la liste de **toutes** les citations de ce personnage.
+
+Pour chaque citation de la liste, on retrouve les mêmes informations que dans l'exercice 1 (texte, acteur, saison, épisode).
