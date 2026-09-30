@@ -1,4 +1,10 @@
-import {exoZero} from "./example.ts";
+import {FetchRequest} from "./FetchRequest.ts";
+import {IPokemon} from "./interfaces/i-pokemon.ts";
 
-console.log(exoZero());
-
+(new FetchRequest())
+    .get<IPokemon>('https://pokeapi.co/api/v2/pokemon/garchomp')
+    .then((response) => {
+        for (const iStat of response.stats) {
+            console.log(iStat.base_stat + " " + iStat.stat.name);
+        }
+    });
