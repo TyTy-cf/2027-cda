@@ -37,3 +37,10 @@ On reprend l'exercice 1.
 Le nom du personnage affiché sous la citation doit devenir cliquable. Lorsqu'on clique dessus, la page doit afficher la liste de **toutes** les citations de ce personnage.
 
 Pour chaque citation de la liste, on retrouve les mêmes informations que dans l'exercice 1 (texte, acteur, saison, épisode).
+
+
+## Exercice 3 : intégrer les quotes dans l'HTML
+
+
+Réutilisez votre classe `KaamelottAPI` afin qu'elle puisse affiche les quotes dans l'HTML, tous les éléments doivent être créés en Typescript et s'ajouter ensuite à l'HTML !
+
