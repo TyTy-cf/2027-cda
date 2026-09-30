@@ -4,7 +4,7 @@ export function findMaximum(numbers: number[]): number|null {
         return null;
     }
 
-    let max: number = numbers[0];
+    let max: number = numbers[0] as number;
     for (let number of numbers) {
         if (number > max) {
             max = number;

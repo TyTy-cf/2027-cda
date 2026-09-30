@@ -2,7 +2,7 @@
 export function findMaximum(numbers: number[]): number|null {
     if (numbers.length === 0) return null;
 
-    let max: number = numbers[0];
+    let max: number = numbers[0] as number;
 
     for (const number of numbers) {
         if (number > max) {
