@@ -8,3 +8,10 @@ import {IPokemon} from "./interfaces/i-pokemon.ts";
             console.log(iStat.base_stat + " " + iStat.stat.name);
         }
     });
+
+
+(new FetchRequest())
+    .get('https://kaamelott.xyz/api/v1/quote/random')
+    .then((response) => {
+        console.log(response);
+    });
