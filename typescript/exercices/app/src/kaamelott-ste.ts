@@ -1,4 +1,3 @@
-import {FetchRequest} from "./FetchRequest.ts";
 import {KaamelottApi} from "./KaamelottApi.ts";
 import {IRandomKaamelott} from "./interfaces/i-random-kaamelott.ts";
 import {IRandomSoundKaamelott} from "./interfaces/i-random-sound-kaamelott.ts";
@@ -19,10 +18,28 @@ function initQuote() {
 function initSound() {
     kaamelottApi.getRandomSound()
         .then((IRandomSoundKaamelott: IRandomSoundKaamelott) => {
-            console.log(IRandomSoundKaamelott.name);
-            console.log(IRandomSoundKaamelott.path);
+            const container: HTMLDivElement|null = document.querySelector('div.container');
+            if (!container) {
+                return;
+            }
+
+            const audio = document.createElement('audio');
+            audio.controls = true;
+            audio.src = IRandomSoundKaamelott.path;
+
+            container.appendChild(audio);
         })
 }
+
+function initQuotes(qty: number) {
+    const kaamelott: KaamelottApi = new KaamelottApi()
+    const quotesNumber: Array<number> = [];
+    while (quotesNumber.length < qty) {
+        if (quotesNumber.includes(kaamelott)){}
+        {
+        }
+}
+
 
 
 window.addEventListener("load", () => {

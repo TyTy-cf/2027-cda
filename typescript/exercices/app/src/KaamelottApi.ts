@@ -12,8 +12,11 @@ export class KaamelottApi {
 }
 
 
+
     public getRandomSound() {
         return (new FetchRequest())
             .get<IRandomSoundKaamelott>(this._api + '/api/v1/sound/random')
     }
+
+
 }
