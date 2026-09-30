@@ -195,3 +195,9 @@ Le fichier `Src/Repository/AbstractRepository.php` contient déjà toutes les re
 - Créer un fichier `topic_show.php` à la racine de `src`
 - Il doit récupérer un ID de topic EXISTANT (vérifications à faire) en $_GET
 - On va ensuite récupérer ce topic PUIS ses commentaires (faire deux requêtes, car j'ai vraiment la flemme de gérer le cas de figure de la boucle infinie), ces commentaires seront triés de plus récent au moins récent
+
+
+## Partie 8 : Conception Objet
+
+
+- Via les variables globales de PHP `$_SERVER`, `$_GET`, `$_POST` et `$_SESSION`, créer un objet `Request`, cet objet doit être instancier du moment où l'on arrive sur une page du site web, et utilisable pour gérer des informations de la requête en cours (oui, on copie Symfony)

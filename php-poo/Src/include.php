@@ -20,3 +20,4 @@ include_once "Repository/AbstractRepository.php";
 include_once "Repository/UserRepository.php";
 include_once "Repository/CategoryRepository.php";
 include_once "Repository/TopicRepository.php";
+include_once "Repository/CommentRepository.php";

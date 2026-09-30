@@ -1,7 +1,6 @@
 <?php
 
 use Entity\Topic;
-use Repository\CategoryRepository;
 use Repository\TopicRepository;
 
 session_start();
@@ -20,7 +19,8 @@ $topics = $topicRepo->findBy([], ['created_at' => 'DESC'], 12);
 <div class="row">
     <?php foreach ($topics as $topic) { ?>
         <div class="col-lg-4 col-sm-6 col-12">
-            <div class="card">
+            <a href="topic_show.php?topic=<?= $topic->id ?>" class="text-decoration-none">
+                <div class="card">
                 <img src="<?= $topic->picture . '?r=' . $topic->id ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h2><?= $topic->title ?></h2>
@@ -29,7 +29,7 @@ $topics = $topicRepo->findBy([], ['created_at' => 'DESC'], 12);
                         <?php if ($topic->updatedAt !== null) { ?>
                                 Modifié le <?= date_format($topic->updatedAt, 'd-m-Y') ?>
                         <?php } else { ?>
-                                Crée le <?= date_format($topic->createdAt, 'd-m-Y') ?>
+                                Créé le <?= date_format($topic->createdAt, 'd-m-Y') ?>
                         <?php } ?>
                         par <?= $topic->author->nickname ?>
                     </p>
@@ -38,17 +38,13 @@ $topics = $topicRepo->findBy([], ['created_at' => 'DESC'], 12);
                     </p>
                 </div>
             </div>
+            </a>
         </div>
     <?php } ?>
-</div
-
-
-
+</div>
 
 <?php
-
     include "Templates/footer.php";
-
 ?>
 
 
