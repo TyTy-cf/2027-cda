@@ -9,6 +9,7 @@ use Entity\User;
 
 class CommentRepository extends AbstractRepository
 {
+
     protected function __construct()
     {
         parent::__construct();
@@ -17,9 +18,8 @@ class CommentRepository extends AbstractRepository
 
     protected function createObjectByAssocArray(array $array): object
     {
-
-        $tr = TopicRepository::getInstance();
         $ur = UserRepository::getInstance();
+        $tr = TopicRepository::getInstance();
 
         $comment = new Comment();
         $comment->id = $array['id'];
@@ -31,13 +31,13 @@ class CommentRepository extends AbstractRepository
             $comment->updatedAt = new DateTime($array['updated_at']);
         }
 
-        /** @var User $user */
-        $user = $ur->findById($array['author_id']);
-        $comment->author = $user;
-
         /** @var Topic $topic */
         $topic = $tr->findById($array['topic_id']);
         $comment->topic = $topic;
+
+        /** @var User $user */
+        $user = $ur->findById($array['author_id']);
+        $comment->author = $user;
 
         if ($array['parent_id'] !== null) {
             /** @var Comment $parent */
@@ -52,14 +52,7 @@ class CommentRepository extends AbstractRepository
 
     protected function getAssocArrayByObject(object $object): array
     {
-        /** @var Comment $object */
-        return [
-            'content' => $object->content,
-            'created_at' => $object->createdAt,
-            'updated_at' => $object->updatedAt,
-            'author_id' => $object->author->id,
-            'topic_id' => $object->topic->id,
-            'parent_id' => $object->parent?->id,
-        ];
+        return [];
     }
+
 }

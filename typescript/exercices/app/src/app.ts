@@ -1,14 +1,17 @@
-import {exoZero} from "./example.ts";
-import {findMaximum, isEven, isPalindrome, salute, sumArray} from "./exo-1.ts";
+import {FetchRequest} from "./FetchRequest.ts";
+import {IPokemon} from "./interfaces/i-pokemon.ts";
 
-console.log(exoZero());
+(new FetchRequest())
+    .get<IPokemon>('https://pokeapi.co/api/v2/pokemon/garchomp')
+    .then((response) => {
+        for (const iStat of response.stats) {
+            console.log(iStat.base_stat + " " + iStat.stat.name);
+        }
+    });
 
-console.log(salute("Alice", "fr"))
 
-console.log(isEven(4))
-
-console.log(sumArray([10, 30, 20]))
-
-console.log(findMaximum([10, 30, 20]))
-
-console.log(isPalindrome("kayak"))
+(new FetchRequest())
+    .get('https://kaamelott.xyz/api/v1/quote/random')
+    .then((response) => {
+        console.log(response);
+    });
