@@ -1,8 +1,8 @@
 # Exercices : API Kaamelott
 
-Documentation de l'API : https://github.com/sin0light/api-kaamelott/
+Documentation de l'API : https://kaamelott.xyz/#api
 
-URL de base de l'API : `https://kaamelott.chaudie.re/api`
+URL de base de l'API : `https://kaamelott.xyz`
 
 **Contraintes :**
 
@@ -18,13 +18,13 @@ Les résultats doivent être afficher en `console.log` pour le moment
 
 ## Exercice 1 : Une citation au hasard
 
-Au chargement de la page, on veut afficher une citation aléatoire de Kaamelott.
+Au chargement de la page, on veut afficher une citation aléatoire de Kaamelott, `/api/v1/quote/random`
 
 Pour chaque citation, la page doit afficher :
 
-- le texte de la citation ;
-- le nom du personnage qui la prononce ;
-- la saison (le livre) et l'épisode d'où elle est tirée.
+- le texte de la citation (`content`)
+- le nom du personnage qui la prononce (`characts`)
+- la saison (le livre) et l'épisode d'où elle est tirée (`season`, `episode`)
 
 À chaque rafraîchissement de la page, une nouvelle citation doit apparaître.
 
