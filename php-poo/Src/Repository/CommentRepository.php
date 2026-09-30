@@ -1,12 +1,11 @@
 <?php
 
 namespace Repository;
+
 use DateTime;
 use Entity\Comment;
 use Entity\Topic;
 use Entity\User;
-
-
 
 class CommentRepository extends AbstractRepository
 {
@@ -19,8 +18,8 @@ class CommentRepository extends AbstractRepository
 
     protected function createObjectByAssocArray(array $array): object
     {
-        $tr = TopicRepository::getInstance();
         $ur = UserRepository::getInstance();
+        $tr = TopicRepository::getInstance();
 
         $comment = new Comment();
         $comment->id = $array['id'];
@@ -40,8 +39,17 @@ class CommentRepository extends AbstractRepository
         $user = $ur->findById($array['author_id']);
         $comment->author = $user;
 
+        if ($array['parent_id'] !== null) {
+            /** @var Comment $parent */
+            $parent = $this->findById($array['parent_id']);
+            $comment->parent = $parent;
+        } else {
+            $comment->parent = null;
+        }
+
         return $comment;
     }
+
     protected function getAssocArrayByObject(object $object): array
     {
         return [];
