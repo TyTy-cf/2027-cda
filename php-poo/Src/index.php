@@ -1,5 +1,6 @@
 <?php
 
+use Entity\Topic;
 use Repository\TopicRepository;
 
 session_start();
