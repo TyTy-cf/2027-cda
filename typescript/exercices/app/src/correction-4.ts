@@ -1,14 +1,13 @@
+export function findMaximum(numbers: number[]): number | null {
+	if (numbers.length === 0) return null;
 
-export function findMaximum(numbers: number[]): number|null {
-    if (numbers.length === 0) return null;
+	let max: number = numbers[0] as number;
 
-    let max: number = numbers[0];
+	for (const number of numbers) {
+		if (number > max) {
+			max = number;
+		}
+	}
 
-    for (const number of numbers) {
-        if (number > max) {
-            max = number;
-        }
-    }
-
-    return max;
+	return max;
 }
