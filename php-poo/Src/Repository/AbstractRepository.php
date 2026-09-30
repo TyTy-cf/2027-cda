@@ -66,8 +66,12 @@ abstract class AbstractRepository
             $conditions = [];
             foreach ($param as $key => $value) {
                 $this->assertValidColumn($key);
-                $conditions[] = "$key = :value_$key";
-                $bindValues['value_' . $key] = $value;
+                if ($value === null) {
+                    $conditions[] = "$key IS NULL";
+                } else {
+                    $conditions[] = "$key = :value_$key";
+                    $bindValues['value_' . $key] = $value;
+                }
             }
             $sql .= " WHERE " . implode(' AND ', $conditions);
         }
@@ -113,15 +117,13 @@ abstract class AbstractRepository
         return $objects;
     }
 
-    public function findById(int $id): object | null
+    public function findById(int $id): object|null
     {
         $sql = "SELECT * FROM $this->table WHERE id = :id;";
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute(["id" => $id]);
         $assocArray = $stmt->fetch(PDO::FETCH_ASSOC);
-        if(!$assocArray) {
-            return null;
-        }
+        if (!$assocArray) return null;
         return $this->createObjectByAssocArray($assocArray);
     }
 

@@ -1,54 +1,73 @@
 <?php
 
+use Entity\Comment;
 use Entity\Topic;
-use Repository\CategoryRepository;
-use Repository\TopicRepository;
 use Repository\CommentRepository;
-
-session_start();
+use Repository\TopicRepository;
 
 include "include.php";
 
-$SelectedTopic = null;
-if (!isset($_GET['topic_id'])) {
-    header("Location: index.php");
+if (!isset($_GET['topic']) || !is_numeric($_GET['topic'])) {
+    header('Location: index.php');
 }
-$topicRepo = TopicRepository::getInstance();
-if (null === $SelectedTopic = $topicRepo->findById($_GET['topic_id'])) {
-    header("Location: index.php");
+
+$tr = TopicRepository::getInstance();
+if (null === $topic = $tr->findById($_GET['topic'])) {
+    header('Location: index.php');
 }
+
+$cr = CommentRepository::getInstance();
+$comments = $cr->findBy(['topic_id' => $topic->id], ['created_at' => 'DESC']);
+
+/** @var Topic $topic */
+/** @var array<Comment> $comments */
+
 include "Templates/header.php";
 
-$commentRepo = CommentRepository::getInstance();
-$comments = $commentRepo->findByTopic($SelectedTopic->id);
-
 ?>
 
-    <div class="p-4 p-md-5 d-flex flex-column justify-content-center text-white mb-4 rounded-3 shadow-sm"
-          style="min-height: 220px; background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('<?=$SelectedTopic->picture?>') center/cover no-repeat;">
+<h1><?= $topic->title ?></h1>
 
-        <!-- Catégorie -->
-        <div class="mb-2">
-            <span class="badge bg-primary text-uppercase"><?=$SelectedTopic->category->name?></span>
+<strong><?= $topic->category->name ?></strong>
+<p>
+    <?php if ($topic->updatedAt !== null) { ?>
+        Modifié le <?= date_format($topic->updatedAt, 'd-m-Y') ?>
+    <?php } else { ?>
+        Créé le <?= date_format($topic->createdAt, 'd-m-Y') ?>
+    <?php } ?>
+    par <?= $topic->author->nickname ?>
+</p>
+
+<img src="<?= $topic->picture . '?r=' . $topic->id ?>" class="img-fluid" alt="...">
+
+<p class="mt-2 mb-5">
+    <?= $topic->content ?>
+</p>
+
+<h2>Les commentaires</h2>
+<div class="row">
+    <?php foreach ($comments as $comment) { ?>
+        <div class="col-lg-3 col-sm-6 col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>
+                        <?php if ($comment->updatedAt !== null) { ?>
+                            Modifié le <?= date_format($comment->updatedAt, 'd-m-Y') ?>
+                        <?php } else { ?>
+                            Crée le <?= date_format($comment->createdAt, 'd-m-Y') ?>
+                        <?php } ?>
+                        par <?= $comment->author->nickname ?>
+                    </h3>
+                    <p class="card-text">
+                        <?= $comment->content ?>
+                    </p>
+                </div>
+            </div>
         </div>
+    <?php } ?>
+</div>
 
-        <!-- Titre du Sujet -->
-        <h1 class="fw-bold h2 mb-2"><?=$SelectedTopic->title?></h1>
-
-        <!-- Métadonnées -->
-        <p class="mb-0 text-white-50 small">
-            Par <strong><?= $SelectedTopic->author->nickname ?></strong> &bull; Le <?= date_format($SelectedTopic->updatedAt,"d/m/Y") ?> &bull;
-        </p>
-    </div>
-
-    <div class="p-4 bg-secondary-subtle border rounded-3 shadow-sm mb-4">
-        <!-- Paragraphe d'introduction avec une police légèrement plus grande -->
-        <p class="fs-5 text-secondary mb-3">
-            <?= $SelectedTopic->content ?>
-        </p>
-    </div>
 <?php
-
 include "Templates/footer.php";
-
 ?>
+

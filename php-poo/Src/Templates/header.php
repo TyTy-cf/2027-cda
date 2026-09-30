@@ -10,7 +10,9 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            Fake-Eddit
+            <a href="index.php" class="text-decoration-none">
+                Fake-Eddit
+            </a>
         </div>
     </nav>
     <div class="container">

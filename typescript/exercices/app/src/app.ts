@@ -1,5 +1,17 @@
-import {salute} from "./exo-1.ts";
-import {isEven} from "./exo-2.ts";
+import {FetchRequest} from "./FetchRequest.ts";
+import {IPokemon} from "./interfaces/i-pokemon.ts";
 
-console.log(salute("Alice", "fr") + " " + salute("Adolf", "de") + " " + salute("Aaron", "en"));
-console.log("2" + isEven(2) + "17" + isEven(17) + "0" +isEven(0) + "-4" + isEven(-4));
+(new FetchRequest())
+    .get<IPokemon>('https://pokeapi.co/api/v2/pokemon/garchomp')
+    .then((response) => {
+        for (const iStat of response.stats) {
+            console.log(iStat.base_stat + " " + iStat.stat.name);
+        }
+    });
+
+
+(new FetchRequest())
+    .get('https://kaamelott.xyz/api/v1/quote/random')
+    .then((response) => {
+        console.log(response);
+    });
