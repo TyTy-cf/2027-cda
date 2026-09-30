@@ -16,4 +16,3 @@ export function isPalindrome(text) {
     text = noSpace(text);
     return (text.toLowerCase() == reverse.toLowerCase());
 }
-//# sourceMappingURL=exo-5.js.map

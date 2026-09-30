@@ -5,7 +5,7 @@ export class FetchRequest {
         return fetch(url, {method: 'GET'})
             .then((response: Response) => {
                 if (response.status === 200) {
-                    return response.json();
+                    return response.json() as Promise<T>;
                 }
                 throw new Error("Something went wrong");
             });

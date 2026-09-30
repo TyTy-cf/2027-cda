@@ -12,4 +12,3 @@ export function salute(firstname, language) {
         return "Unsupported language";
     }
 }
-//# sourceMappingURL=exo-1.js.map
