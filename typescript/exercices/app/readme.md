@@ -41,3 +41,40 @@ Réutilisez votre classe `KaamelottAPI` afin qu'elle puisse affiche les quotes d
 
 
 Mettre un son aléatoire (`getRandomSound`)
+
+
+
+## Exercice 4 : API Country
+
+
+L'objectif de l'exercice : Faire un "pseudo select" qui affiche le nom du pays avec son drapeau, et met à jour les données affichés en fonction de ce que tape l'utilisateur.
+
+
+### 4.1 Préparer la classe "APICountry"
+
+
+- Utiliser le fichier `countries.json` présent dans le dépôt, voici le code pour l'appeler on peut utiliser le `FetchRequest` en passant cette URL : `"src/json/countries.json"`
+
+- Lorsque l'on instancie la classe `APICountry`, on charge tous les pays dans un tableau de Promise d'objet (créer l'interface : `ICountry`, elle représente l'objet pays **complet**)
+- Il faut créer une interface pour représenter nos pays dans le selector : ICountrySelector, elle va contenir les attributs suivants :
+  - flag
+  - name
+  - alpha2Code
+
+
+### 4.2 Utilisation de la classe "APICountry"
+
+
+- Faire une classe `CountrySelector`
+- Elle doit instancier un objet `APICountry` à sa création, tout son fonctionnement repose sur cette classe !
+- La classe `CountrySelector` doit faire :
+  - Créer l'input et l'ajouter à l'intérieur de l'élément souhaité par le développeur (passer un selector d'élément ? :wink_wink:)
+  - (Il faut penser à préparer le "dropdown", c'est-à-dire la liste où les suggestions seront affichés)
+  - On affiche pour toutes les suggestions : le drapeau et le nom du pays (le code sert simplement à identifier de manière unique le pays lorsque l'utilisateur clique sur une suggestion)
+  - Plusieurs actions doivent être réalisés sur cet input :
+    - Au clic dessus : on affiche les 10 premiers pays par ordre alphabétique
+    - Lorsque l'utilisateur tape au clavier dans l'input (à partir de 2 caractères), on filtre les suggestions, exemple :
+      - S'il tape : "stan"
+      - On affiche : "Afghanistan", "Kazaghstan", "Kirghisizistan", etc
+
+

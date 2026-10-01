@@ -13,6 +13,16 @@ export class KaamelottApi {
             .get<IQuote>(this.rootUrl + '/api/v1/quote/random');
     }
 
+    public getQuoteById(id: number): Promise<IQuote> {
+        return this.fetchRequest
+            .get<IQuote>(this.rootUrl + '/api/v1/quote/' + id);
+    }
+
+    public getAllQuote(): Promise<IQuote[]> {
+        return this.fetchRequest
+            .get<IQuote[]>(this.rootUrl + '/api/v1/quote/all');
+    }
+
     public getRandomSound(): Promise<ISound> {
         return this.fetchRequest
             .get<ISound>(this.rootUrl + '/api/v1/sound/random');
