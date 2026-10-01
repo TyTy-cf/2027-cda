@@ -14,10 +14,10 @@ export class CountrySelector {
 			});
 	}
 
-	public getAllCountries(): Promise<ICountrySelector> {
+	public getAllCountries(): Promise<ICountrySelector[]> {
 		return new Fetch()
-			.get<ICountrySelector>("src/json/countries.json")
-			.then((countries: ICountrySelector) => {
+			.get<ICountrySelector[]>("src/json/countries.json")
+			.then((countries: ICountrySelector[]) => {
 				if (countries.length === 0) {
 					throw new Error("well that's bad");
 				}
