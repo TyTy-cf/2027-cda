@@ -1,4 +1,4 @@
-import { Fetch } from "./exo-8.ts";
+import { Fetch } from "./Fetch.ts";
 import { ICountrySelector } from "./i-country-selector.ts";
 
 export class CountrySelector {

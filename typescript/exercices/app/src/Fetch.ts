@@ -1,7 +1,7 @@
 export class Fetch {
 	private GET: string = "GET";
 
-	public get<T>(url: string): Promise<T> {
+	public async get<T>(url: string): Promise<T> {
 		return fetch(url, {
 			method: this.GET,
 			headers: {
