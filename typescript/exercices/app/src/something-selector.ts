@@ -1,4 +1,4 @@
-import { Fetch } from "./Fetch.ts";
+import { Fetch } from "./fetch.ts";
 
 export class SomethingSelector<T> {
 	public url: string;
