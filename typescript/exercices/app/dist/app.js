@@ -1,4 +1,7 @@
 export {};
+// import {FetchRequest} from "./FetchRequest.ts";
+// import {IPokemon} from "./interfaces/i-pokemon.ts";
+//
 // (new FetchRequest())
 //     .get<IPokemon>('https://pokeapi.co/api/v2/pokemon/garchomp')
 //     .then((response) => {
@@ -13,3 +16,4 @@ export {};
 //     .then((response) => {
 //         console.log(response);
 //     });
+//
