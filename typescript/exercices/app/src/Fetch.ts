@@ -1,5 +1,10 @@
 export class Fetch {
 	private GET: string = "GET";
+	protected url: string;
+
+	constructor(url: string) {
+		this.url = url;
+	}
 
 	public async get<T>(url: string): Promise<T> {
 		return fetch(url, {

@@ -1,4 +1,4 @@
-import { CountrySelector } from "./country-selector.ts";
+import { SomethingSelector } from "./something-selector.ts";
 import { ICountrySelector } from "./i-country-selector.ts";
 
 window.addEventListener("load", async () => {
@@ -12,7 +12,9 @@ window.addEventListener("load", async () => {
 			let value = (countrySearchInput as HTMLInputElement).value;
 			countryContainer.innerHTML = "";
 			let countries: ICountrySelector[] =
-				await new CountrySelector().getAllCountries();
+				await new SomethingSelector<ICountrySelector>(
+					"src/json/countries.json",
+				).getAllOfSomething();
 
 			let qty: number = 10;
 			let numberOfCountry: number = 0;

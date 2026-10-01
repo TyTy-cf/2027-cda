@@ -1,4 +1,4 @@
-export interface ICountrySelector extends Array<ICountrySelector> {
+export interface ICountrySelector {
 	name: string;
 	flag: string;
 	alpha2Code: string;
