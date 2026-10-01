@@ -11,7 +11,7 @@ export class KaamelottApi {
     public getRandomQuote(): Promise<IQuote> {
         return this.fetchRequest
             .get<IQuote>(this.rootUrl + '/api/v1/quote/random');
-    }
+    }x
 
     public getQuoteById(id: number): Promise<IQuote> {
         return this.fetchRequest
