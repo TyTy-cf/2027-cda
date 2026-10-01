@@ -30,6 +30,32 @@ function initQuote(): void {
         });
 }
 
+function sound(){
+    kaamelottApi.getRandomSound()
+        .then((sound)=>{
+            const container: HTMLDivElement|null = document.querySelector("div.container");
+            if (!container) {
+                return;
+            }
+
+            const audio: HTMLAudioElement = document.createElement("audio");
+            audio.src=sound.path;
+            audio.controls = true;
+
+            container.appendChild(audio);
+    });
+}
+
+
+function multipleQuotes(){
+    kaamelottApi.getRandomQuoteByID(10);
+
+
+
+}
+
 window.addEventListener('load', () => {
     initQuote();
+    sound();
+    multipleQuotes();
 });

@@ -16,4 +16,11 @@ export class KaamelottApi {
             .get<ISoundkaamelott>(this.url + "/api/v1/sound/random");
 
     }
+
+
+
+
+
+
+
 }

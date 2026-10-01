@@ -18,4 +18,19 @@ export class KaamelottApi {
             .get<ISound>(this.rootUrl + '/api/v1/sound/random');
     }
 
+
+    public getRandomQuoteByID(qty: number){
+        const tempIds: Array<number> =[];
+        while (tempIds.length <qty){
+            const tempId = Math.floor(Math.random()*830);
+            if (!tempIds.includes(tempId)){
+                tempIds.push(tempId);
+            }
+        }
+
+
+        console.log(tempIds)
+        return(new FetchRequest())
+            .get<IQuote>(this.rootUrl + "api/v1/quote/" );
+    }
 }
