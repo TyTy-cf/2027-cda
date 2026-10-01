@@ -1,7 +1,7 @@
 
 export interface IQuote {
     content: string;
-    characts: string;
+    characts: string|null;
     season: string;
-    episode: string;
+    episode: string|null;
 }
