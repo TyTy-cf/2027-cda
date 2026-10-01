@@ -3,7 +3,7 @@ export class FetchRequest {
 
     public get<T>(url: string): Promise<T> {
         return fetch(url, {method: 'GET'})
-            .then((response: Response) => {
+            .then((response: Response): Promise<T> => {
                 if (response.status === 200) {
                     return response.json();
                 }
