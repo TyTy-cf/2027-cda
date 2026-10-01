@@ -29,20 +29,10 @@ function initSound() {
 
             container.appendChild(audio);
         })
+
+
+    window.addEventListener("load", () => {
+        initQuote();
+        initSound();
+    })
 }
-
-function initQuotes(qty: number) {
-    const kaamelott: KaamelottApi = new KaamelottApi()
-    const quotesNumber: Array<number> = [];
-    while (quotesNumber.length < qty) {
-        if (quotesNumber.includes(kaamelott)){}
-        {
-        }
-}
-
-
-
-window.addEventListener("load", () => {
-    initQuote();
-    initSound();
-})
