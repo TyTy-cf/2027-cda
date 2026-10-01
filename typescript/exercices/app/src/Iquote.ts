@@ -1,4 +1,4 @@
-export interface Iquote {
+export interface Iquote extends Array<Iquote> {
 	id: number;
 	content: string;
 	actor: string;
