@@ -78,3 +78,14 @@ L'objectif de l'exercice : Faire un "pseudo select" qui affiche le nom du pays a
       - On affiche : "Afghanistan", "Kazaghstan", "Kirghisizistan", etc
 
 
+### 4.3 Afficher le détail d'un Pays
+
+
+Au clic sur un 'li' de pays, afficher les informations de celui-ci
+
+
+- Modifier le CSS pour "montrer" que les 'li' sont cliquables (curosor pointer en css + hover qui change légèrement les couleurs)
+- Ajouter l'évènement "click" sur le 'li'
+  - Au clic il faudra penser à "cacher" le bloc 'ul'
+  - Trouver aussi un moyen de savoir exactement sur quel pays on vient de cliquer ? (data-attribute ?)
+  - Afficher les infos du pays dans un bloc HTML en dessous
