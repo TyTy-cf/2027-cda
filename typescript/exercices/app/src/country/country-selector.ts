@@ -30,6 +30,8 @@ export class CountrySelector {
         const ulElement = document.createElement('ul');
         ulElement.classList.add('position-absolute', 'w-100', 'list-unstyled', 'd-none', 'overflow-y-auto');
         ulElement.style.height = '20rem';
+        ulElement.style.zIndex = '1';
+        ulElement.style.backgroundColor = 'white';
 
         this._apiCountry?.countries.then((countries) => {
             for (const indexCountry in countries) {
@@ -37,11 +39,12 @@ export class CountrySelector {
                 const country: ICountry = countries[indexCountry];
 
                 const liElement = document.createElement('li');
-                liElement.classList.add('w-100', 'd-flex', 'border');
+                liElement.classList.add('w-100', 'd-flex', 'border', 'custom-hover');
                 liElement.style.height = '4rem';
+                liElement.style.cursor = 'pointer';
 
                 const imgElement = document.createElement('img');
-                imgElement.classList.add('img-fluid', 'border-end', 'w-25');
+                imgElement.classList.add('img-fluid', 'border-end', 'w-25', 'object-fit-cover');
                 imgElement.src = country.flag;
 
                 const pElement = document.createElement('p');
@@ -50,6 +53,42 @@ export class CountrySelector {
 
                 liElement.appendChild(imgElement);
                 liElement.appendChild(pElement);
+
+                liElement.addEventListener('click', () => {
+                    const containerCountryShow: HTMLDivElement|null = document.querySelector('div.country-show');
+                    if (!containerCountryShow) return;
+
+                    containerCountryShow.innerHTML = '';
+
+                    let languages: string = '';
+                    for (const language of country.languages) {
+                        languages += language.name + ', ';
+                    }
+                    languages = languages.slice(0, languages.length - 2);
+
+                    let timeZones: string = '';
+                    for (const timeZone of country.timezones) {
+                        timeZones += timeZone + ', ';
+                    }
+                    timeZones = timeZones.slice(0, timeZones.length - 2);
+
+                    const imgElement2 = document.createElement('img');
+                    imgElement2.classList.add('img-fluid', 'border-end', 'w-25', 'object-fit-cover');
+                    imgElement2.src = country.flag;
+
+                    containerCountryShow.appendChild(imgElement2);
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Nom', country.name));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Code', country.alpha2Code));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Capitale', country.capital));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Langues parlées', languages));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Population', country.population));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Surface', country.area + 'm²'));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Continent', country.region));
+                    containerCountryShow.appendChild(this.createParagraphByLabel('Fuseaux horaires', timeZones));
+
+                    ulElement.classList.add('d-none');
+                    inputElement.value = country.name;
+                });
 
                 ulElement.appendChild(liElement);
             }
@@ -86,4 +125,11 @@ export class CountrySelector {
         searchContainer.appendChild(ulElement);
         this._element?.appendChild(searchContainer);
     }
+
+    private createParagraphByLabel(label: string, content: string|number): HTMLParagraphElement {
+        const paragraph = document.createElement('p');
+        paragraph.innerHTML = '<strong>' + label + '</strong> : ' + content;
+        return paragraph;
+    }
+
 }
