@@ -65,6 +65,8 @@ export class CountrySelector {
                                     .trim()
                                     .toLowerCase();
 
+            ulElement.classList.remove('d-none');
+
             if (value.length >= 2) {
                 for (const child of ulElement.children) {
                     if (!child.innerHTML.toLowerCase().includes(value)) {
