@@ -5,7 +5,6 @@ import { ICountry } from "./i-country.ts";
 const url = "src/json/countries.json";
 
 const style = document.createElement("style");
-//text color white
 style.textContent = `
   .country-card:hover {
     background-color: var(--bs-secondary) !important;
