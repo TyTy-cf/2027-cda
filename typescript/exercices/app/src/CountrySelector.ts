@@ -1,4 +1,5 @@
 import {APICountry} from "./api/APICountry.ts";
+import {ICountry} from "./interfaces/ICountry.ts";
 
 
 export class CountrySelector {
@@ -14,9 +15,9 @@ export class CountrySelector {
         }
 
         if (!this._element) return;
+        this._apiCountry = new APICountry();
         this.addInput();
         this.addDropdown();
-        this._apiCountry = new APICountry();
         document.body.appendChild(this._element);
         this.initEvents();
     }
@@ -53,20 +54,24 @@ export class CountrySelector {
         if (!this._input) return;
         this._input.addEventListener('input', () => {
             if (!this._input) return;
-            this.feedSuggestions(this.input.value);
+            this.feedSuggestions(this._input.value);
         });
     }
 
     private feedSuggestions (inputed: string){
-        inputed = inputed.toLowerCase();
-        for (country of this._apiCountry.countries){
-            if (country.name.includes(inputed)){
-                this.addLi(country);
+        if (!this._apiCountry) return;
+        inputed = inputed.trim().toLowerCase();
+
+        this._apiCountry.countries.then((countries) => {
+            for (const country of countries){
+                if (country.name.toLowerCase().includes(inputed)){
+                    this.addLi(country);
+                }
             }
-        }
+        });
     }
 
-    private addLi (country: Promise <ICountry>){
+    private addLi (country: ICountry){
 
     }
 }
