@@ -21,7 +21,7 @@ export class SomethingSelector<T> {
 			});
 	}
 
-	public getAllOfSomething(): Promise<T[]> {
+	public getAll(): Promise<T[]> {
 		return new Fetch(this.url)
 			.get<T[]>(this.url)
 			.then((somethings: T[]) => {
@@ -29,6 +29,22 @@ export class SomethingSelector<T> {
 					throw new Error("well that's bad");
 				}
 				return somethings;
+			});
+	}
+
+	public getOne(alpha2Code: string): Promise<T> {
+		return new Fetch(this.url)
+			.get<T[]>(this.url)
+			.then((somethings: T[]) => {
+				const something = somethings.find(
+					(s: any) => s.alpha2Code === alpha2Code,
+				);
+				if (!something) {
+					throw new Error(
+						`Something with alpha2Code ${alpha2Code} not found`,
+					);
+				}
+				return something;
 			});
 	}
 }
