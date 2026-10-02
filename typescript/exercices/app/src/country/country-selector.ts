@@ -37,7 +37,7 @@ export class CountrySelector {
                 const country: ICountry = countries[indexCountry];
 
                 const liElement = document.createElement('li');
-                liElement.classList.add('w-100', 'd-flex', 'border');
+                liElement.classList.add('w-100', 'd-flex', 'border', 'pe-auto');
                 liElement.style.height = '4rem';
 
                 const imgElement = document.createElement('img');
