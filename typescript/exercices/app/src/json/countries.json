@@ -1,0 +1,7594 @@
+[
+  {
+    "area": 652230,
+    "cioc": "AFG",
+    "name": "Afghanistan",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+    "region": "Asia",
+    "capital": "Kabul",
+    "demonym": "Afghan",
+    "languages": [
+      {
+        "name": "Pashto",
+        "iso639_1": "ps",
+        "iso639_2": "pus",
+        "nativeName": "پښتو"
+      },
+      {
+        "name": "Uzbek",
+        "iso639_1": "uz",
+        "iso639_2": "uzb",
+        "nativeName": "Oʻzbek"
+      },
+      {
+        "name": "Turkmen",
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "nativeName": "Türkmen"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+04:30"
+    ],
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG",
+    "nativeName": "افغانستان",
+    "population": 40218234,
+    "independent": true,
+    "populationDensity": 61.66
+  },
+  {
+    "area": 1580,
+    "cioc": null,
+    "name": "Åland Islands",
+    "flag": "https://flagcdn.com/ax.svg",
+    "region": "Europe",
+    "capital": "Mariehamn",
+    "demonym": "Ålandish",
+    "languages": [
+      {
+        "name": "Swedish",
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "nativeName": "svenska"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "AX",
+    "alpha3Code": "ALA",
+    "nativeName": "Åland",
+    "population": 28875,
+    "independent": false,
+    "populationDensity": 18.28
+  },
+  {
+    "area": 28748,
+    "cioc": "ALB",
+    "name": "Albania",
+    "flag": "https://flagcdn.com/al.svg",
+    "region": "Europe",
+    "capital": "Tirana",
+    "demonym": "Albanian",
+    "languages": [
+      {
+        "name": "Albanian",
+        "iso639_1": "sq",
+        "iso639_2": "sqi",
+        "nativeName": "Shqip"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "AL",
+    "alpha3Code": "ALB",
+    "nativeName": "Shqipëria",
+    "population": 2837743,
+    "independent": true,
+    "populationDensity": 98.71
+  },
+  {
+    "area": 2381741,
+    "cioc": "ALG",
+    "name": "Algeria",
+    "flag": "https://flagcdn.com/dz.svg",
+    "region": "Africa",
+    "capital": "Algiers",
+    "demonym": "Algerian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "DZ",
+    "alpha3Code": "DZA",
+    "nativeName": "الجزائر",
+    "population": 44700000,
+    "independent": true,
+    "populationDensity": 18.77
+  },
+  {
+    "area": 199,
+    "cioc": "ASA",
+    "name": "American Samoa",
+    "flag": "https://flagcdn.com/as.svg",
+    "region": "Oceania",
+    "capital": "Pago Pago",
+    "demonym": "American Samoan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Samoan",
+        "iso639_1": "sm",
+        "iso639_2": "smo",
+        "nativeName": "gagana fa'a Samoa"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC-11:00"
+    ],
+    "alpha2Code": "AS",
+    "alpha3Code": "ASM",
+    "nativeName": "American Samoa",
+    "population": 55197,
+    "independent": false,
+    "populationDensity": 277.37
+  },
+  {
+    "area": 468,
+    "cioc": "AND",
+    "name": "Andorra",
+    "flag": "https://flagcdn.com/ad.svg",
+    "region": "Europe",
+    "capital": "Andorra la Vella",
+    "demonym": "Andorran",
+    "languages": [
+      {
+        "name": "Catalan",
+        "iso639_1": "ca",
+        "iso639_2": "cat",
+        "nativeName": "català"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "AD",
+    "alpha3Code": "AND",
+    "nativeName": "Andorra",
+    "population": 77265,
+    "independent": true,
+    "populationDensity": 165.1
+  },
+  {
+    "area": 1246700,
+    "cioc": "ANG",
+    "name": "Angola",
+    "flag": "https://flagcdn.com/ao.svg",
+    "region": "Africa",
+    "capital": "Luanda",
+    "demonym": "Angolan",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "AO",
+    "alpha3Code": "AGO",
+    "nativeName": "Angola",
+    "population": 32866268,
+    "independent": true,
+    "populationDensity": 26.36
+  },
+  {
+    "area": 91,
+    "cioc": null,
+    "name": "Anguilla",
+    "flag": "https://flagcdn.com/ai.svg",
+    "region": "Americas",
+    "capital": "The Valley",
+    "demonym": "Anguillian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "AI",
+    "alpha3Code": "AIA",
+    "nativeName": "Anguilla",
+    "population": 13452,
+    "independent": false,
+    "populationDensity": 147.82
+  },
+  {
+    "area": 14000000,
+    "cioc": null,
+    "name": "Antarctica",
+    "flag": "https://flagcdn.com/aq.svg",
+    "region": "Polar",
+    "capital": null,
+    "demonym": "Antarctic",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Antarctica",
+    "timezones": [
+      "UTC-03:00",
+      "UTC+03:00",
+      "UTC+05:00",
+      "UTC+06:00",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ],
+    "alpha2Code": "AQ",
+    "alpha3Code": "ATA",
+    "nativeName": "Antarctica",
+    "population": 1000,
+    "independent": false,
+    "populationDensity": 0
+  },
+  {
+    "area": 442,
+    "cioc": "ANT",
+    "name": "Antigua and Barbuda",
+    "flag": "https://flagcdn.com/ag.svg",
+    "region": "Americas",
+    "capital": "Saint John's",
+    "demonym": "Antiguan, Barbudan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "AG",
+    "alpha3Code": "ATG",
+    "nativeName": "Antigua and Barbuda",
+    "population": 97928,
+    "independent": true,
+    "populationDensity": 221.56
+  },
+  {
+    "area": 2780400,
+    "cioc": "ARG",
+    "name": "Argentina",
+    "flag": "https://flagcdn.com/ar.svg",
+    "region": "Americas",
+    "capital": "Buenos Aires",
+    "demonym": "Argentinean",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      },
+      {
+        "name": "Guaraní",
+        "iso639_1": "gn",
+        "iso639_2": "grn",
+        "nativeName": "Avañe'ẽ"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "alpha2Code": "AR",
+    "alpha3Code": "ARG",
+    "nativeName": "Argentina",
+    "population": 45376763,
+    "independent": true,
+    "populationDensity": 16.32
+  },
+  {
+    "area": 29743,
+    "cioc": "ARM",
+    "name": "Armenia",
+    "flag": "https://flagcdn.com/am.svg",
+    "region": "Asia",
+    "capital": "Yerevan",
+    "demonym": "Armenian",
+    "languages": [
+      {
+        "name": "Armenian",
+        "iso639_1": "hy",
+        "iso639_2": "hye",
+        "nativeName": "Հայերեն"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "AM",
+    "alpha3Code": "ARM",
+    "nativeName": "Հայաստան",
+    "population": 2963234,
+    "independent": true,
+    "populationDensity": 99.63
+  },
+  {
+    "area": 180,
+    "cioc": "ARU",
+    "name": "Aruba",
+    "flag": "https://flagcdn.com/aw.svg",
+    "region": "Americas",
+    "capital": "Oranjestad",
+    "demonym": "Aruban",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      },
+      {
+        "name": "(Eastern) Punjabi",
+        "iso639_1": "pa",
+        "iso639_2": "pan",
+        "nativeName": "ਪੰਜਾਬੀ"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "AW",
+    "alpha3Code": "ABW",
+    "nativeName": "Aruba",
+    "population": 106766,
+    "independent": true,
+    "populationDensity": 593.14
+  },
+  {
+    "area": 7692024,
+    "cioc": "AUS",
+    "name": "Australia",
+    "flag": "https://flagcdn.com/au.svg",
+    "region": "Oceania",
+    "capital": "Canberra",
+    "demonym": "Australian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Australia and New Zealand",
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:30",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:30",
+      "UTC+10:00",
+      "UTC+10:30",
+      "UTC+11:30"
+    ],
+    "alpha2Code": "AU",
+    "alpha3Code": "AUS",
+    "nativeName": "Australia",
+    "population": 25687041,
+    "independent": true,
+    "populationDensity": 3.34
+  },
+  {
+    "area": 83871,
+    "cioc": "AUT",
+    "name": "Austria",
+    "flag": "https://flagcdn.com/at.svg",
+    "region": "Europe",
+    "capital": "Vienna",
+    "demonym": "Austrian",
+    "languages": [
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "AT",
+    "alpha3Code": "AUT",
+    "nativeName": "Österreich",
+    "population": 8917205,
+    "independent": true,
+    "populationDensity": 106.32
+  },
+  {
+    "area": 86600,
+    "cioc": "AZE",
+    "name": "Azerbaijan",
+    "flag": "https://flagcdn.com/az.svg",
+    "region": "Asia",
+    "capital": "Baku",
+    "demonym": "Azerbaijani",
+    "languages": [
+      {
+        "name": "Azerbaijani",
+        "iso639_1": "az",
+        "iso639_2": "aze",
+        "nativeName": "azərbaycan dili"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "AZ",
+    "alpha3Code": "AZE",
+    "nativeName": "Azərbaycan",
+    "population": 10110116,
+    "independent": true,
+    "populationDensity": 116.74
+  },
+  {
+    "area": 13943,
+    "cioc": "BAH",
+    "name": "Bahamas",
+    "flag": "https://flagcdn.com/bs.svg",
+    "region": "Americas",
+    "capital": "Nassau",
+    "demonym": "Bahamian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "BS",
+    "alpha3Code": "BHS",
+    "nativeName": "Bahamas",
+    "population": 393248,
+    "independent": true,
+    "populationDensity": 28.2
+  },
+  {
+    "area": 765,
+    "cioc": "BRN",
+    "name": "Bahrain",
+    "flag": "https://flagcdn.com/bh.svg",
+    "region": "Asia",
+    "capital": "Manama",
+    "demonym": "Bahraini",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "BH",
+    "alpha3Code": "BHR",
+    "nativeName": "‏البحرين",
+    "population": 1701583,
+    "independent": true,
+    "populationDensity": 2224.29
+  },
+  {
+    "area": 147570,
+    "cioc": "BAN",
+    "name": "Bangladesh",
+    "flag": "https://flagcdn.com/bd.svg",
+    "region": "Asia",
+    "capital": "Dhaka",
+    "demonym": "Bangladeshi",
+    "languages": [
+      {
+        "name": "Bengali",
+        "iso639_1": "bn",
+        "iso639_2": "ben",
+        "nativeName": "বাংলা"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "alpha2Code": "BD",
+    "alpha3Code": "BGD",
+    "nativeName": "Bangladesh",
+    "population": 164689383,
+    "independent": true,
+    "populationDensity": 1116.01
+  },
+  {
+    "area": 430,
+    "cioc": "BAR",
+    "name": "Barbados",
+    "flag": "https://flagcdn.com/bb.svg",
+    "region": "Americas",
+    "capital": "Bridgetown",
+    "demonym": "Barbadian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "BB",
+    "alpha3Code": "BRB",
+    "nativeName": "Barbados",
+    "population": 287371,
+    "independent": true,
+    "populationDensity": 668.3
+  },
+  {
+    "area": 207600,
+    "cioc": "BLR",
+    "name": "Belarus",
+    "flag": "https://flagcdn.com/by.svg",
+    "region": "Europe",
+    "capital": "Minsk",
+    "demonym": "Belarusian",
+    "languages": [
+      {
+        "name": "Belarusian",
+        "iso639_1": "be",
+        "iso639_2": "bel",
+        "nativeName": "беларуская мова"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "BY",
+    "alpha3Code": "BLR",
+    "nativeName": "Белару́сь",
+    "population": 9398861,
+    "independent": true,
+    "populationDensity": 45.27
+  },
+  {
+    "area": 30528,
+    "cioc": "BEL",
+    "name": "Belgium",
+    "flag": "https://flagcdn.com/be.svg",
+    "region": "Europe",
+    "capital": "Brussels",
+    "demonym": "Belgian",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "subregion": "Western Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "BE",
+    "alpha3Code": "BEL",
+    "nativeName": "België",
+    "population": 11555997,
+    "independent": true,
+    "populationDensity": 378.54
+  },
+  {
+    "area": 22966,
+    "cioc": "BIZ",
+    "name": "Belize",
+    "flag": "https://flagcdn.com/bz.svg",
+    "region": "Americas",
+    "capital": "Belmopan",
+    "demonym": "Belizean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "BZ",
+    "alpha3Code": "BLZ",
+    "nativeName": "Belize",
+    "population": 397621,
+    "independent": true,
+    "populationDensity": 17.31
+  },
+  {
+    "area": 112622,
+    "cioc": "BEN",
+    "name": "Benin",
+    "flag": "https://flagcdn.com/bj.svg",
+    "region": "Africa",
+    "capital": "Porto-Novo",
+    "demonym": "Beninese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "BJ",
+    "alpha3Code": "BEN",
+    "nativeName": "Bénin",
+    "population": 12123198,
+    "independent": true,
+    "populationDensity": 107.65
+  },
+  {
+    "area": 54,
+    "cioc": "BER",
+    "name": "Bermuda",
+    "flag": "https://flagcdn.com/bm.svg",
+    "region": "Americas",
+    "capital": "Hamilton",
+    "demonym": "Bermudian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "BM",
+    "alpha3Code": "BMU",
+    "nativeName": "Bermuda",
+    "population": 63903,
+    "independent": false,
+    "populationDensity": 1183.39
+  },
+  {
+    "area": 38394,
+    "cioc": "BHU",
+    "name": "Bhutan",
+    "flag": "https://flagcdn.com/bt.svg",
+    "region": "Asia",
+    "capital": "Thimphu",
+    "demonym": "Bhutanese",
+    "languages": [
+      {
+        "name": "Dzongkha",
+        "iso639_1": "dz",
+        "iso639_2": "dzo",
+        "nativeName": "རྫོང་ཁ"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "alpha2Code": "BT",
+    "alpha3Code": "BTN",
+    "nativeName": "ʼbrug-yul",
+    "population": 771612,
+    "independent": true,
+    "populationDensity": 20.1
+  },
+  {
+    "area": 1098581,
+    "cioc": "BOL",
+    "name": "Bolivia (Plurinational State of)",
+    "flag": "https://flagcdn.com/bo.svg",
+    "region": "Americas",
+    "capital": "Sucre",
+    "demonym": "Bolivian",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      },
+      {
+        "name": "Aymara",
+        "iso639_1": "ay",
+        "iso639_2": "aym",
+        "nativeName": "aymar aru"
+      },
+      {
+        "name": "Quechua",
+        "iso639_1": "qu",
+        "iso639_2": "que",
+        "nativeName": "Runa Simi"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "BO",
+    "alpha3Code": "BOL",
+    "nativeName": "Bolivia",
+    "population": 11673029,
+    "independent": true,
+    "populationDensity": 10.63
+  },
+  {
+    "area": 294,
+    "cioc": null,
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "flag": "https://flagcdn.com/bq.svg",
+    "region": "Americas",
+    "capital": "Kralendijk",
+    "demonym": "Dutch",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "BQ",
+    "alpha3Code": "BES",
+    "nativeName": "Bonaire",
+    "population": 17408,
+    "independent": true,
+    "populationDensity": 59.21
+  },
+  {
+    "area": 51209,
+    "cioc": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "https://flagcdn.com/ba.svg",
+    "region": "Europe",
+    "capital": "Sarajevo",
+    "demonym": "Bosnian, Herzegovinian",
+    "languages": [
+      {
+        "name": "Bosnian",
+        "iso639_1": "bs",
+        "iso639_2": "bos",
+        "nativeName": "bosanski jezik"
+      },
+      {
+        "name": "Croatian",
+        "iso639_1": "hr",
+        "iso639_2": "hrv",
+        "nativeName": "hrvatski jezik"
+      },
+      {
+        "name": "Serbian",
+        "iso639_1": "sr",
+        "iso639_2": "srp",
+        "nativeName": "српски језик"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "BA",
+    "alpha3Code": "BIH",
+    "nativeName": "Bosna i Hercegovina",
+    "population": 3280815,
+    "independent": true,
+    "populationDensity": 64.07
+  },
+  {
+    "area": 582000,
+    "cioc": "BOT",
+    "name": "Botswana",
+    "flag": "https://flagcdn.com/bw.svg",
+    "region": "Africa",
+    "capital": "Gaborone",
+    "demonym": "Motswana",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Tswana",
+        "iso639_1": "tn",
+        "iso639_2": "tsn",
+        "nativeName": "Setswana"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "BW",
+    "alpha3Code": "BWA",
+    "nativeName": "Botswana",
+    "population": 2351625,
+    "independent": true,
+    "populationDensity": 4.04
+  },
+  {
+    "area": 49,
+    "cioc": null,
+    "name": "Bouvet Island",
+    "flag": "https://flagcdn.com/bv.svg",
+    "region": "Antarctic Ocean",
+    "capital": null,
+    "demonym": "Norwegian",
+    "languages": [
+      {
+        "name": "Norwegian",
+        "iso639_1": "no",
+        "iso639_2": "nor",
+        "nativeName": "Norsk"
+      },
+      {
+        "name": "Norwegian Bokmål",
+        "iso639_1": "nb",
+        "iso639_2": "nob",
+        "nativeName": "Norsk bokmål"
+      },
+      {
+        "name": "Norwegian Nynorsk",
+        "iso639_1": "nn",
+        "iso639_2": "nno",
+        "nativeName": "Norsk nynorsk"
+      }
+    ],
+    "subregion": "South Antarctic Ocean",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "BV",
+    "alpha3Code": "BVT",
+    "nativeName": "Bouvetøya",
+    "population": 0,
+    "independent": false,
+    "populationDensity": 0
+  },
+  {
+    "area": 8515767,
+    "cioc": "BRA",
+    "name": "Brazil",
+    "flag": "https://flagcdn.com/br.svg",
+    "region": "Americas",
+    "capital": "Brasília",
+    "demonym": "Brazilian",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-02:00"
+    ],
+    "alpha2Code": "BR",
+    "alpha3Code": "BRA",
+    "nativeName": "Brasil",
+    "population": 212559409,
+    "independent": true,
+    "populationDensity": 24.96
+  },
+  {
+    "area": 60,
+    "cioc": null,
+    "name": "British Indian Ocean Territory",
+    "flag": "https://flagcdn.com/io.svg",
+    "region": "Africa",
+    "capital": "Diego Garcia",
+    "demonym": "Indian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "alpha2Code": "IO",
+    "alpha3Code": "IOT",
+    "nativeName": "British Indian Ocean Territory",
+    "population": 3000,
+    "independent": true,
+    "populationDensity": 50
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "United States Minor Outlying Islands",
+    "flag": "https://flagcdn.com/um.svg",
+    "region": "Americas",
+    "capital": null,
+    "demonym": "American",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC+12:00"
+    ],
+    "alpha2Code": "UM",
+    "alpha3Code": "UMI",
+    "nativeName": "United States Minor Outlying Islands",
+    "population": 300,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 151,
+    "cioc": "IVB",
+    "name": "Virgin Islands (British)",
+    "flag": "https://flagcdn.com/vg.svg",
+    "region": "Americas",
+    "capital": "Road Town",
+    "demonym": "Virgin Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "VG",
+    "alpha3Code": "VGB",
+    "nativeName": "British Virgin Islands",
+    "population": 30237,
+    "independent": false,
+    "populationDensity": 200.25
+  },
+  {
+    "area": 346.36,
+    "cioc": "ISV",
+    "name": "Virgin Islands (U.S.)",
+    "flag": "https://flagcdn.com/vi.svg",
+    "region": "Americas",
+    "capital": "Charlotte Amalie",
+    "demonym": "Virgin Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "VI",
+    "alpha3Code": "VIR",
+    "nativeName": "Virgin Islands of the United States",
+    "population": 106290,
+    "independent": false,
+    "populationDensity": 306.88
+  },
+  {
+    "area": 5765,
+    "cioc": "BRU",
+    "name": "Brunei Darussalam",
+    "flag": "https://flagcdn.com/bn.svg",
+    "region": "Asia",
+    "capital": "Bandar Seri Begawan",
+    "demonym": "Bruneian",
+    "languages": [
+      {
+        "name": "Malay",
+        "iso639_1": "ms",
+        "iso639_2": "msa",
+        "nativeName": "bahasa Melayu"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "BN",
+    "alpha3Code": "BRN",
+    "nativeName": "Negara Brunei Darussalam",
+    "population": 437483,
+    "independent": true,
+    "populationDensity": 75.89
+  },
+  {
+    "area": 110879,
+    "cioc": "BUL",
+    "name": "Bulgaria",
+    "flag": "https://flagcdn.com/bg.svg",
+    "region": "Europe",
+    "capital": "Sofia",
+    "demonym": "Bulgarian",
+    "languages": [
+      {
+        "name": "Bulgarian",
+        "iso639_1": "bg",
+        "iso639_2": "bul",
+        "nativeName": "български език"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "BG",
+    "alpha3Code": "BGR",
+    "nativeName": "България",
+    "population": 6927288,
+    "independent": true,
+    "populationDensity": 62.48
+  },
+  {
+    "area": 272967,
+    "cioc": "BUR",
+    "name": "Burkina Faso",
+    "flag": "https://flagcdn.com/bf.svg",
+    "region": "Africa",
+    "capital": "Ouagadougou",
+    "demonym": "Burkinabe",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Fula",
+        "iso639_1": "ff",
+        "iso639_2": "ful",
+        "nativeName": "Fulfulde"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "BF",
+    "alpha3Code": "BFA",
+    "nativeName": "Burkina Faso",
+    "population": 20903278,
+    "independent": true,
+    "populationDensity": 76.58
+  },
+  {
+    "area": 27834,
+    "cioc": "BDI",
+    "name": "Burundi",
+    "flag": "https://flagcdn.com/bi.svg",
+    "region": "Africa",
+    "capital": "Gitega",
+    "demonym": "Burundian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Kirundi",
+        "iso639_1": "rn",
+        "iso639_2": "run",
+        "nativeName": "Ikirundi"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "BI",
+    "alpha3Code": "BDI",
+    "nativeName": "Burundi",
+    "population": 11890781,
+    "independent": true,
+    "populationDensity": 427.2
+  },
+  {
+    "area": 181035,
+    "cioc": "CAM",
+    "name": "Cambodia",
+    "flag": "https://flagcdn.com/kh.svg",
+    "region": "Asia",
+    "capital": "Phnom Penh",
+    "demonym": "Cambodian",
+    "languages": [
+      {
+        "name": "Khmer",
+        "iso639_1": "km",
+        "iso639_2": "khm",
+        "nativeName": "ខ្មែរ"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "alpha2Code": "KH",
+    "alpha3Code": "KHM",
+    "nativeName": "Kâmpŭchéa",
+    "population": 16718971,
+    "independent": true,
+    "populationDensity": 92.35
+  },
+  {
+    "area": 475442,
+    "cioc": "CMR",
+    "name": "Cameroon",
+    "flag": "https://flagcdn.com/cm.svg",
+    "region": "Africa",
+    "capital": "Yaoundé",
+    "demonym": "Cameroonian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "CM",
+    "alpha3Code": "CMR",
+    "nativeName": "Cameroon",
+    "population": 26545864,
+    "independent": true,
+    "populationDensity": 55.83
+  },
+  {
+    "area": 9984670,
+    "cioc": "CAN",
+    "name": "Canada",
+    "flag": "https://flagcdn.com/ca.svg",
+    "region": "Americas",
+    "capital": "Ottawa",
+    "demonym": "Canadian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:30"
+    ],
+    "alpha2Code": "CA",
+    "alpha3Code": "CAN",
+    "nativeName": "Canada",
+    "population": 38005238,
+    "independent": true,
+    "populationDensity": 3.81
+  },
+  {
+    "area": 4033,
+    "cioc": "CPV",
+    "name": "Cabo Verde",
+    "flag": "https://flagcdn.com/cv.svg",
+    "region": "Africa",
+    "capital": "Praia",
+    "demonym": "Cape Verdian",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC-01:00"
+    ],
+    "alpha2Code": "CV",
+    "alpha3Code": "CPV",
+    "nativeName": "Cabo Verde",
+    "population": 555988,
+    "independent": true,
+    "populationDensity": 137.86
+  },
+  {
+    "area": 264,
+    "cioc": "CAY",
+    "name": "Cayman Islands",
+    "flag": "https://flagcdn.com/ky.svg",
+    "region": "Americas",
+    "capital": "George Town",
+    "demonym": "Caymanian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "KY",
+    "alpha3Code": "CYM",
+    "nativeName": "Cayman Islands",
+    "population": 65720,
+    "independent": false,
+    "populationDensity": 248.94
+  },
+  {
+    "area": 622984,
+    "cioc": "CAF",
+    "name": "Central African Republic",
+    "flag": "https://flagcdn.com/cf.svg",
+    "region": "Africa",
+    "capital": "Bangui",
+    "demonym": "Central African",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Sango",
+        "iso639_1": "sg",
+        "iso639_2": "sag",
+        "nativeName": "yângâ tî sängö"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "CF",
+    "alpha3Code": "CAF",
+    "nativeName": "Ködörösêse tî Bêafrîka",
+    "population": 4829764,
+    "independent": true,
+    "populationDensity": 7.75
+  },
+  {
+    "area": 1284000,
+    "cioc": "CHA",
+    "name": "Chad",
+    "flag": "https://flagcdn.com/td.svg",
+    "region": "Africa",
+    "capital": "N'Djamena",
+    "demonym": "Chadian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "TD",
+    "alpha3Code": "TCD",
+    "nativeName": "Tchad",
+    "population": 16425859,
+    "independent": true,
+    "populationDensity": 12.79
+  },
+  {
+    "area": 756102,
+    "cioc": "CHI",
+    "name": "Chile",
+    "flag": "https://flagcdn.com/cl.svg",
+    "region": "Americas",
+    "capital": "Santiago",
+    "demonym": "Chilean",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-06:00",
+      "UTC-04:00"
+    ],
+    "alpha2Code": "CL",
+    "alpha3Code": "CHL",
+    "nativeName": "Chile",
+    "population": 19116209,
+    "independent": true,
+    "populationDensity": 25.28
+  },
+  {
+    "area": 9640011,
+    "cioc": "CHN",
+    "name": "China",
+    "flag": "https://flagcdn.com/cn.svg",
+    "region": "Asia",
+    "capital": "Beijing",
+    "demonym": "Chinese",
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "CN",
+    "alpha3Code": "CHN",
+    "nativeName": "中国",
+    "population": 1402112000,
+    "independent": true,
+    "populationDensity": 145.45
+  },
+  {
+    "area": 135,
+    "cioc": null,
+    "name": "Christmas Island",
+    "flag": "https://flagcdn.com/cx.svg",
+    "region": "Oceania",
+    "capital": "Flying Fish Cove",
+    "demonym": "Christmas Island",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Australia and New Zealand",
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "alpha2Code": "CX",
+    "alpha3Code": "CXR",
+    "nativeName": "Christmas Island",
+    "population": 2072,
+    "independent": false,
+    "populationDensity": 15.35
+  },
+  {
+    "area": 14,
+    "cioc": null,
+    "name": "Cocos (Keeling) Islands",
+    "flag": "https://flagcdn.com/cc.svg",
+    "region": "Oceania",
+    "capital": "West Island",
+    "demonym": "Cocos Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Australia and New Zealand",
+    "timezones": [
+      "UTC+06:30"
+    ],
+    "alpha2Code": "CC",
+    "alpha3Code": "CCK",
+    "nativeName": "Cocos (Keeling) Islands",
+    "population": 550,
+    "independent": false,
+    "populationDensity": 39.29
+  },
+  {
+    "area": 1141748,
+    "cioc": "COL",
+    "name": "Colombia",
+    "flag": "https://flagcdn.com/co.svg",
+    "region": "Americas",
+    "capital": "Bogotá",
+    "demonym": "Colombian",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "CO",
+    "alpha3Code": "COL",
+    "nativeName": "Colombia",
+    "population": 50882884,
+    "independent": true,
+    "populationDensity": 44.57
+  },
+  {
+    "area": 1862,
+    "cioc": "COM",
+    "name": "Comoros",
+    "flag": "https://flagcdn.com/km.svg",
+    "region": "Africa",
+    "capital": "Moroni",
+    "demonym": "Comoran",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "KM",
+    "alpha3Code": "COM",
+    "nativeName": "Komori",
+    "population": 869595,
+    "independent": true,
+    "populationDensity": 467.02
+  },
+  {
+    "area": 342000,
+    "cioc": "CGO",
+    "name": "Congo",
+    "flag": "https://flagcdn.com/cg.svg",
+    "region": "Africa",
+    "capital": "Brazzaville",
+    "demonym": "Congolese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Lingala",
+        "iso639_1": "ln",
+        "iso639_2": "lin",
+        "nativeName": "Lingála"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "CG",
+    "alpha3Code": "COG",
+    "nativeName": "République du Congo",
+    "population": 5518092,
+    "independent": true,
+    "populationDensity": 16.13
+  },
+  {
+    "area": 2344858,
+    "cioc": "COD",
+    "name": "Congo (Democratic Republic of the)",
+    "flag": "https://flagcdn.com/cd.svg",
+    "region": "Africa",
+    "capital": "Kinshasa",
+    "demonym": "Congolese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Lingala",
+        "iso639_1": "ln",
+        "iso639_2": "lin",
+        "nativeName": "Lingála"
+      },
+      {
+        "name": "Kongo",
+        "iso639_1": "kg",
+        "iso639_2": "kon",
+        "nativeName": "Kikongo"
+      },
+      {
+        "name": "Swahili",
+        "iso639_1": "sw",
+        "iso639_2": "swa",
+        "nativeName": "Kiswahili"
+      },
+      {
+        "name": "Luba-Katanga",
+        "iso639_1": "lu",
+        "iso639_2": "lub",
+        "nativeName": "Tshiluba"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00",
+      "UTC+02:00"
+    ],
+    "alpha2Code": "CD",
+    "alpha3Code": "COD",
+    "nativeName": "République démocratique du Congo",
+    "population": 89561404,
+    "independent": true,
+    "populationDensity": 38.19
+  },
+  {
+    "area": 236,
+    "cioc": "COK",
+    "name": "Cook Islands",
+    "flag": "https://flagcdn.com/ck.svg",
+    "region": "Oceania",
+    "capital": "Avarua",
+    "demonym": "Cook Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Cook Islands Māori",
+        "iso639_2": "rar",
+        "nativeName": "Māori"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC-10:00"
+    ],
+    "alpha2Code": "CK",
+    "alpha3Code": "COK",
+    "nativeName": "Cook Islands",
+    "population": 18100,
+    "independent": true,
+    "populationDensity": 76.69
+  },
+  {
+    "area": 51100,
+    "cioc": "CRC",
+    "name": "Costa Rica",
+    "flag": "https://flagcdn.com/cr.svg",
+    "region": "Americas",
+    "capital": "San José",
+    "demonym": "Costa Rican",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "CR",
+    "alpha3Code": "CRI",
+    "nativeName": "Costa Rica",
+    "population": 5094114,
+    "independent": true,
+    "populationDensity": 99.69
+  },
+  {
+    "area": 56594,
+    "cioc": "CRO",
+    "name": "Croatia",
+    "flag": "https://flagcdn.com/hr.svg",
+    "region": "Europe",
+    "capital": "Zagreb",
+    "demonym": "Croatian",
+    "languages": [
+      {
+        "name": "Croatian",
+        "iso639_1": "hr",
+        "iso639_2": "hrv",
+        "nativeName": "hrvatski jezik"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "HR",
+    "alpha3Code": "HRV",
+    "nativeName": "Hrvatska",
+    "population": 4047200,
+    "independent": true,
+    "populationDensity": 71.51
+  },
+  {
+    "area": 109884,
+    "cioc": "CUB",
+    "name": "Cuba",
+    "flag": "https://flagcdn.com/cu.svg",
+    "region": "Americas",
+    "capital": "Havana",
+    "demonym": "Cuban",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "CU",
+    "alpha3Code": "CUB",
+    "nativeName": "Cuba",
+    "population": 11326616,
+    "independent": true,
+    "populationDensity": 103.08
+  },
+  {
+    "area": 444,
+    "cioc": null,
+    "name": "Curaçao",
+    "flag": "https://flagcdn.com/cw.svg",
+    "region": "Americas",
+    "capital": "Willemstad",
+    "demonym": "Dutch",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      },
+      {
+        "name": "(Eastern) Punjabi",
+        "iso639_1": "pa",
+        "iso639_2": "pan",
+        "nativeName": "ਪੰਜਾਬੀ"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "CW",
+    "alpha3Code": "CUW",
+    "nativeName": "Curaçao",
+    "population": 155014,
+    "independent": false,
+    "populationDensity": 349.13
+  },
+  {
+    "area": 9251,
+    "cioc": "CYP",
+    "name": "Cyprus",
+    "flag": "https://flagcdn.com/cy.svg",
+    "region": "Europe",
+    "capital": "Nicosia",
+    "demonym": "Cypriot",
+    "languages": [
+      {
+        "name": "Greek (modern)",
+        "iso639_1": "el",
+        "iso639_2": "ell",
+        "nativeName": "ελληνικά"
+      },
+      {
+        "name": "Turkish",
+        "iso639_1": "tr",
+        "iso639_2": "tur",
+        "nativeName": "Türkçe"
+      },
+      {
+        "name": "Armenian",
+        "iso639_1": "hy",
+        "iso639_2": "hye",
+        "nativeName": "Հայերեն"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "CY",
+    "alpha3Code": "CYP",
+    "nativeName": "Κύπρος",
+    "population": 1207361,
+    "independent": true,
+    "populationDensity": 130.51
+  },
+  {
+    "area": 78865,
+    "cioc": "CZE",
+    "name": "Czech Republic",
+    "flag": "https://flagcdn.com/cz.svg",
+    "region": "Europe",
+    "capital": "Prague",
+    "demonym": "Czech",
+    "languages": [
+      {
+        "name": "Czech",
+        "iso639_1": "cs",
+        "iso639_2": "ces",
+        "nativeName": "čeština"
+      },
+      {
+        "name": "Slovak",
+        "iso639_1": "sk",
+        "iso639_2": "slk",
+        "nativeName": "slovenčina"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "CZ",
+    "alpha3Code": "CZE",
+    "nativeName": "Česká republika",
+    "population": 10698896,
+    "independent": true,
+    "populationDensity": 135.66
+  },
+  {
+    "area": 43094,
+    "cioc": "DEN",
+    "name": "Denmark",
+    "flag": "https://flagcdn.com/dk.svg",
+    "region": "Europe",
+    "capital": "Copenhagen",
+    "demonym": "Danish",
+    "languages": [
+      {
+        "name": "Danish",
+        "iso639_1": "da",
+        "iso639_2": "dan",
+        "nativeName": "dansk"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-01:00",
+      "UTC",
+      "UTC+01:00"
+    ],
+    "alpha2Code": "DK",
+    "alpha3Code": "DNK",
+    "nativeName": "Danmark",
+    "population": 5831404,
+    "independent": true,
+    "populationDensity": 135.32
+  },
+  {
+    "area": 23200,
+    "cioc": "DJI",
+    "name": "Djibouti",
+    "flag": "https://flagcdn.com/dj.svg",
+    "region": "Africa",
+    "capital": "Djibouti",
+    "demonym": "Djibouti",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "DJ",
+    "alpha3Code": "DJI",
+    "nativeName": "Djibouti",
+    "population": 988002,
+    "independent": true,
+    "populationDensity": 42.59
+  },
+  {
+    "area": 751,
+    "cioc": "DMA",
+    "name": "Dominica",
+    "flag": "https://flagcdn.com/dm.svg",
+    "region": "Americas",
+    "capital": "Roseau",
+    "demonym": "Dominican",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "DM",
+    "alpha3Code": "DMA",
+    "nativeName": "Dominica",
+    "population": 71991,
+    "independent": true,
+    "populationDensity": 95.86
+  },
+  {
+    "area": 48671,
+    "cioc": "DOM",
+    "name": "Dominican Republic",
+    "flag": "https://flagcdn.com/do.svg",
+    "region": "Americas",
+    "capital": "Santo Domingo",
+    "demonym": "Dominican",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "DO",
+    "alpha3Code": "DOM",
+    "nativeName": "República Dominicana",
+    "population": 10847904,
+    "independent": true,
+    "populationDensity": 222.88
+  },
+  {
+    "area": 276841,
+    "cioc": "ECU",
+    "name": "Ecuador",
+    "flag": "https://flagcdn.com/ec.svg",
+    "region": "Americas",
+    "capital": "Quito",
+    "demonym": "Ecuadorean",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-06:00",
+      "UTC-05:00"
+    ],
+    "alpha2Code": "EC",
+    "alpha3Code": "ECU",
+    "nativeName": "Ecuador",
+    "population": 17643060,
+    "independent": true,
+    "populationDensity": 63.73
+  },
+  {
+    "area": 1002450,
+    "cioc": "EGY",
+    "name": "Egypt",
+    "flag": "https://flagcdn.com/eg.svg",
+    "region": "Africa",
+    "capital": "Cairo",
+    "demonym": "Egyptian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "EG",
+    "alpha3Code": "EGY",
+    "nativeName": "مصر‎",
+    "population": 102334403,
+    "independent": true,
+    "populationDensity": 102.08
+  },
+  {
+    "area": 21041,
+    "cioc": "ESA",
+    "name": "El Salvador",
+    "flag": "https://flagcdn.com/sv.svg",
+    "region": "Americas",
+    "capital": "San Salvador",
+    "demonym": "Salvadoran",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "SV",
+    "alpha3Code": "SLV",
+    "nativeName": "El Salvador",
+    "population": 6486201,
+    "independent": true,
+    "populationDensity": 308.26
+  },
+  {
+    "area": 28051,
+    "cioc": "GEQ",
+    "name": "Equatorial Guinea",
+    "flag": "https://flagcdn.com/gq.svg",
+    "region": "Africa",
+    "capital": "Malabo",
+    "demonym": "Equatorial Guinean",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      },
+      {
+        "name": "Fang",
+        "iso639_2": "fan",
+        "nativeName": "Fang"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "GQ",
+    "alpha3Code": "GNQ",
+    "nativeName": "Guinea Ecuatorial",
+    "population": 1402985,
+    "independent": true,
+    "populationDensity": 50.02
+  },
+  {
+    "area": 117600,
+    "cioc": "ERI",
+    "name": "Eritrea",
+    "flag": "https://flagcdn.com/er.svg",
+    "region": "Africa",
+    "capital": "Asmara",
+    "demonym": "Eritrean",
+    "languages": [
+      {
+        "name": "Tigrinya",
+        "iso639_1": "ti",
+        "iso639_2": "tir",
+        "nativeName": "ትግርኛ"
+      },
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Tigre",
+        "iso639_2": "tig",
+        "nativeName": "ትግረ"
+      },
+      {
+        "name": "Kunama",
+        "iso639_2": "kun",
+        "nativeName": "Kunama"
+      },
+      {
+        "name": "Saho",
+        "iso639_2": "ssy",
+        "nativeName": "Saho"
+      },
+      {
+        "name": "Bilen",
+        "iso639_2": "byn",
+        "nativeName": "ብሊና"
+      },
+      {
+        "name": "Nara",
+        "iso639_2": "nrb",
+        "nativeName": "Nara"
+      },
+      {
+        "name": "Afar",
+        "iso639_1": "aa",
+        "iso639_2": "aar",
+        "nativeName": "Afar"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "ER",
+    "alpha3Code": "ERI",
+    "nativeName": "ኤርትራ",
+    "population": 5352000,
+    "independent": true,
+    "populationDensity": 45.51
+  },
+  {
+    "area": 45227,
+    "cioc": "EST",
+    "name": "Estonia",
+    "flag": "https://flagcdn.com/ee.svg",
+    "region": "Europe",
+    "capital": "Tallinn",
+    "demonym": "Estonian",
+    "languages": [
+      {
+        "name": "Estonian",
+        "iso639_1": "et",
+        "iso639_2": "est",
+        "nativeName": "eesti"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "EE",
+    "alpha3Code": "EST",
+    "nativeName": "Eesti",
+    "population": 1331057,
+    "independent": true,
+    "populationDensity": 29.43
+  },
+  {
+    "area": 1104300,
+    "cioc": "ETH",
+    "name": "Ethiopia",
+    "flag": "https://flagcdn.com/et.svg",
+    "region": "Africa",
+    "capital": "Addis Ababa",
+    "demonym": "Ethiopian",
+    "languages": [
+      {
+        "name": "Amharic",
+        "iso639_1": "am",
+        "iso639_2": "amh",
+        "nativeName": "አማርኛ"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "ET",
+    "alpha3Code": "ETH",
+    "nativeName": "ኢትዮጵያ",
+    "population": 114963583,
+    "independent": true,
+    "populationDensity": 104.11
+  },
+  {
+    "area": 12173,
+    "cioc": null,
+    "name": "Falkland Islands (Malvinas)",
+    "flag": "https://flagcdn.com/fk.svg",
+    "region": "Americas",
+    "capital": "Stanley",
+    "demonym": "Falkland Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "FK",
+    "alpha3Code": "FLK",
+    "nativeName": "Falkland Islands",
+    "population": 2563,
+    "independent": false,
+    "populationDensity": 0.21
+  },
+  {
+    "area": 1393,
+    "cioc": null,
+    "name": "Faroe Islands",
+    "flag": "https://flagcdn.com/fo.svg",
+    "region": "Europe",
+    "capital": "Tórshavn",
+    "demonym": "Faroese",
+    "languages": [
+      {
+        "name": "Faroese",
+        "iso639_1": "fo",
+        "iso639_2": "fao",
+        "nativeName": "føroyskt"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "FO",
+    "alpha3Code": "FRO",
+    "nativeName": "Føroyar",
+    "population": 48865,
+    "independent": false,
+    "populationDensity": 35.08
+  },
+  {
+    "area": 18272,
+    "cioc": "FIJ",
+    "name": "Fiji",
+    "flag": "https://flagcdn.com/fj.svg",
+    "region": "Oceania",
+    "capital": "Suva",
+    "demonym": "Fijian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Fijian",
+        "iso639_1": "fj",
+        "iso639_2": "fij",
+        "nativeName": "vosa Vakaviti"
+      },
+      {
+        "name": "Fiji Hindi",
+        "iso639_2": "hif",
+        "nativeName": "फ़िजी बात"
+      },
+      {
+        "name": "Rotuman",
+        "iso639_2": "rtm",
+        "nativeName": "Fäeag Rotuma"
+      }
+    ],
+    "subregion": "Melanesia",
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "alpha2Code": "FJ",
+    "alpha3Code": "FJI",
+    "nativeName": "Fiji",
+    "population": 896444,
+    "independent": true,
+    "populationDensity": 49.06
+  },
+  {
+    "area": 338424,
+    "cioc": "FIN",
+    "name": "Finland",
+    "flag": "https://flagcdn.com/fi.svg",
+    "region": "Europe",
+    "capital": "Helsinki",
+    "demonym": "Finnish",
+    "languages": [
+      {
+        "name": "Finnish",
+        "iso639_1": "fi",
+        "iso639_2": "fin",
+        "nativeName": "suomi"
+      },
+      {
+        "name": "Swedish",
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "nativeName": "svenska"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "FI",
+    "alpha3Code": "FIN",
+    "nativeName": "Suomi",
+    "population": 5530719,
+    "independent": true,
+    "populationDensity": 16.34
+  },
+  {
+    "area": 640679,
+    "cioc": "FRA",
+    "name": "France",
+    "flag": "https://flagcdn.com/fr.svg",
+    "region": "Europe",
+    "capital": "Paris",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Europe",
+    "timezones": [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    "alpha2Code": "FR",
+    "alpha3Code": "FRA",
+    "nativeName": "France",
+    "population": 67391582,
+    "independent": true,
+    "populationDensity": 105.19
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "French Guiana",
+    "flag": "https://flagcdn.com/gf.svg",
+    "region": "Americas",
+    "capital": "Cayenne",
+    "demonym": "French Guianan",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "alpha2Code": "GF",
+    "alpha3Code": "GUF",
+    "nativeName": "Guyane française",
+    "population": 254541,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 4167,
+    "cioc": null,
+    "name": "French Polynesia",
+    "flag": "https://flagcdn.com/pf.svg",
+    "region": "Oceania",
+    "capital": "Papeetē",
+    "demonym": "French Polynesian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00"
+    ],
+    "alpha2Code": "PF",
+    "alpha3Code": "PYF",
+    "nativeName": "Polynésie française",
+    "population": 280904,
+    "independent": false,
+    "populationDensity": 67.41
+  },
+  {
+    "area": 7747,
+    "cioc": null,
+    "name": "French Southern Territories",
+    "flag": "https://flagcdn.com/tf.svg",
+    "region": "Africa",
+    "capital": "Port-aux-Français",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "TF",
+    "alpha3Code": "ATF",
+    "nativeName": "Territoire des Terres australes et antarctiques françaises",
+    "population": 140,
+    "independent": false,
+    "populationDensity": 0.02
+  },
+  {
+    "area": 267668,
+    "cioc": "GAB",
+    "name": "Gabon",
+    "flag": "https://flagcdn.com/ga.svg",
+    "region": "Africa",
+    "capital": "Libreville",
+    "demonym": "Gabonese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "GA",
+    "alpha3Code": "GAB",
+    "nativeName": "Gabon",
+    "population": 2225728,
+    "independent": true,
+    "populationDensity": 8.32
+  },
+  {
+    "area": 11295,
+    "cioc": "GAM",
+    "name": "Gambia",
+    "flag": "https://flagcdn.com/gm.svg",
+    "region": "Africa",
+    "capital": "Banjul",
+    "demonym": "Gambian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "GM",
+    "alpha3Code": "GMB",
+    "nativeName": "Gambia",
+    "population": 2416664,
+    "independent": true,
+    "populationDensity": 213.96
+  },
+  {
+    "area": 69700,
+    "cioc": "GEO",
+    "name": "Georgia",
+    "flag": "https://flagcdn.com/ge.svg",
+    "region": "Asia",
+    "capital": "Tbilisi",
+    "demonym": "Georgian",
+    "languages": [
+      {
+        "name": "Georgian",
+        "iso639_1": "ka",
+        "iso639_2": "kat",
+        "nativeName": "ქართული"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "GE",
+    "alpha3Code": "GEO",
+    "nativeName": "საქართველო",
+    "population": 3714000,
+    "independent": true,
+    "populationDensity": 53.29
+  },
+  {
+    "area": 357114,
+    "cioc": "GER",
+    "name": "Germany",
+    "flag": "https://flagcdn.com/de.svg",
+    "region": "Europe",
+    "capital": "Berlin",
+    "demonym": "German",
+    "languages": [
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "DE",
+    "alpha3Code": "DEU",
+    "nativeName": "Deutschland",
+    "population": 83240525,
+    "independent": true,
+    "populationDensity": 233.09
+  },
+  {
+    "area": 238533,
+    "cioc": "GHA",
+    "name": "Ghana",
+    "flag": "https://flagcdn.com/gh.svg",
+    "region": "Africa",
+    "capital": "Accra",
+    "demonym": "Ghanaian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "GH",
+    "alpha3Code": "GHA",
+    "nativeName": "Ghana",
+    "population": 31072945,
+    "independent": true,
+    "populationDensity": 130.27
+  },
+  {
+    "area": 6,
+    "cioc": null,
+    "name": "Gibraltar",
+    "flag": "https://flagcdn.com/gi.svg",
+    "region": "Europe",
+    "capital": "Gibraltar",
+    "demonym": "Gibraltar",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "GI",
+    "alpha3Code": "GIB",
+    "nativeName": "Gibraltar",
+    "population": 33691,
+    "independent": false,
+    "populationDensity": 5615.17
+  },
+  {
+    "area": 131990,
+    "cioc": "GRE",
+    "name": "Greece",
+    "flag": "https://flagcdn.com/gr.svg",
+    "region": "Europe",
+    "capital": "Athens",
+    "demonym": "Greek",
+    "languages": [
+      {
+        "name": "Greek (modern)",
+        "iso639_1": "el",
+        "iso639_2": "ell",
+        "nativeName": "ελληνικά"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "GR",
+    "alpha3Code": "GRC",
+    "nativeName": "Ελλάδα",
+    "population": 10715549,
+    "independent": true,
+    "populationDensity": 81.18
+  },
+  {
+    "area": 2166086,
+    "cioc": null,
+    "name": "Greenland",
+    "flag": "https://flagcdn.com/gl.svg",
+    "region": "Americas",
+    "capital": "Nuuk",
+    "demonym": "Greenlandic",
+    "languages": [
+      {
+        "name": "Kalaallisut",
+        "iso639_1": "kl",
+        "iso639_2": "kal",
+        "nativeName": "kalaallisut"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-01:00",
+      "UTC+00:00"
+    ],
+    "alpha2Code": "GL",
+    "alpha3Code": "GRL",
+    "nativeName": "Kalaallit Nunaat",
+    "population": 56367,
+    "independent": false,
+    "populationDensity": 0.03
+  },
+  {
+    "area": 344,
+    "cioc": "GRN",
+    "name": "Grenada",
+    "flag": "https://flagcdn.com/gd.svg",
+    "region": "Americas",
+    "capital": "St. George's",
+    "demonym": "Grenadian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "GD",
+    "alpha3Code": "GRD",
+    "nativeName": "Grenada",
+    "population": 112519,
+    "independent": true,
+    "populationDensity": 327.09
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Guadeloupe",
+    "flag": "https://flagcdn.com/gp.svg",
+    "region": "Americas",
+    "capital": "Basse-Terre",
+    "demonym": "Guadeloupian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "GP",
+    "alpha3Code": "GLP",
+    "nativeName": "Guadeloupe",
+    "population": 400132,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 549,
+    "cioc": "GUM",
+    "name": "Guam",
+    "flag": "https://flagcdn.com/gu.svg",
+    "region": "Oceania",
+    "capital": "Hagåtña",
+    "demonym": "Guamanian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Chamorro",
+        "iso639_1": "ch",
+        "iso639_2": "cha",
+        "nativeName": "Chamoru"
+      },
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+10:00"
+    ],
+    "alpha2Code": "GU",
+    "alpha3Code": "GUM",
+    "nativeName": "Guam",
+    "population": 168783,
+    "independent": false,
+    "populationDensity": 307.44
+  },
+  {
+    "area": 108889,
+    "cioc": "GUA",
+    "name": "Guatemala",
+    "flag": "https://flagcdn.com/gt.svg",
+    "region": "Americas",
+    "capital": "Guatemala City",
+    "demonym": "Guatemalan",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "GT",
+    "alpha3Code": "GTM",
+    "nativeName": "Guatemala",
+    "population": 16858333,
+    "independent": true,
+    "populationDensity": 154.82
+  },
+  {
+    "area": 78,
+    "cioc": null,
+    "name": "Guernsey",
+    "flag": "https://flagcdn.com/gg.svg",
+    "region": "Europe",
+    "capital": "St. Peter Port",
+    "demonym": "Channel Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "GG",
+    "alpha3Code": "GGY",
+    "nativeName": "Guernsey",
+    "population": 62999,
+    "independent": false,
+    "populationDensity": 807.68
+  },
+  {
+    "area": 245857,
+    "cioc": "GUI",
+    "name": "Guinea",
+    "flag": "https://flagcdn.com/gn.svg",
+    "region": "Africa",
+    "capital": "Conakry",
+    "demonym": "Guinean",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Fula",
+        "iso639_1": "ff",
+        "iso639_2": "ful",
+        "nativeName": "Fulfulde"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "GN",
+    "alpha3Code": "GIN",
+    "nativeName": "Guinée",
+    "population": 13132792,
+    "independent": true,
+    "populationDensity": 53.42
+  },
+  {
+    "area": 36125,
+    "cioc": "GBS",
+    "name": "Guinea-Bissau",
+    "flag": "https://flagcdn.com/gw.svg",
+    "region": "Africa",
+    "capital": "Bissau",
+    "demonym": "Guinea-Bissauan",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "GW",
+    "alpha3Code": "GNB",
+    "nativeName": "Guiné-Bissau",
+    "population": 1967998,
+    "independent": true,
+    "populationDensity": 54.48
+  },
+  {
+    "area": 214969,
+    "cioc": "GUY",
+    "name": "Guyana",
+    "flag": "https://flagcdn.com/gy.svg",
+    "region": "Americas",
+    "capital": "Georgetown",
+    "demonym": "Guyanese",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "GY",
+    "alpha3Code": "GUY",
+    "nativeName": "Guyana",
+    "population": 786559,
+    "independent": true,
+    "populationDensity": 3.66
+  },
+  {
+    "area": 27750,
+    "cioc": "HAI",
+    "name": "Haiti",
+    "flag": "https://flagcdn.com/ht.svg",
+    "region": "Americas",
+    "capital": "Port-au-Prince",
+    "demonym": "Haitian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Haitian",
+        "iso639_1": "ht",
+        "iso639_2": "hat",
+        "nativeName": "Kreyòl ayisyen"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "HT",
+    "alpha3Code": "HTI",
+    "nativeName": "Haïti",
+    "population": 11402533,
+    "independent": true,
+    "populationDensity": 410.9
+  },
+  {
+    "area": 412,
+    "cioc": null,
+    "name": "Heard Island and McDonald Islands",
+    "flag": "https://flagcdn.com/hm.svg",
+    "region": "Antarctic",
+    "capital": null,
+    "demonym": "Heard and McDonald Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Antarctic",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "HM",
+    "alpha3Code": "HMD",
+    "nativeName": "Heard Island and McDonald Islands",
+    "population": 0,
+    "independent": false,
+    "populationDensity": 0
+  },
+  {
+    "area": 0.44,
+    "cioc": null,
+    "name": "Vatican City",
+    "flag": "https://flagcdn.com/va.svg",
+    "region": "Europe",
+    "capital": "Vatican City",
+    "demonym": "Vatican",
+    "languages": [
+      {
+        "name": "Latin",
+        "iso639_1": "la",
+        "iso639_2": "lat",
+        "nativeName": "latine"
+      },
+      {
+        "name": "Italian",
+        "iso639_1": "it",
+        "iso639_2": "ita",
+        "nativeName": "Italiano"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "Français"
+      },
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "VA",
+    "alpha3Code": "VAT",
+    "nativeName": "Status Civitatis Vaticanae",
+    "population": 451,
+    "independent": true,
+    "populationDensity": 1025
+  },
+  {
+    "area": 112492,
+    "cioc": "HON",
+    "name": "Honduras",
+    "flag": "https://flagcdn.com/hn.svg",
+    "region": "Americas",
+    "capital": "Tegucigalpa",
+    "demonym": "Honduran",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "HN",
+    "alpha3Code": "HND",
+    "nativeName": "Honduras",
+    "population": 9904608,
+    "independent": true,
+    "populationDensity": 88.05
+  },
+  {
+    "area": 93028,
+    "cioc": "HUN",
+    "name": "Hungary",
+    "flag": "https://flagcdn.com/hu.svg",
+    "region": "Europe",
+    "capital": "Budapest",
+    "demonym": "Hungarian",
+    "languages": [
+      {
+        "name": "Hungarian",
+        "iso639_1": "hu",
+        "iso639_2": "hun",
+        "nativeName": "magyar"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "HU",
+    "alpha3Code": "HUN",
+    "nativeName": "Magyarország",
+    "population": 9749763,
+    "independent": true,
+    "populationDensity": 104.8
+  },
+  {
+    "area": 1104,
+    "cioc": "HKG",
+    "name": "Hong Kong",
+    "flag": "https://flagcdn.com/hk.svg",
+    "region": "Asia",
+    "capital": "City of Victoria",
+    "demonym": "Chinese",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Chinese",
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "HK",
+    "alpha3Code": "HKG",
+    "nativeName": "香港",
+    "population": 7481800,
+    "independent": false,
+    "populationDensity": 6776.99
+  },
+  {
+    "area": 103000,
+    "cioc": "ISL",
+    "name": "Iceland",
+    "flag": "https://flagcdn.com/is.svg",
+    "region": "Europe",
+    "capital": "Reykjavík",
+    "demonym": "Icelander",
+    "languages": [
+      {
+        "name": "Icelandic",
+        "iso639_1": "is",
+        "iso639_2": "isl",
+        "nativeName": "Íslenska"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "IS",
+    "alpha3Code": "ISL",
+    "nativeName": "Ísland",
+    "population": 366425,
+    "independent": true,
+    "populationDensity": 3.56
+  },
+  {
+    "area": 3287590,
+    "cioc": "IND",
+    "name": "India",
+    "flag": "https://flagcdn.com/in.svg",
+    "region": "Asia",
+    "capital": "New Delhi",
+    "demonym": "Indian",
+    "languages": [
+      {
+        "name": "Hindi",
+        "iso639_1": "hi",
+        "iso639_2": "hin",
+        "nativeName": "हिन्दी"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+05:30"
+    ],
+    "alpha2Code": "IN",
+    "alpha3Code": "IND",
+    "nativeName": "भारत",
+    "population": 1380004385,
+    "independent": true,
+    "populationDensity": 419.76
+  },
+  {
+    "area": 1904569,
+    "cioc": "INA",
+    "name": "Indonesia",
+    "flag": "https://flagcdn.com/id.svg",
+    "region": "Asia",
+    "capital": "Jakarta",
+    "demonym": "Indonesian",
+    "languages": [
+      {
+        "name": "Indonesian",
+        "iso639_1": "id",
+        "iso639_2": "ind",
+        "nativeName": "Bahasa Indonesia"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00"
+    ],
+    "alpha2Code": "ID",
+    "alpha3Code": "IDN",
+    "nativeName": "Indonesia",
+    "population": 273523621,
+    "independent": true,
+    "populationDensity": 143.61
+  },
+  {
+    "area": 322463,
+    "cioc": "CIV",
+    "name": "Ivory Coast",
+    "flag": "https://flagcdn.com/ci.svg",
+    "region": "Africa",
+    "capital": "Yamoussoukro",
+    "demonym": "Ivorian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "CI",
+    "alpha3Code": "CIV",
+    "nativeName": "Côte d'Ivoire",
+    "population": 26378275,
+    "independent": true,
+    "populationDensity": 81.8
+  },
+  {
+    "area": 1648195,
+    "cioc": "IRI",
+    "name": "Iran (Islamic Republic of)",
+    "flag": "https://flagcdn.com/ir.svg",
+    "region": "Asia",
+    "capital": "Tehran",
+    "demonym": "Iranian",
+    "languages": [
+      {
+        "name": "Persian (Farsi)",
+        "iso639_1": "fa",
+        "iso639_2": "fas",
+        "nativeName": "فارسی"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+03:30"
+    ],
+    "alpha2Code": "IR",
+    "alpha3Code": "IRN",
+    "nativeName": "ایران",
+    "population": 83992953,
+    "independent": true,
+    "populationDensity": 50.96
+  },
+  {
+    "area": 438317,
+    "cioc": "IRQ",
+    "name": "Iraq",
+    "flag": "https://flagcdn.com/iq.svg",
+    "region": "Asia",
+    "capital": "Baghdad",
+    "demonym": "Iraqi",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      },
+      {
+        "name": "Kurdish",
+        "iso639_1": "ku",
+        "iso639_2": "kur",
+        "nativeName": "Kurdî"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "IQ",
+    "alpha3Code": "IRQ",
+    "nativeName": "العراق",
+    "population": 40222503,
+    "independent": true,
+    "populationDensity": 91.77
+  },
+  {
+    "area": 70273,
+    "cioc": "IRL",
+    "name": "Ireland",
+    "flag": "https://flagcdn.com/ie.svg",
+    "region": "Europe",
+    "capital": "Dublin",
+    "demonym": "Irish",
+    "languages": [
+      {
+        "name": "Irish",
+        "iso639_1": "ga",
+        "iso639_2": "gle",
+        "nativeName": "Gaeilge"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "IE",
+    "alpha3Code": "IRL",
+    "nativeName": "Éire",
+    "population": 4994724,
+    "independent": true,
+    "populationDensity": 71.08
+  },
+  {
+    "area": 572,
+    "cioc": null,
+    "name": "Isle of Man",
+    "flag": "https://flagcdn.com/im.svg",
+    "region": "Europe",
+    "capital": "Douglas",
+    "demonym": "Manx",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Manx",
+        "iso639_1": "gv",
+        "iso639_2": "glv",
+        "nativeName": "Gaelg"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "IM",
+    "alpha3Code": "IMN",
+    "nativeName": "Isle of Man",
+    "population": 85032,
+    "independent": false,
+    "populationDensity": 148.66
+  },
+  {
+    "area": 20770,
+    "cioc": "ISR",
+    "name": "Israel",
+    "flag": "https://flagcdn.com/il.svg",
+    "region": "Asia",
+    "capital": "Jerusalem",
+    "demonym": "Israeli",
+    "languages": [
+      {
+        "name": "Hebrew (modern)",
+        "iso639_1": "he",
+        "iso639_2": "heb",
+        "nativeName": "עברית"
+      },
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "IL",
+    "alpha3Code": "ISR",
+    "nativeName": "יִשְׂרָאֵל",
+    "population": 9216900,
+    "independent": true,
+    "populationDensity": 443.76
+  },
+  {
+    "area": 301336,
+    "cioc": "ITA",
+    "name": "Italy",
+    "flag": "https://flagcdn.com/it.svg",
+    "region": "Europe",
+    "capital": "Rome",
+    "demonym": "Italian",
+    "languages": [
+      {
+        "name": "Italian",
+        "iso639_1": "it",
+        "iso639_2": "ita",
+        "nativeName": "Italiano"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "IT",
+    "alpha3Code": "ITA",
+    "nativeName": "Italia",
+    "population": 59554023,
+    "independent": true,
+    "populationDensity": 197.63
+  },
+  {
+    "area": 10991,
+    "cioc": "JAM",
+    "name": "Jamaica",
+    "flag": "https://flagcdn.com/jm.svg",
+    "region": "Americas",
+    "capital": "Kingston",
+    "demonym": "Jamaican",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "JM",
+    "alpha3Code": "JAM",
+    "nativeName": "Jamaica",
+    "population": 2961161,
+    "independent": true,
+    "populationDensity": 269.42
+  },
+  {
+    "area": 377930,
+    "cioc": "JPN",
+    "name": "Japan",
+    "flag": "https://flagcdn.com/jp.svg",
+    "region": "Asia",
+    "capital": "Tokyo",
+    "demonym": "Japanese",
+    "languages": [
+      {
+        "name": "Japanese",
+        "iso639_1": "ja",
+        "iso639_2": "jpn",
+        "nativeName": "日本語 (にほんご)"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "alpha2Code": "JP",
+    "alpha3Code": "JPN",
+    "nativeName": "日本",
+    "population": 125836021,
+    "independent": true,
+    "populationDensity": 332.96
+  },
+  {
+    "area": 116,
+    "cioc": null,
+    "name": "Jersey",
+    "flag": "https://flagcdn.com/je.svg",
+    "region": "Europe",
+    "capital": "Saint Helier",
+    "demonym": "Channel Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "JE",
+    "alpha3Code": "JEY",
+    "nativeName": "Jersey",
+    "population": 100800,
+    "independent": false,
+    "populationDensity": 868.97
+  },
+  {
+    "area": 89342,
+    "cioc": "JOR",
+    "name": "Jordan",
+    "flag": "https://flagcdn.com/jo.svg",
+    "region": "Asia",
+    "capital": "Amman",
+    "demonym": "Jordanian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "JO",
+    "alpha3Code": "JOR",
+    "nativeName": "الأردن",
+    "population": 10203140,
+    "independent": true,
+    "populationDensity": 114.2
+  },
+  {
+    "area": 2724900,
+    "cioc": "KAZ",
+    "name": "Kazakhstan",
+    "flag": "https://flagcdn.com/kz.svg",
+    "region": "Asia",
+    "capital": "Nur-Sultan",
+    "demonym": "Kazakhstani",
+    "languages": [
+      {
+        "name": "Kazakh",
+        "iso639_1": "kk",
+        "iso639_2": "kaz",
+        "nativeName": "қазақ тілі"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Central Asia",
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:00"
+    ],
+    "alpha2Code": "KZ",
+    "alpha3Code": "KAZ",
+    "nativeName": "Қазақстан",
+    "population": 18754440,
+    "independent": true,
+    "populationDensity": 6.88
+  },
+  {
+    "area": 580367,
+    "cioc": "KEN",
+    "name": "Kenya",
+    "flag": "https://flagcdn.com/ke.svg",
+    "region": "Africa",
+    "capital": "Nairobi",
+    "demonym": "Kenyan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Swahili",
+        "iso639_1": "sw",
+        "iso639_2": "swa",
+        "nativeName": "Kiswahili"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "KE",
+    "alpha3Code": "KEN",
+    "nativeName": "Kenya",
+    "population": 53771300,
+    "independent": true,
+    "populationDensity": 92.65
+  },
+  {
+    "area": 811,
+    "cioc": "KIR",
+    "name": "Kiribati",
+    "flag": "https://flagcdn.com/ki.svg",
+    "region": "Oceania",
+    "capital": "South Tarawa",
+    "demonym": "I-Kiribati",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+12:00",
+      "UTC+13:00",
+      "UTC+14:00"
+    ],
+    "alpha2Code": "KI",
+    "alpha3Code": "KIR",
+    "nativeName": "Kiribati",
+    "population": 119446,
+    "independent": true,
+    "populationDensity": 147.28
+  },
+  {
+    "area": 17818,
+    "cioc": "KUW",
+    "name": "Kuwait",
+    "flag": "https://flagcdn.com/kw.svg",
+    "region": "Asia",
+    "capital": "Kuwait City",
+    "demonym": "Kuwaiti",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "KW",
+    "alpha3Code": "KWT",
+    "nativeName": "الكويت",
+    "population": 4270563,
+    "independent": true,
+    "populationDensity": 239.68
+  },
+  {
+    "area": 199951,
+    "cioc": "KGZ",
+    "name": "Kyrgyzstan",
+    "flag": "https://flagcdn.com/kg.svg",
+    "region": "Asia",
+    "capital": "Bishkek",
+    "demonym": "Kirghiz",
+    "languages": [
+      {
+        "name": "Kyrgyz",
+        "iso639_1": "ky",
+        "iso639_2": "kir",
+        "nativeName": "Кыргызча"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Central Asia",
+    "timezones": [
+      "UTC+06:00"
+    ],
+    "alpha2Code": "KG",
+    "alpha3Code": "KGZ",
+    "nativeName": "Кыргызстан",
+    "population": 6591600,
+    "independent": true,
+    "populationDensity": 32.97
+  },
+  {
+    "area": 236800,
+    "cioc": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "flag": "https://flagcdn.com/la.svg",
+    "region": "Asia",
+    "capital": "Vientiane",
+    "demonym": "Laotian",
+    "languages": [
+      {
+        "name": "Lao",
+        "iso639_1": "lo",
+        "iso639_2": "lao",
+        "nativeName": "ພາສາລາວ"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "alpha2Code": "LA",
+    "alpha3Code": "LAO",
+    "nativeName": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
+    "population": 7275556,
+    "independent": true,
+    "populationDensity": 30.72
+  },
+  {
+    "area": 64559,
+    "cioc": "LAT",
+    "name": "Latvia",
+    "flag": "https://flagcdn.com/lv.svg",
+    "region": "Europe",
+    "capital": "Riga",
+    "demonym": "Latvian",
+    "languages": [
+      {
+        "name": "Latvian",
+        "iso639_1": "lv",
+        "iso639_2": "lav",
+        "nativeName": "latviešu valoda"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "LV",
+    "alpha3Code": "LVA",
+    "nativeName": "Latvija",
+    "population": 1901548,
+    "independent": true,
+    "populationDensity": 29.45
+  },
+  {
+    "area": 10452,
+    "cioc": "LIB",
+    "name": "Lebanon",
+    "flag": "https://flagcdn.com/lb.svg",
+    "region": "Asia",
+    "capital": "Beirut",
+    "demonym": "Lebanese",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "LB",
+    "alpha3Code": "LBN",
+    "nativeName": "لبنان",
+    "population": 6825442,
+    "independent": true,
+    "populationDensity": 653.03
+  },
+  {
+    "area": 30355,
+    "cioc": "LES",
+    "name": "Lesotho",
+    "flag": "https://flagcdn.com/ls.svg",
+    "region": "Africa",
+    "capital": "Maseru",
+    "demonym": "Mosotho",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Southern Sotho",
+        "iso639_1": "st",
+        "iso639_2": "sot",
+        "nativeName": "Sesotho"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "LS",
+    "alpha3Code": "LSO",
+    "nativeName": "Lesotho",
+    "population": 2142252,
+    "independent": true,
+    "populationDensity": 70.57
+  },
+  {
+    "area": 111369,
+    "cioc": "LBR",
+    "name": "Liberia",
+    "flag": "https://flagcdn.com/lr.svg",
+    "region": "Africa",
+    "capital": "Monrovia",
+    "demonym": "Liberian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "LR",
+    "alpha3Code": "LBR",
+    "nativeName": "Liberia",
+    "population": 5057677,
+    "independent": true,
+    "populationDensity": 45.41
+  },
+  {
+    "area": 1759540,
+    "cioc": "LBA",
+    "name": "Libya",
+    "flag": "https://flagcdn.com/ly.svg",
+    "region": "Africa",
+    "capital": "Tripoli",
+    "demonym": "Libyan",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "LY",
+    "alpha3Code": "LBY",
+    "nativeName": "‏ليبيا",
+    "population": 6871287,
+    "independent": true,
+    "populationDensity": 3.91
+  },
+  {
+    "area": 160,
+    "cioc": "LIE",
+    "name": "Liechtenstein",
+    "flag": "https://flagcdn.com/li.svg",
+    "region": "Europe",
+    "capital": "Vaduz",
+    "demonym": "Liechtensteiner",
+    "languages": [
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "LI",
+    "alpha3Code": "LIE",
+    "nativeName": "Liechtenstein",
+    "population": 38137,
+    "independent": true,
+    "populationDensity": 238.36
+  },
+  {
+    "area": 65300,
+    "cioc": "LTU",
+    "name": "Lithuania",
+    "flag": "https://flagcdn.com/lt.svg",
+    "region": "Europe",
+    "capital": "Vilnius",
+    "demonym": "Lithuanian",
+    "languages": [
+      {
+        "name": "Lithuanian",
+        "iso639_1": "lt",
+        "iso639_2": "lit",
+        "nativeName": "lietuvių kalba"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "LT",
+    "alpha3Code": "LTU",
+    "nativeName": "Lietuva",
+    "population": 2794700,
+    "independent": true,
+    "populationDensity": 42.8
+  },
+  {
+    "area": 2586,
+    "cioc": "LUX",
+    "name": "Luxembourg",
+    "flag": "https://flagcdn.com/lu.svg",
+    "region": "Europe",
+    "capital": "Luxembourg",
+    "demonym": "Luxembourger",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      },
+      {
+        "name": "Luxembourgish",
+        "iso639_1": "lb",
+        "iso639_2": "ltz",
+        "nativeName": "Lëtzebuergesch"
+      }
+    ],
+    "subregion": "Western Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "LU",
+    "alpha3Code": "LUX",
+    "nativeName": "Lëtzebuerg",
+    "population": 632275,
+    "independent": true,
+    "populationDensity": 244.5
+  },
+  {
+    "area": 30,
+    "cioc": null,
+    "name": "Macao",
+    "flag": "https://flagcdn.com/mo.svg",
+    "region": "Asia",
+    "capital": null,
+    "demonym": "Chinese",
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "nativeName": "中文 (Zhōngwén)"
+      },
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "MO",
+    "alpha3Code": "MAC",
+    "nativeName": "澳門",
+    "population": 649342,
+    "independent": false,
+    "populationDensity": 21644.73
+  },
+  {
+    "area": 25713,
+    "cioc": "MKD",
+    "name": "North Macedonia",
+    "flag": "https://flagcdn.com/mk.svg",
+    "region": "Europe",
+    "capital": "Skopje",
+    "demonym": "Macedonian",
+    "languages": [
+      {
+        "name": "Macedonian",
+        "iso639_1": "mk",
+        "iso639_2": "mkd",
+        "nativeName": "македонски јазик"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "MK",
+    "alpha3Code": "MKD",
+    "nativeName": "Македонија",
+    "population": 2083380,
+    "independent": true,
+    "populationDensity": 81.02
+  },
+  {
+    "area": 587041,
+    "cioc": "MAD",
+    "name": "Madagascar",
+    "flag": "https://flagcdn.com/mg.svg",
+    "region": "Africa",
+    "capital": "Antananarivo",
+    "demonym": "Malagasy",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Malagasy",
+        "iso639_1": "mg",
+        "iso639_2": "mlg",
+        "nativeName": "fiteny malagasy"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "MG",
+    "alpha3Code": "MDG",
+    "nativeName": "Madagasikara",
+    "population": 27691019,
+    "independent": true,
+    "populationDensity": 47.17
+  },
+  {
+    "area": 118484,
+    "cioc": "MAW",
+    "name": "Malawi",
+    "flag": "https://flagcdn.com/mw.svg",
+    "region": "Africa",
+    "capital": "Lilongwe",
+    "demonym": "Malawian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Chichewa",
+        "iso639_1": "ny",
+        "iso639_2": "nya",
+        "nativeName": "chiCheŵa"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "MW",
+    "alpha3Code": "MWI",
+    "nativeName": "Malawi",
+    "population": 19129955,
+    "independent": true,
+    "populationDensity": 161.46
+  },
+  {
+    "area": 330803,
+    "cioc": "MAS",
+    "name": "Malaysia",
+    "flag": "https://flagcdn.com/my.svg",
+    "region": "Asia",
+    "capital": "Kuala Lumpur",
+    "demonym": "Malaysian",
+    "languages": [
+      {
+        "name": "Malaysian",
+        "iso639_1": "ms",
+        "iso639_2": "zsm",
+        "nativeName": "بهاس مليسيا"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "MY",
+    "alpha3Code": "MYS",
+    "nativeName": "Malaysia",
+    "population": 32365998,
+    "independent": true,
+    "populationDensity": 97.84
+  },
+  {
+    "area": 300,
+    "cioc": "MDV",
+    "name": "Maldives",
+    "flag": "https://flagcdn.com/mv.svg",
+    "region": "Asia",
+    "capital": "Malé",
+    "demonym": "Maldivan",
+    "languages": [
+      {
+        "name": "Divehi",
+        "iso639_1": "dv",
+        "iso639_2": "div",
+        "nativeName": "ދިވެހި"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "MV",
+    "alpha3Code": "MDV",
+    "nativeName": "Maldives",
+    "population": 540542,
+    "independent": true,
+    "populationDensity": 1801.81
+  },
+  {
+    "area": 1240192,
+    "cioc": "MLI",
+    "name": "Mali",
+    "flag": "https://flagcdn.com/ml.svg",
+    "region": "Africa",
+    "capital": "Bamako",
+    "demonym": "Malian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "ML",
+    "alpha3Code": "MLI",
+    "nativeName": "Mali",
+    "population": 20250834,
+    "independent": true,
+    "populationDensity": 16.33
+  },
+  {
+    "area": 316,
+    "cioc": "MLT",
+    "name": "Malta",
+    "flag": "https://flagcdn.com/mt.svg",
+    "region": "Europe",
+    "capital": "Valletta",
+    "demonym": "Maltese",
+    "languages": [
+      {
+        "name": "Maltese",
+        "iso639_1": "mt",
+        "iso639_2": "mlt",
+        "nativeName": "Malti"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "MT",
+    "alpha3Code": "MLT",
+    "nativeName": "Malta",
+    "population": 525285,
+    "independent": true,
+    "populationDensity": 1662.29
+  },
+  {
+    "area": 181,
+    "cioc": "MHL",
+    "name": "Marshall Islands",
+    "flag": "https://flagcdn.com/mh.svg",
+    "region": "Oceania",
+    "capital": "Majuro",
+    "demonym": "Marshallese",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Marshallese",
+        "iso639_1": "mh",
+        "iso639_2": "mah",
+        "nativeName": "Kajin M̧ajeļ"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "alpha2Code": "MH",
+    "alpha3Code": "MHL",
+    "nativeName": "M̧ajeļ",
+    "population": 59194,
+    "independent": true,
+    "populationDensity": 327.04
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Martinique",
+    "flag": "https://flagcdn.com/mq.svg",
+    "region": "Americas",
+    "capital": "Fort-de-France",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "MQ",
+    "alpha3Code": "MTQ",
+    "nativeName": "Martinique",
+    "population": 378243,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 1030700,
+    "cioc": "MTN",
+    "name": "Mauritania",
+    "flag": "https://flagcdn.com/mr.svg",
+    "region": "Africa",
+    "capital": "Nouakchott",
+    "demonym": "Mauritanian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "MR",
+    "alpha3Code": "MRT",
+    "nativeName": "موريتانيا",
+    "population": 4649660,
+    "independent": true,
+    "populationDensity": 4.51
+  },
+  {
+    "area": 2040,
+    "cioc": "MRI",
+    "name": "Mauritius",
+    "flag": "https://flagcdn.com/mu.svg",
+    "region": "Africa",
+    "capital": "Port Louis",
+    "demonym": "Mauritian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "MU",
+    "alpha3Code": "MUS",
+    "nativeName": "Maurice",
+    "population": 1265740,
+    "independent": true,
+    "populationDensity": 620.46
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Mayotte",
+    "flag": "https://flagcdn.com/yt.svg",
+    "region": "Africa",
+    "capital": "Mamoudzou",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "YT",
+    "alpha3Code": "MYT",
+    "nativeName": "Mayotte",
+    "population": 226915,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 1964375,
+    "cioc": "MEX",
+    "name": "Mexico",
+    "flag": "https://flagcdn.com/mx.svg",
+    "region": "Americas",
+    "capital": "Mexico City",
+    "demonym": "Mexican",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "North America",
+    "timezones": [
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00"
+    ],
+    "alpha2Code": "MX",
+    "alpha3Code": "MEX",
+    "nativeName": "México",
+    "population": 128932753,
+    "independent": true,
+    "populationDensity": 65.64
+  },
+  {
+    "area": 702,
+    "cioc": "FSM",
+    "name": "Micronesia (Federated States of)",
+    "flag": "https://flagcdn.com/fm.svg",
+    "region": "Oceania",
+    "capital": "Palikir",
+    "demonym": "Micronesian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+10:00",
+      "UTC+11:00"
+    ],
+    "alpha2Code": "FM",
+    "alpha3Code": "FSM",
+    "nativeName": "Micronesia",
+    "population": 115021,
+    "independent": true,
+    "populationDensity": 163.85
+  },
+  {
+    "area": 33846,
+    "cioc": "MDA",
+    "name": "Moldova (Republic of)",
+    "flag": "https://flagcdn.com/md.svg",
+    "region": "Europe",
+    "capital": "Chișinău",
+    "demonym": "Moldovan",
+    "languages": [
+      {
+        "name": "Romanian",
+        "iso639_1": "ro",
+        "iso639_2": "ron",
+        "nativeName": "Română"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "MD",
+    "alpha3Code": "MDA",
+    "nativeName": "Moldova",
+    "population": 2617820,
+    "independent": true,
+    "populationDensity": 77.35
+  },
+  {
+    "area": 2.02,
+    "cioc": "MON",
+    "name": "Monaco",
+    "flag": "https://flagcdn.com/mc.svg",
+    "region": "Europe",
+    "capital": "Monaco",
+    "demonym": "Monegasque",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "MC",
+    "alpha3Code": "MCO",
+    "nativeName": "Monaco",
+    "population": 39244,
+    "independent": true,
+    "populationDensity": 19427.72
+  },
+  {
+    "area": 1564110,
+    "cioc": "MGL",
+    "name": "Mongolia",
+    "flag": "https://flagcdn.com/mn.svg",
+    "region": "Asia",
+    "capital": "Ulan Bator",
+    "demonym": "Mongolian",
+    "languages": [
+      {
+        "name": "Mongolian",
+        "iso639_1": "mn",
+        "iso639_2": "mon",
+        "nativeName": "Монгол хэл"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00"
+    ],
+    "alpha2Code": "MN",
+    "alpha3Code": "MNG",
+    "nativeName": "Монгол улс",
+    "population": 3278292,
+    "independent": true,
+    "populationDensity": 2.1
+  },
+  {
+    "area": 13812,
+    "cioc": "MNE",
+    "name": "Montenegro",
+    "flag": "https://flagcdn.com/me.svg",
+    "region": "Europe",
+    "capital": "Podgorica",
+    "demonym": "Montenegrin",
+    "languages": [
+      {
+        "name": "Serbian",
+        "iso639_1": "sr",
+        "iso639_2": "srp",
+        "nativeName": "српски језик"
+      },
+      {
+        "name": "Bosnian",
+        "iso639_1": "bs",
+        "iso639_2": "bos",
+        "nativeName": "bosanski jezik"
+      },
+      {
+        "name": "Albanian",
+        "iso639_1": "sq",
+        "iso639_2": "sqi",
+        "nativeName": "Shqip"
+      },
+      {
+        "name": "Croatian",
+        "iso639_1": "hr",
+        "iso639_2": "hrv",
+        "nativeName": "hrvatski jezik"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "ME",
+    "alpha3Code": "MNE",
+    "nativeName": "Црна Гора",
+    "population": 621718,
+    "independent": true,
+    "populationDensity": 45.01
+  },
+  {
+    "area": 102,
+    "cioc": null,
+    "name": "Montserrat",
+    "flag": "https://flagcdn.com/ms.svg",
+    "region": "Americas",
+    "capital": "Plymouth",
+    "demonym": "Montserratian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "MS",
+    "alpha3Code": "MSR",
+    "nativeName": "Montserrat",
+    "population": 4922,
+    "independent": false,
+    "populationDensity": 48.25
+  },
+  {
+    "area": 446550,
+    "cioc": "MAR",
+    "name": "Morocco",
+    "flag": "https://flagcdn.com/ma.svg",
+    "region": "Africa",
+    "capital": "Rabat",
+    "demonym": "Moroccan",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "MA",
+    "alpha3Code": "MAR",
+    "nativeName": "المغرب",
+    "population": 36910558,
+    "independent": true,
+    "populationDensity": 82.66
+  },
+  {
+    "area": 801590,
+    "cioc": "MOZ",
+    "name": "Mozambique",
+    "flag": "https://flagcdn.com/mz.svg",
+    "region": "Africa",
+    "capital": "Maputo",
+    "demonym": "Mozambican",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "MZ",
+    "alpha3Code": "MOZ",
+    "nativeName": "Moçambique",
+    "population": 31255435,
+    "independent": true,
+    "populationDensity": 38.99
+  },
+  {
+    "area": 676578,
+    "cioc": "MYA",
+    "name": "Myanmar",
+    "flag": "https://flagcdn.com/mm.svg",
+    "region": "Asia",
+    "capital": "Naypyidaw",
+    "demonym": "Burmese",
+    "languages": [
+      {
+        "name": "Burmese",
+        "iso639_1": "my",
+        "iso639_2": "mya",
+        "nativeName": "ဗမာစာ"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+06:30"
+    ],
+    "alpha2Code": "MM",
+    "alpha3Code": "MMR",
+    "nativeName": "Myanma",
+    "population": 54409794,
+    "independent": true,
+    "populationDensity": 80.42
+  },
+  {
+    "area": 825615,
+    "cioc": "NAM",
+    "name": "Namibia",
+    "flag": "https://flagcdn.com/na.svg",
+    "region": "Africa",
+    "capital": "Windhoek",
+    "demonym": "Namibian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Afrikaans",
+        "iso639_1": "af",
+        "iso639_2": "afr",
+        "nativeName": "Afrikaans"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "NA",
+    "alpha3Code": "NAM",
+    "nativeName": "Namibia",
+    "population": 2540916,
+    "independent": true,
+    "populationDensity": 3.08
+  },
+  {
+    "area": 21,
+    "cioc": "NRU",
+    "name": "Nauru",
+    "flag": "https://flagcdn.com/nr.svg",
+    "region": "Oceania",
+    "capital": "Yaren",
+    "demonym": "Nauruan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Nauruan",
+        "iso639_1": "na",
+        "iso639_2": "nau",
+        "nativeName": "Dorerin Naoero"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "alpha2Code": "NR",
+    "alpha3Code": "NRU",
+    "nativeName": "Nauru",
+    "population": 10834,
+    "independent": true,
+    "populationDensity": 515.9
+  },
+  {
+    "area": 147181,
+    "cioc": "NEP",
+    "name": "Nepal",
+    "flag": "https://flagcdn.com/np.svg",
+    "region": "Asia",
+    "capital": "Kathmandu",
+    "demonym": "Nepalese",
+    "languages": [
+      {
+        "name": "Nepali",
+        "iso639_1": "ne",
+        "iso639_2": "nep",
+        "nativeName": "नेपाली"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+05:45"
+    ],
+    "alpha2Code": "NP",
+    "alpha3Code": "NPL",
+    "nativeName": "नेपाल",
+    "population": 29136808,
+    "independent": true,
+    "populationDensity": 197.97
+  },
+  {
+    "area": 41850,
+    "cioc": "NED",
+    "name": "Netherlands",
+    "flag": "https://flagcdn.com/nl.svg",
+    "region": "Europe",
+    "capital": "Amsterdam",
+    "demonym": "Dutch",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      }
+    ],
+    "subregion": "Western Europe",
+    "timezones": [
+      "UTC-04:00",
+      "UTC+01:00"
+    ],
+    "alpha2Code": "NL",
+    "alpha3Code": "NLD",
+    "nativeName": "Nederland",
+    "population": 17441139,
+    "independent": true,
+    "populationDensity": 416.75
+  },
+  {
+    "area": 18575,
+    "cioc": null,
+    "name": "New Caledonia",
+    "flag": "https://flagcdn.com/nc.svg",
+    "region": "Oceania",
+    "capital": "Nouméa",
+    "demonym": "New Caledonian",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Melanesia",
+    "timezones": [
+      "UTC+11:00"
+    ],
+    "alpha2Code": "NC",
+    "alpha3Code": "NCL",
+    "nativeName": "Nouvelle-Calédonie",
+    "population": 271960,
+    "independent": false,
+    "populationDensity": 14.64
+  },
+  {
+    "area": 270467,
+    "cioc": "NZL",
+    "name": "New Zealand",
+    "flag": "https://flagcdn.com/nz.svg",
+    "region": "Oceania",
+    "capital": "Wellington",
+    "demonym": "New Zealander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Māori",
+        "iso639_1": "mi",
+        "iso639_2": "mri",
+        "nativeName": "te reo Māori"
+      }
+    ],
+    "subregion": "Australia and New Zealand",
+    "timezones": [
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC+12:00",
+      "UTC+12:45",
+      "UTC+13:00"
+    ],
+    "alpha2Code": "NZ",
+    "alpha3Code": "NZL",
+    "nativeName": "New Zealand",
+    "population": 5084300,
+    "independent": true,
+    "populationDensity": 18.8
+  },
+  {
+    "area": 130373,
+    "cioc": "NCA",
+    "name": "Nicaragua",
+    "flag": "https://flagcdn.com/ni.svg",
+    "region": "Americas",
+    "capital": "Managua",
+    "demonym": "Nicaraguan",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-06:00"
+    ],
+    "alpha2Code": "NI",
+    "alpha3Code": "NIC",
+    "nativeName": "Nicaragua",
+    "population": 6624554,
+    "independent": true,
+    "populationDensity": 50.81
+  },
+  {
+    "area": 1267000,
+    "cioc": "NIG",
+    "name": "Niger",
+    "flag": "https://flagcdn.com/ne.svg",
+    "region": "Africa",
+    "capital": "Niamey",
+    "demonym": "Nigerien",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "NE",
+    "alpha3Code": "NER",
+    "nativeName": "Niger",
+    "population": 24206636,
+    "independent": true,
+    "populationDensity": 19.11
+  },
+  {
+    "area": 923768,
+    "cioc": "NGR",
+    "name": "Nigeria",
+    "flag": "https://flagcdn.com/ng.svg",
+    "region": "Africa",
+    "capital": "Abuja",
+    "demonym": "Nigerian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "NG",
+    "alpha3Code": "NGA",
+    "nativeName": "Nigeria",
+    "population": 206139587,
+    "independent": true,
+    "populationDensity": 223.15
+  },
+  {
+    "area": 260,
+    "cioc": null,
+    "name": "Niue",
+    "flag": "https://flagcdn.com/nu.svg",
+    "region": "Oceania",
+    "capital": "Alofi",
+    "demonym": "Niuean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC-11:00"
+    ],
+    "alpha2Code": "NU",
+    "alpha3Code": "NIU",
+    "nativeName": "Niuē",
+    "population": 1470,
+    "independent": true,
+    "populationDensity": 5.65
+  },
+  {
+    "area": 36,
+    "cioc": null,
+    "name": "Norfolk Island",
+    "flag": "https://flagcdn.com/nf.svg",
+    "region": "Oceania",
+    "capital": "Kingston",
+    "demonym": "Norfolk Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Australia and New Zealand",
+    "timezones": [
+      "UTC+11:30"
+    ],
+    "alpha2Code": "NF",
+    "alpha3Code": "NFK",
+    "nativeName": "Norfolk Island",
+    "population": 2302,
+    "independent": false,
+    "populationDensity": 63.94
+  },
+  {
+    "area": 120538,
+    "cioc": "PRK",
+    "name": "Korea (Democratic People's Republic of)",
+    "flag": "https://flagcdn.com/kp.svg",
+    "region": "Asia",
+    "capital": "Pyongyang",
+    "demonym": "North Korean",
+    "languages": [
+      {
+        "name": "Korean",
+        "iso639_1": "ko",
+        "iso639_2": "kor",
+        "nativeName": "한국어"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "alpha2Code": "KP",
+    "alpha3Code": "PRK",
+    "nativeName": "북한",
+    "population": 25778815,
+    "independent": true,
+    "populationDensity": 213.86
+  },
+  {
+    "area": 464,
+    "cioc": null,
+    "name": "Northern Mariana Islands",
+    "flag": "https://flagcdn.com/mp.svg",
+    "region": "Oceania",
+    "capital": "Saipan",
+    "demonym": "American",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Chamorro",
+        "iso639_1": "ch",
+        "iso639_2": "cha",
+        "nativeName": "Chamoru"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+10:00"
+    ],
+    "alpha2Code": "MP",
+    "alpha3Code": "MNP",
+    "nativeName": "Northern Mariana Islands",
+    "population": 57557,
+    "independent": false,
+    "populationDensity": 124.05
+  },
+  {
+    "area": 323802,
+    "cioc": "NOR",
+    "name": "Norway",
+    "flag": "https://flagcdn.com/no.svg",
+    "region": "Europe",
+    "capital": "Oslo",
+    "demonym": "Norwegian",
+    "languages": [
+      {
+        "name": "Norwegian",
+        "iso639_1": "no",
+        "iso639_2": "nor",
+        "nativeName": "Norsk"
+      },
+      {
+        "name": "Norwegian Bokmål",
+        "iso639_1": "nb",
+        "iso639_2": "nob",
+        "nativeName": "Norsk bokmål"
+      },
+      {
+        "name": "Norwegian Nynorsk",
+        "iso639_1": "nn",
+        "iso639_2": "nno",
+        "nativeName": "Norsk nynorsk"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "NO",
+    "alpha3Code": "NOR",
+    "nativeName": "Norge",
+    "population": 5379475,
+    "independent": true,
+    "populationDensity": 16.61
+  },
+  {
+    "area": 309500,
+    "cioc": "OMA",
+    "name": "Oman",
+    "flag": "https://flagcdn.com/om.svg",
+    "region": "Asia",
+    "capital": "Muscat",
+    "demonym": "Omani",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "OM",
+    "alpha3Code": "OMN",
+    "nativeName": "عمان",
+    "population": 5106622,
+    "independent": true,
+    "populationDensity": 16.5
+  },
+  {
+    "area": 881912,
+    "cioc": "PAK",
+    "name": "Pakistan",
+    "flag": "https://flagcdn.com/pk.svg",
+    "region": "Asia",
+    "capital": "Islamabad",
+    "demonym": "Pakistani",
+    "languages": [
+      {
+        "name": "Urdu",
+        "iso639_1": "ur",
+        "iso639_2": "urd",
+        "nativeName": "اردو"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "PK",
+    "alpha3Code": "PAK",
+    "nativeName": "Pakistan",
+    "population": 220892331,
+    "independent": true,
+    "populationDensity": 250.47
+  },
+  {
+    "area": 459,
+    "cioc": "PLW",
+    "name": "Palau",
+    "flag": "https://flagcdn.com/pw.svg",
+    "region": "Oceania",
+    "capital": "Ngerulmud",
+    "demonym": "Palauan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Micronesia",
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "alpha2Code": "PW",
+    "alpha3Code": "PLW",
+    "nativeName": "Palau",
+    "population": 18092,
+    "independent": true,
+    "populationDensity": 39.42
+  },
+  {
+    "area": null,
+    "cioc": "PLE",
+    "name": "Palestine, State of",
+    "flag": "https://flagcdn.com/ps.svg",
+    "region": "Asia",
+    "capital": "Ramallah",
+    "demonym": "Palestinian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "PS",
+    "alpha3Code": "PSE",
+    "nativeName": "فلسطين",
+    "population": 4803269,
+    "independent": true,
+    "populationDensity": null
+  },
+  {
+    "area": 75417,
+    "cioc": "PAN",
+    "name": "Panama",
+    "flag": "https://flagcdn.com/pa.svg",
+    "region": "Americas",
+    "capital": "Panama City",
+    "demonym": "Panamanian",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Central America",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "PA",
+    "alpha3Code": "PAN",
+    "nativeName": "Panamá",
+    "population": 4314768,
+    "independent": true,
+    "populationDensity": 57.21
+  },
+  {
+    "area": 462840,
+    "cioc": "PNG",
+    "name": "Papua New Guinea",
+    "flag": "https://flagcdn.com/pg.svg",
+    "region": "Oceania",
+    "capital": "Port Moresby",
+    "demonym": "Papua New Guinean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Melanesia",
+    "timezones": [
+      "UTC+10:00"
+    ],
+    "alpha2Code": "PG",
+    "alpha3Code": "PNG",
+    "nativeName": "Papua Niugini",
+    "population": 8947027,
+    "independent": true,
+    "populationDensity": 19.33
+  },
+  {
+    "area": 406752,
+    "cioc": "PAR",
+    "name": "Paraguay",
+    "flag": "https://flagcdn.com/py.svg",
+    "region": "Americas",
+    "capital": "Asunción",
+    "demonym": "Paraguayan",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      },
+      {
+        "name": "Guaraní",
+        "iso639_1": "gn",
+        "iso639_2": "grn",
+        "nativeName": "Avañe'ẽ"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "PY",
+    "alpha3Code": "PRY",
+    "nativeName": "Paraguay",
+    "population": 7132530,
+    "independent": true,
+    "populationDensity": 17.54
+  },
+  {
+    "area": 1285216,
+    "cioc": "PER",
+    "name": "Peru",
+    "flag": "https://flagcdn.com/pe.svg",
+    "region": "Americas",
+    "capital": "Lima",
+    "demonym": "Peruvian",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-05:00"
+    ],
+    "alpha2Code": "PE",
+    "alpha3Code": "PER",
+    "nativeName": "Perú",
+    "population": 32971846,
+    "independent": true,
+    "populationDensity": 25.65
+  },
+  {
+    "area": 342353,
+    "cioc": "PHI",
+    "name": "Philippines",
+    "flag": "https://flagcdn.com/ph.svg",
+    "region": "Asia",
+    "capital": "Manila",
+    "demonym": "Filipino",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "PH",
+    "alpha3Code": "PHL",
+    "nativeName": "Pilipinas",
+    "population": 109581085,
+    "independent": true,
+    "populationDensity": 320.08
+  },
+  {
+    "area": 47,
+    "cioc": null,
+    "name": "Pitcairn",
+    "flag": "https://flagcdn.com/pn.svg",
+    "region": "Oceania",
+    "capital": "Adamstown",
+    "demonym": "Pitcairn Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC-08:00"
+    ],
+    "alpha2Code": "PN",
+    "alpha3Code": "PCN",
+    "nativeName": "Pitcairn Islands",
+    "population": 56,
+    "independent": true,
+    "populationDensity": 1.19
+  },
+  {
+    "area": 312679,
+    "cioc": "POL",
+    "name": "Poland",
+    "flag": "https://flagcdn.com/pl.svg",
+    "region": "Europe",
+    "capital": "Warsaw",
+    "demonym": "Polish",
+    "languages": [
+      {
+        "name": "Polish",
+        "iso639_1": "pl",
+        "iso639_2": "pol",
+        "nativeName": "język polski"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "PL",
+    "alpha3Code": "POL",
+    "nativeName": "Polska",
+    "population": 37950802,
+    "independent": true,
+    "populationDensity": 121.37
+  },
+  {
+    "area": 92090,
+    "cioc": "POR",
+    "name": "Portugal",
+    "flag": "https://flagcdn.com/pt.svg",
+    "region": "Europe",
+    "capital": "Lisbon",
+    "demonym": "Portuguese",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "nativeName": "Portugal",
+    "population": 10305564,
+    "independent": true,
+    "populationDensity": 111.91
+  },
+  {
+    "area": 8870,
+    "cioc": "PUR",
+    "name": "Puerto Rico",
+    "flag": "https://flagcdn.com/pr.svg",
+    "region": "Americas",
+    "capital": "San Juan",
+    "demonym": "Puerto Rican",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "PR",
+    "alpha3Code": "PRI",
+    "nativeName": "Puerto Rico",
+    "population": 3194034,
+    "independent": false,
+    "populationDensity": 360.09
+  },
+  {
+    "area": 11586,
+    "cioc": "QAT",
+    "name": "Qatar",
+    "flag": "https://flagcdn.com/qa.svg",
+    "region": "Asia",
+    "capital": "Doha",
+    "demonym": "Qatari",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "QA",
+    "alpha3Code": "QAT",
+    "nativeName": "قطر",
+    "population": 2881060,
+    "independent": true,
+    "populationDensity": 248.67
+  },
+  {
+    "area": 10908,
+    "cioc": null,
+    "name": "Republic of Kosovo",
+    "flag": "https://flagcdn.com/xk.svg",
+    "region": "Europe",
+    "capital": "Pristina",
+    "demonym": "Kosovar",
+    "languages": [
+      {
+        "name": "Albanian",
+        "iso639_1": "sq",
+        "iso639_2": "sqi",
+        "nativeName": "Shqip"
+      },
+      {
+        "name": "Serbian",
+        "iso639_1": "sr",
+        "iso639_2": "srp",
+        "nativeName": "српски језик"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "XK",
+    "alpha3Code": "UNK",
+    "nativeName": "Republika e Kosovës",
+    "population": 1775378,
+    "independent": true,
+    "populationDensity": 162.76
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Réunion",
+    "flag": "https://flagcdn.com/re.svg",
+    "region": "Africa",
+    "capital": "Saint-Denis",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "RE",
+    "alpha3Code": "REU",
+    "nativeName": "La Réunion",
+    "population": 840974,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 238391,
+    "cioc": "ROU",
+    "name": "Romania",
+    "flag": "https://flagcdn.com/ro.svg",
+    "region": "Europe",
+    "capital": "Bucharest",
+    "demonym": "Romanian",
+    "languages": [
+      {
+        "name": "Romanian",
+        "iso639_1": "ro",
+        "iso639_2": "ron",
+        "nativeName": "Română"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "RO",
+    "alpha3Code": "ROU",
+    "nativeName": "România",
+    "population": 19286123,
+    "independent": true,
+    "populationDensity": 80.9
+  },
+  {
+    "area": 17124442,
+    "cioc": "RUS",
+    "name": "Russian Federation",
+    "flag": "https://flagcdn.com/ru.svg",
+    "region": "Europe",
+    "capital": "Moscow",
+    "demonym": "Russian",
+    "languages": [
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+06:00",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    "alpha2Code": "RU",
+    "alpha3Code": "RUS",
+    "nativeName": "Россия",
+    "population": 144104080,
+    "independent": true,
+    "populationDensity": 8.42
+  },
+  {
+    "area": 26338,
+    "cioc": "RWA",
+    "name": "Rwanda",
+    "flag": "https://flagcdn.com/rw.svg",
+    "region": "Africa",
+    "capital": "Kigali",
+    "demonym": "Rwandan",
+    "languages": [
+      {
+        "name": "Kinyarwanda",
+        "iso639_1": "rw",
+        "iso639_2": "kin",
+        "nativeName": "Ikinyarwanda"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "RW",
+    "alpha3Code": "RWA",
+    "nativeName": "Rwanda",
+    "population": 12952209,
+    "independent": true,
+    "populationDensity": 491.77
+  },
+  {
+    "area": 21,
+    "cioc": null,
+    "name": "Saint Barthélemy",
+    "flag": "https://flagcdn.com/bl.svg",
+    "region": "Americas",
+    "capital": "Gustavia",
+    "demonym": "Saint Barthélemy Islander",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "BL",
+    "alpha3Code": "BLM",
+    "nativeName": "Saint-Barthélemy",
+    "population": 9417,
+    "independent": false,
+    "populationDensity": 448.43
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "flag": "https://flagcdn.com/sh.svg",
+    "region": "Africa",
+    "capital": "Jamestown",
+    "demonym": "Saint Helenian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "SH",
+    "alpha3Code": "SHN",
+    "nativeName": "Saint Helena",
+    "population": 4255,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 261,
+    "cioc": "SKN",
+    "name": "Saint Kitts and Nevis",
+    "flag": "https://flagcdn.com/kn.svg",
+    "region": "Americas",
+    "capital": "Basseterre",
+    "demonym": "Kittian and Nevisian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "KN",
+    "alpha3Code": "KNA",
+    "nativeName": "Saint Kitts and Nevis",
+    "population": 53192,
+    "independent": true,
+    "populationDensity": 203.8
+  },
+  {
+    "area": 616,
+    "cioc": "LCA",
+    "name": "Saint Lucia",
+    "flag": "https://flagcdn.com/lc.svg",
+    "region": "Americas",
+    "capital": "Castries",
+    "demonym": "Saint Lucian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "LC",
+    "alpha3Code": "LCA",
+    "nativeName": "Saint Lucia",
+    "population": 183629,
+    "independent": true,
+    "populationDensity": 298.1
+  },
+  {
+    "area": 53,
+    "cioc": null,
+    "name": "Saint Martin (French part)",
+    "flag": "https://flagcdn.com/mf.svg",
+    "region": "Americas",
+    "capital": "Marigot",
+    "demonym": "Saint Martin Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "MF",
+    "alpha3Code": "MAF",
+    "nativeName": "Saint-Martin",
+    "population": 38659,
+    "independent": false,
+    "populationDensity": 729.42
+  },
+  {
+    "area": 242,
+    "cioc": null,
+    "name": "Saint Pierre and Miquelon",
+    "flag": "https://flagcdn.com/pm.svg",
+    "region": "Americas",
+    "capital": "Saint-Pierre",
+    "demonym": "French",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "alpha2Code": "PM",
+    "alpha3Code": "SPM",
+    "nativeName": "Saint-Pierre-et-Miquelon",
+    "population": 6069,
+    "independent": false,
+    "populationDensity": 25.08
+  },
+  {
+    "area": 389,
+    "cioc": "VIN",
+    "name": "Saint Vincent and the Grenadines",
+    "flag": "https://flagcdn.com/vc.svg",
+    "region": "Americas",
+    "capital": "Kingstown",
+    "demonym": "Saint Vincentian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "VC",
+    "alpha3Code": "VCT",
+    "nativeName": "Saint Vincent and the Grenadines",
+    "population": 110947,
+    "independent": true,
+    "populationDensity": 285.21
+  },
+  {
+    "area": 2842,
+    "cioc": "SAM",
+    "name": "Samoa",
+    "flag": "https://flagcdn.com/ws.svg",
+    "region": "Oceania",
+    "capital": "Apia",
+    "demonym": "Samoan",
+    "languages": [
+      {
+        "name": "Samoan",
+        "iso639_1": "sm",
+        "iso639_2": "smo",
+        "nativeName": "gagana fa'a Samoa"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC+13:00"
+    ],
+    "alpha2Code": "WS",
+    "alpha3Code": "WSM",
+    "nativeName": "Samoa",
+    "population": 198410,
+    "independent": true,
+    "populationDensity": 69.81
+  },
+  {
+    "area": 61,
+    "cioc": "SMR",
+    "name": "San Marino",
+    "flag": "https://flagcdn.com/sm.svg",
+    "region": "Europe",
+    "capital": "City of San Marino",
+    "demonym": "Sammarinese",
+    "languages": [
+      {
+        "name": "Italian",
+        "iso639_1": "it",
+        "iso639_2": "ita",
+        "nativeName": "Italiano"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "SM",
+    "alpha3Code": "SMR",
+    "nativeName": "San Marino",
+    "population": 33938,
+    "independent": true,
+    "populationDensity": 556.36
+  },
+  {
+    "area": 964,
+    "cioc": "STP",
+    "name": "Sao Tome and Principe",
+    "flag": "https://flagcdn.com/st.svg",
+    "region": "Africa",
+    "capital": "São Tomé",
+    "demonym": "Sao Tomean",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "ST",
+    "alpha3Code": "STP",
+    "nativeName": "São Tomé e Príncipe",
+    "population": 219161,
+    "independent": true,
+    "populationDensity": 227.35
+  },
+  {
+    "area": 2149690,
+    "cioc": "KSA",
+    "name": "Saudi Arabia",
+    "flag": "https://flagcdn.com/sa.svg",
+    "region": "Asia",
+    "capital": "Riyadh",
+    "demonym": "Saudi Arabian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "SA",
+    "alpha3Code": "SAU",
+    "nativeName": "العربية السعودية",
+    "population": 34813867,
+    "independent": true,
+    "populationDensity": 16.19
+  },
+  {
+    "area": 710,
+    "cioc": "SIN",
+    "name": "Singapore",
+    "flag": "https://flagcdn.com/sg.svg",
+    "region": "Asia",
+    "capital": "Singapore",
+    "demonym": "Singaporean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Malay",
+        "iso639_1": "ms",
+        "iso639_2": "msa",
+        "nativeName": "bahasa Melayu"
+      },
+      {
+        "name": "Tamil",
+        "iso639_1": "ta",
+        "iso639_2": "tam",
+        "nativeName": "தமிழ்"
+      },
+      {
+        "name": "Chinese",
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "SG",
+    "alpha3Code": "SGP",
+    "nativeName": "Singapore",
+    "population": 5685807,
+    "independent": true,
+    "populationDensity": 8008.18
+  },
+  {
+    "area": 196722,
+    "cioc": "SEN",
+    "name": "Senegal",
+    "flag": "https://flagcdn.com/sn.svg",
+    "region": "Africa",
+    "capital": "Dakar",
+    "demonym": "Senegalese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "SN",
+    "alpha3Code": "SEN",
+    "nativeName": "Sénégal",
+    "population": 16743930,
+    "independent": true,
+    "populationDensity": 85.11
+  },
+  {
+    "area": 88361,
+    "cioc": "SRB",
+    "name": "Serbia",
+    "flag": "https://flagcdn.com/rs.svg",
+    "region": "Europe",
+    "capital": "Belgrade",
+    "demonym": "Serbian",
+    "languages": [
+      {
+        "name": "Serbian",
+        "iso639_1": "sr",
+        "iso639_2": "srp",
+        "nativeName": "српски језик"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "RS",
+    "alpha3Code": "SRB",
+    "nativeName": "Србија",
+    "population": 6908224,
+    "independent": true,
+    "populationDensity": 78.18
+  },
+  {
+    "area": 452,
+    "cioc": "SEY",
+    "name": "Seychelles",
+    "flag": "https://flagcdn.com/sc.svg",
+    "region": "Africa",
+    "capital": "Victoria",
+    "demonym": "Seychellois",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "SC",
+    "alpha3Code": "SYC",
+    "nativeName": "Seychelles",
+    "population": 98462,
+    "independent": true,
+    "populationDensity": 217.84
+  },
+  {
+    "area": 71740,
+    "cioc": "SLE",
+    "name": "Sierra Leone",
+    "flag": "https://flagcdn.com/sl.svg",
+    "region": "Africa",
+    "capital": "Freetown",
+    "demonym": "Sierra Leonean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "SL",
+    "alpha3Code": "SLE",
+    "nativeName": "Sierra Leone",
+    "population": 7976985,
+    "independent": true,
+    "populationDensity": 111.19
+  },
+  {
+    "area": 34,
+    "cioc": null,
+    "name": "Sint Maarten (Dutch part)",
+    "flag": "https://flagcdn.com/sx.svg",
+    "region": "Americas",
+    "capital": "Philipsburg",
+    "demonym": "Dutch",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "SX",
+    "alpha3Code": "SXM",
+    "nativeName": "Sint Maarten",
+    "population": 40812,
+    "independent": false,
+    "populationDensity": 1200.35
+  },
+  {
+    "area": 49037,
+    "cioc": "SVK",
+    "name": "Slovakia",
+    "flag": "https://flagcdn.com/sk.svg",
+    "region": "Europe",
+    "capital": "Bratislava",
+    "demonym": "Slovak",
+    "languages": [
+      {
+        "name": "Slovak",
+        "iso639_1": "sk",
+        "iso639_2": "slk",
+        "nativeName": "slovenčina"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "SK",
+    "alpha3Code": "SVK",
+    "nativeName": "Slovensko",
+    "population": 5458827,
+    "independent": true,
+    "populationDensity": 111.32
+  },
+  {
+    "area": 20273,
+    "cioc": "SLO",
+    "name": "Slovenia",
+    "flag": "https://flagcdn.com/si.svg",
+    "region": "Europe",
+    "capital": "Ljubljana",
+    "demonym": "Slovene",
+    "languages": [
+      {
+        "name": "Slovene",
+        "iso639_1": "sl",
+        "iso639_2": "slv",
+        "nativeName": "slovenski jezik"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "SI",
+    "alpha3Code": "SVN",
+    "nativeName": "Slovenija",
+    "population": 2100126,
+    "independent": true,
+    "populationDensity": 103.59
+  },
+  {
+    "area": 28896,
+    "cioc": "SOL",
+    "name": "Solomon Islands",
+    "flag": "https://flagcdn.com/sb.svg",
+    "region": "Oceania",
+    "capital": "Honiara",
+    "demonym": "Solomon Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Melanesia",
+    "timezones": [
+      "UTC+11:00"
+    ],
+    "alpha2Code": "SB",
+    "alpha3Code": "SLB",
+    "nativeName": "Solomon Islands",
+    "population": 686878,
+    "independent": true,
+    "populationDensity": 23.77
+  },
+  {
+    "area": 637657,
+    "cioc": "SOM",
+    "name": "Somalia",
+    "flag": "https://flagcdn.com/so.svg",
+    "region": "Africa",
+    "capital": "Mogadishu",
+    "demonym": "Somali",
+    "languages": [
+      {
+        "name": "Somali",
+        "iso639_1": "so",
+        "iso639_2": "som",
+        "nativeName": "Soomaaliga"
+      },
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "SO",
+    "alpha3Code": "SOM",
+    "nativeName": "Soomaaliya",
+    "population": 15893219,
+    "independent": true,
+    "populationDensity": 24.92
+  },
+  {
+    "area": 1221037,
+    "cioc": "RSA",
+    "name": "South Africa",
+    "flag": "https://flagcdn.com/za.svg",
+    "region": "Africa",
+    "capital": "Pretoria",
+    "demonym": "South African",
+    "languages": [
+      {
+        "name": "Afrikaans",
+        "iso639_1": "af",
+        "iso639_2": "afr",
+        "nativeName": "Afrikaans"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Southern Ndebele",
+        "iso639_1": "nr",
+        "iso639_2": "nbl",
+        "nativeName": "isiNdebele"
+      },
+      {
+        "name": "Southern Sotho",
+        "iso639_1": "st",
+        "iso639_2": "sot",
+        "nativeName": "Sesotho"
+      },
+      {
+        "name": "Swati",
+        "iso639_1": "ss",
+        "iso639_2": "ssw",
+        "nativeName": "SiSwati"
+      },
+      {
+        "name": "Tswana",
+        "iso639_1": "tn",
+        "iso639_2": "tsn",
+        "nativeName": "Setswana"
+      },
+      {
+        "name": "Tsonga",
+        "iso639_1": "ts",
+        "iso639_2": "tso",
+        "nativeName": "Xitsonga"
+      },
+      {
+        "name": "Venda",
+        "iso639_1": "ve",
+        "iso639_2": "ven",
+        "nativeName": "Tshivenḓa"
+      },
+      {
+        "name": "Xhosa",
+        "iso639_1": "xh",
+        "iso639_2": "xho",
+        "nativeName": "isiXhosa"
+      },
+      {
+        "name": "Zulu",
+        "iso639_1": "zu",
+        "iso639_2": "zul",
+        "nativeName": "isiZulu"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "ZA",
+    "alpha3Code": "ZAF",
+    "nativeName": "South Africa",
+    "population": 59308690,
+    "independent": true,
+    "populationDensity": 48.57
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "South Georgia and the South Sandwich Islands",
+    "flag": "https://flagcdn.com/gs.svg",
+    "region": "Americas",
+    "capital": "King Edward Point",
+    "demonym": "South Georgia and the South Sandwich Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-02:00"
+    ],
+    "alpha2Code": "GS",
+    "alpha3Code": "SGS",
+    "nativeName": "South Georgia",
+    "population": 30,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 100210,
+    "cioc": "KOR",
+    "name": "Korea (Republic of)",
+    "flag": "https://flagcdn.com/kr.svg",
+    "region": "Asia",
+    "capital": "Seoul",
+    "demonym": "South Korean",
+    "languages": [
+      {
+        "name": "Korean",
+        "iso639_1": "ko",
+        "iso639_2": "kor",
+        "nativeName": "한국어"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "alpha2Code": "KR",
+    "alpha3Code": "KOR",
+    "nativeName": "대한민국",
+    "population": 51780579,
+    "independent": true,
+    "populationDensity": 516.72
+  },
+  {
+    "area": 505992,
+    "cioc": "ESP",
+    "name": "Spain",
+    "flag": "https://flagcdn.com/es.svg",
+    "region": "Europe",
+    "capital": "Madrid",
+    "demonym": "Spanish",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Southern Europe",
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "nativeName": "España",
+    "population": 47351567,
+    "independent": true,
+    "populationDensity": 93.58
+  },
+  {
+    "area": 65610,
+    "cioc": "SRI",
+    "name": "Sri Lanka",
+    "flag": "https://flagcdn.com/lk.svg",
+    "region": "Asia",
+    "capital": "Sri Jayawardenepura Kotte",
+    "demonym": "Sri Lankan",
+    "languages": [
+      {
+        "name": "Sinhalese",
+        "iso639_1": "si",
+        "iso639_2": "sin",
+        "nativeName": "සිංහල"
+      },
+      {
+        "name": "Tamil",
+        "iso639_1": "ta",
+        "iso639_2": "tam",
+        "nativeName": "தமிழ்"
+      }
+    ],
+    "subregion": "Southern Asia",
+    "timezones": [
+      "UTC+05:30"
+    ],
+    "alpha2Code": "LK",
+    "alpha3Code": "LKA",
+    "nativeName": "śrī laṃkāva",
+    "population": 21919000,
+    "independent": true,
+    "populationDensity": 334.08
+  },
+  {
+    "area": 1886068,
+    "cioc": "SUD",
+    "name": "Sudan",
+    "flag": "https://flagcdn.com/sd.svg",
+    "region": "Africa",
+    "capital": "Khartoum",
+    "demonym": "Sudanese",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "SD",
+    "alpha3Code": "SDN",
+    "nativeName": "السودان",
+    "population": 43849269,
+    "independent": true,
+    "populationDensity": 23.25
+  },
+  {
+    "area": 619745,
+    "cioc": "SSD",
+    "name": "South Sudan",
+    "flag": "https://flagcdn.com/ss.svg",
+    "region": "Africa",
+    "capital": "Juba",
+    "demonym": "South Sudanese",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Middle Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "SS",
+    "alpha3Code": "SSD",
+    "nativeName": "South Sudan",
+    "population": 11193729,
+    "independent": true,
+    "populationDensity": 18.06
+  },
+  {
+    "area": 163820,
+    "cioc": "SUR",
+    "name": "Suriname",
+    "flag": "https://flagcdn.com/sr.svg",
+    "region": "Americas",
+    "capital": "Paramaribo",
+    "demonym": "Surinamer",
+    "languages": [
+      {
+        "name": "Dutch",
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "nativeName": "Nederlands"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "alpha2Code": "SR",
+    "alpha3Code": "SUR",
+    "nativeName": "Suriname",
+    "population": 586634,
+    "independent": true,
+    "populationDensity": 3.58
+  },
+  {
+    "area": null,
+    "cioc": null,
+    "name": "Svalbard and Jan Mayen",
+    "flag": "https://flagcdn.com/sj.svg",
+    "region": "Europe",
+    "capital": "Longyearbyen",
+    "demonym": "Norwegian",
+    "languages": [
+      {
+        "name": "Norwegian",
+        "iso639_1": "no",
+        "iso639_2": "nor",
+        "nativeName": "Norsk"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "SJ",
+    "alpha3Code": "SJM",
+    "nativeName": "Svalbard og Jan Mayen",
+    "population": 2562,
+    "independent": false,
+    "populationDensity": null
+  },
+  {
+    "area": 17364,
+    "cioc": "SWZ",
+    "name": "Swaziland",
+    "flag": "https://flagcdn.com/sz.svg",
+    "region": "Africa",
+    "capital": "Mbabane",
+    "demonym": "Swazi",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Swati",
+        "iso639_1": "ss",
+        "iso639_2": "ssw",
+        "nativeName": "SiSwati"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "SZ",
+    "alpha3Code": "SWZ",
+    "nativeName": "Swaziland",
+    "population": 1160164,
+    "independent": true,
+    "populationDensity": 66.81
+  },
+  {
+    "area": 450295,
+    "cioc": "SWE",
+    "name": "Sweden",
+    "flag": "https://flagcdn.com/se.svg",
+    "region": "Europe",
+    "capital": "Stockholm",
+    "demonym": "Swedish",
+    "languages": [
+      {
+        "name": "Swedish",
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "nativeName": "svenska"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "SE",
+    "alpha3Code": "SWE",
+    "nativeName": "Sverige",
+    "population": 10353442,
+    "independent": true,
+    "populationDensity": 22.99
+  },
+  {
+    "area": 41284,
+    "cioc": "SUI",
+    "name": "Switzerland",
+    "flag": "https://flagcdn.com/ch.svg",
+    "region": "Europe",
+    "capital": "Bern",
+    "demonym": "Swiss",
+    "languages": [
+      {
+        "name": "German",
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "nativeName": "Deutsch"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      },
+      {
+        "name": "Italian",
+        "iso639_1": "it",
+        "iso639_2": "ita",
+        "nativeName": "Italiano"
+      },
+      {
+        "name": "Romansh",
+        "iso639_2": "roh"
+      }
+    ],
+    "subregion": "Central Europe",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "CH",
+    "alpha3Code": "CHE",
+    "nativeName": "Schweiz",
+    "population": 8636896,
+    "independent": true,
+    "populationDensity": 209.21
+  },
+  {
+    "area": 185180,
+    "cioc": "SYR",
+    "name": "Syrian Arab Republic",
+    "flag": "https://flagcdn.com/sy.svg",
+    "region": "Asia",
+    "capital": "Damascus",
+    "demonym": "Syrian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "SY",
+    "alpha3Code": "SYR",
+    "nativeName": "سوريا",
+    "population": 17500657,
+    "independent": true,
+    "populationDensity": 94.51
+  },
+  {
+    "area": 36193,
+    "cioc": "TPE",
+    "name": "Taiwan",
+    "flag": "https://flagcdn.com/tw.svg",
+    "region": "Asia",
+    "capital": "Taipei",
+    "demonym": "Taiwanese",
+    "languages": [
+      {
+        "name": "Chinese",
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "subregion": "Eastern Asia",
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "alpha2Code": "TW",
+    "alpha3Code": "TWN",
+    "nativeName": "臺灣",
+    "population": 23503349,
+    "independent": true,
+    "populationDensity": 649.39
+  },
+  {
+    "area": 143100,
+    "cioc": "TJK",
+    "name": "Tajikistan",
+    "flag": "https://flagcdn.com/tj.svg",
+    "region": "Asia",
+    "capital": "Dushanbe",
+    "demonym": "Tadzhik",
+    "languages": [
+      {
+        "name": "Tajik",
+        "iso639_1": "tg",
+        "iso639_2": "tgk",
+        "nativeName": "тоҷикӣ"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Central Asia",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "TJ",
+    "alpha3Code": "TJK",
+    "nativeName": "Тоҷикистон",
+    "population": 9537642,
+    "independent": true,
+    "populationDensity": 66.65
+  },
+  {
+    "area": 945087,
+    "cioc": "TAN",
+    "name": "Tanzania, United Republic of",
+    "flag": "https://flagcdn.com/tz.svg",
+    "region": "Africa",
+    "capital": "Dodoma",
+    "demonym": "Tanzanian",
+    "languages": [
+      {
+        "name": "Swahili",
+        "iso639_1": "sw",
+        "iso639_2": "swa",
+        "nativeName": "Kiswahili"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "TZ",
+    "alpha3Code": "TZA",
+    "nativeName": "Tanzania",
+    "population": 59734213,
+    "independent": true,
+    "populationDensity": 63.2
+  },
+  {
+    "area": 513120,
+    "cioc": "THA",
+    "name": "Thailand",
+    "flag": "https://flagcdn.com/th.svg",
+    "region": "Asia",
+    "capital": "Bangkok",
+    "demonym": "Thai",
+    "languages": [
+      {
+        "name": "Thai",
+        "iso639_1": "th",
+        "iso639_2": "tha",
+        "nativeName": "ไทย"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "alpha2Code": "TH",
+    "alpha3Code": "THA",
+    "nativeName": "ประเทศไทย",
+    "population": 69799978,
+    "independent": true,
+    "populationDensity": 136.03
+  },
+  {
+    "area": 14874,
+    "cioc": "TLS",
+    "name": "Timor-Leste",
+    "flag": "https://flagcdn.com/tl.svg",
+    "region": "Asia",
+    "capital": "Dili",
+    "demonym": "East Timorese",
+    "languages": [
+      {
+        "name": "Portuguese",
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "nativeName": "Português"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+09:00"
+    ],
+    "alpha2Code": "TL",
+    "alpha3Code": "TLS",
+    "nativeName": "Timor-Leste",
+    "population": 1318442,
+    "independent": true,
+    "populationDensity": 88.64
+  },
+  {
+    "area": 56785,
+    "cioc": "TOG",
+    "name": "Togo",
+    "flag": "https://flagcdn.com/tg.svg",
+    "region": "Africa",
+    "capital": "Lomé",
+    "demonym": "Togolese",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Western Africa",
+    "timezones": [
+      "UTC"
+    ],
+    "alpha2Code": "TG",
+    "alpha3Code": "TGO",
+    "nativeName": "Togo",
+    "population": 8278737,
+    "independent": true,
+    "populationDensity": 145.79
+  },
+  {
+    "area": 12,
+    "cioc": null,
+    "name": "Tokelau",
+    "flag": "https://flagcdn.com/tk.svg",
+    "region": "Oceania",
+    "capital": "Fakaofo",
+    "demonym": "Tokelauan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC+13:00"
+    ],
+    "alpha2Code": "TK",
+    "alpha3Code": "TKL",
+    "nativeName": "Tokelau",
+    "population": 1411,
+    "independent": false,
+    "populationDensity": 117.58
+  },
+  {
+    "area": 747,
+    "cioc": "TGA",
+    "name": "Tonga",
+    "flag": "https://flagcdn.com/to.svg",
+    "region": "Oceania",
+    "capital": "Nuku'alofa",
+    "demonym": "Tongan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Tonga (Tonga Islands)",
+        "iso639_1": "to",
+        "iso639_2": "ton",
+        "nativeName": "faka Tonga"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC+13:00"
+    ],
+    "alpha2Code": "TO",
+    "alpha3Code": "TON",
+    "nativeName": "Tonga",
+    "population": 105697,
+    "independent": true,
+    "populationDensity": 141.5
+  },
+  {
+    "area": 5130,
+    "cioc": "TTO",
+    "name": "Trinidad and Tobago",
+    "flag": "https://flagcdn.com/tt.svg",
+    "region": "Americas",
+    "capital": "Port of Spain",
+    "demonym": "Trinidadian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "TT",
+    "alpha3Code": "TTO",
+    "nativeName": "Trinidad and Tobago",
+    "population": 1399491,
+    "independent": true,
+    "populationDensity": 272.81
+  },
+  {
+    "area": 163610,
+    "cioc": "TUN",
+    "name": "Tunisia",
+    "flag": "https://flagcdn.com/tn.svg",
+    "region": "Africa",
+    "capital": "Tunis",
+    "demonym": "Tunisian",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "alpha2Code": "TN",
+    "alpha3Code": "TUN",
+    "nativeName": "تونس",
+    "population": 11818618,
+    "independent": true,
+    "populationDensity": 72.24
+  },
+  {
+    "area": 783562,
+    "cioc": "TUR",
+    "name": "Turkey",
+    "flag": "https://flagcdn.com/tr.svg",
+    "region": "Asia",
+    "capital": "Ankara",
+    "demonym": "Turkish",
+    "languages": [
+      {
+        "name": "Turkish",
+        "iso639_1": "tr",
+        "iso639_2": "tur",
+        "nativeName": "Türkçe"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "TR",
+    "alpha3Code": "TUR",
+    "nativeName": "Türkiye",
+    "population": 84339067,
+    "independent": true,
+    "populationDensity": 107.64
+  },
+  {
+    "area": 488100,
+    "cioc": "TKM",
+    "name": "Turkmenistan",
+    "flag": "https://flagcdn.com/tm.svg",
+    "region": "Asia",
+    "capital": "Ashgabat",
+    "demonym": "Turkmen",
+    "languages": [
+      {
+        "name": "Turkmen",
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "nativeName": "Türkmen"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Central Asia",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "TM",
+    "alpha3Code": "TKM",
+    "nativeName": "Türkmenistan",
+    "population": 6031187,
+    "independent": true,
+    "populationDensity": 12.36
+  },
+  {
+    "area": 948,
+    "cioc": null,
+    "name": "Turks and Caicos Islands",
+    "flag": "https://flagcdn.com/tc.svg",
+    "region": "Americas",
+    "capital": "Cockburn Town",
+    "demonym": "Turks and Caicos Islander",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Caribbean",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "TC",
+    "alpha3Code": "TCA",
+    "nativeName": "Turks and Caicos Islands",
+    "population": 38718,
+    "independent": false,
+    "populationDensity": 40.84
+  },
+  {
+    "area": 26,
+    "cioc": "TUV",
+    "name": "Tuvalu",
+    "flag": "https://flagcdn.com/tv.svg",
+    "region": "Oceania",
+    "capital": "Funafuti",
+    "demonym": "Tuvaluan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "alpha2Code": "TV",
+    "alpha3Code": "TUV",
+    "nativeName": "Tuvalu",
+    "population": 11792,
+    "independent": true,
+    "populationDensity": 453.54
+  },
+  {
+    "area": 241550,
+    "cioc": "UGA",
+    "name": "Uganda",
+    "flag": "https://flagcdn.com/ug.svg",
+    "region": "Africa",
+    "capital": "Kampala",
+    "demonym": "Ugandan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Swahili",
+        "iso639_1": "sw",
+        "iso639_2": "swa",
+        "nativeName": "Kiswahili"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "UG",
+    "alpha3Code": "UGA",
+    "nativeName": "Uganda",
+    "population": 45741000,
+    "independent": true,
+    "populationDensity": 189.36
+  },
+  {
+    "area": 603700,
+    "cioc": "UKR",
+    "name": "Ukraine",
+    "flag": "https://flagcdn.com/ua.svg",
+    "region": "Europe",
+    "capital": "Kyiv",
+    "demonym": "Ukrainian",
+    "languages": [
+      {
+        "name": "Ukrainian",
+        "iso639_1": "uk",
+        "iso639_2": "ukr",
+        "nativeName": "Українська"
+      }
+    ],
+    "subregion": "Eastern Europe",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "UA",
+    "alpha3Code": "UKR",
+    "nativeName": "Україна",
+    "population": 44134693,
+    "independent": true,
+    "populationDensity": 73.11
+  },
+  {
+    "area": 83600,
+    "cioc": "UAE",
+    "name": "United Arab Emirates",
+    "flag": "https://flagcdn.com/ae.svg",
+    "region": "Asia",
+    "capital": "Abu Dhabi",
+    "demonym": "Emirati",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+04:00"
+    ],
+    "alpha2Code": "AE",
+    "alpha3Code": "ARE",
+    "nativeName": "دولة الإمارات العربية المتحدة",
+    "population": 9890400,
+    "independent": true,
+    "populationDensity": 118.31
+  },
+  {
+    "area": 242900,
+    "cioc": "GBR",
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "flag": "https://flagcdn.com/gb.svg",
+    "region": "Europe",
+    "capital": "London",
+    "demonym": "British",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern Europe",
+    "timezones": [
+      "UTC-08:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-02:00",
+      "UTC",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+06:00"
+    ],
+    "alpha2Code": "GB",
+    "alpha3Code": "GBR",
+    "nativeName": "United Kingdom",
+    "population": 67215293,
+    "independent": true,
+    "populationDensity": 276.72
+  },
+  {
+    "area": 9629091,
+    "cioc": "USA",
+    "name": "United States of America",
+    "flag": "https://flagcdn.com/us.svg",
+    "region": "Americas",
+    "capital": "Washington, D.C.",
+    "demonym": "American",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Northern America",
+    "timezones": [
+      "UTC-12:00",
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ],
+    "alpha2Code": "US",
+    "alpha3Code": "USA",
+    "nativeName": "United States",
+    "population": 329484123,
+    "independent": true,
+    "populationDensity": 34.22
+  },
+  {
+    "area": 181034,
+    "cioc": "URU",
+    "name": "Uruguay",
+    "flag": "https://flagcdn.com/uy.svg",
+    "region": "Americas",
+    "capital": "Montevideo",
+    "demonym": "Uruguayan",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "alpha2Code": "UY",
+    "alpha3Code": "URY",
+    "nativeName": "Uruguay",
+    "population": 3473727,
+    "independent": true,
+    "populationDensity": 19.19
+  },
+  {
+    "area": 447400,
+    "cioc": "UZB",
+    "name": "Uzbekistan",
+    "flag": "https://flagcdn.com/uz.svg",
+    "region": "Asia",
+    "capital": "Tashkent",
+    "demonym": "Uzbekistani",
+    "languages": [
+      {
+        "name": "Uzbek",
+        "iso639_1": "uz",
+        "iso639_2": "uzb",
+        "nativeName": "Oʻzbek"
+      },
+      {
+        "name": "Russian",
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "nativeName": "Русский"
+      }
+    ],
+    "subregion": "Central Asia",
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "alpha2Code": "UZ",
+    "alpha3Code": "UZB",
+    "nativeName": "O‘zbekiston",
+    "population": 34232050,
+    "independent": false,
+    "populationDensity": 76.51
+  },
+  {
+    "area": 12189,
+    "cioc": "VAN",
+    "name": "Vanuatu",
+    "flag": "https://flagcdn.com/vu.svg",
+    "region": "Oceania",
+    "capital": "Port Vila",
+    "demonym": "Ni-Vanuatu",
+    "languages": [
+      {
+        "name": "Bislama",
+        "iso639_1": "bi",
+        "iso639_2": "bis",
+        "nativeName": "Bislama"
+      },
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Melanesia",
+    "timezones": [
+      "UTC+11:00"
+    ],
+    "alpha2Code": "VU",
+    "alpha3Code": "VUT",
+    "nativeName": "Vanuatu",
+    "population": 307150,
+    "independent": true,
+    "populationDensity": 25.2
+  },
+  {
+    "area": 916445,
+    "cioc": "VEN",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "flag": "https://flagcdn.com/ve.svg",
+    "region": "Americas",
+    "capital": "Caracas",
+    "demonym": "Venezuelan",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "South America",
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "alpha2Code": "VE",
+    "alpha3Code": "VEN",
+    "nativeName": "Venezuela",
+    "population": 28435943,
+    "independent": true,
+    "populationDensity": 31.03
+  },
+  {
+    "area": 331212,
+    "cioc": "VIE",
+    "name": "Vietnam",
+    "flag": "https://flagcdn.com/vn.svg",
+    "region": "Asia",
+    "capital": "Hanoi",
+    "demonym": "Vietnamese",
+    "languages": [
+      {
+        "name": "Vietnamese",
+        "iso639_1": "vi",
+        "iso639_2": "vie",
+        "nativeName": "Tiếng Việt"
+      }
+    ],
+    "subregion": "South-Eastern Asia",
+    "timezones": [
+      "UTC+07:00"
+    ],
+    "alpha2Code": "VN",
+    "alpha3Code": "VNM",
+    "nativeName": "Việt Nam",
+    "population": 97338583,
+    "independent": true,
+    "populationDensity": 293.89
+  },
+  {
+    "area": 142,
+    "cioc": null,
+    "name": "Wallis and Futuna",
+    "flag": "https://flagcdn.com/wf.svg",
+    "region": "Oceania",
+    "capital": "Mata-Utu",
+    "demonym": "Wallis and Futuna Islander",
+    "languages": [
+      {
+        "name": "French",
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "nativeName": "français"
+      }
+    ],
+    "subregion": "Polynesia",
+    "timezones": [
+      "UTC+12:00"
+    ],
+    "alpha2Code": "WF",
+    "alpha3Code": "WLF",
+    "nativeName": "Wallis et Futuna",
+    "population": 11750,
+    "independent": false,
+    "populationDensity": 82.75
+  },
+  {
+    "area": 266000,
+    "cioc": null,
+    "name": "Western Sahara",
+    "flag": "https://flagcdn.com/eh.svg",
+    "region": "Africa",
+    "capital": "El Aaiún",
+    "demonym": "Sahrawi",
+    "languages": [
+      {
+        "name": "Spanish",
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "nativeName": "Español"
+      }
+    ],
+    "subregion": "Northern Africa",
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "alpha2Code": "EH",
+    "alpha3Code": "ESH",
+    "nativeName": "الصحراء الغربية",
+    "population": 510713,
+    "independent": false,
+    "populationDensity": 1.92
+  },
+  {
+    "area": 527968,
+    "cioc": "YEM",
+    "name": "Yemen",
+    "flag": "https://flagcdn.com/ye.svg",
+    "region": "Asia",
+    "capital": "Sana'a",
+    "demonym": "Yemeni",
+    "languages": [
+      {
+        "name": "Arabic",
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "nativeName": "العربية"
+      }
+    ],
+    "subregion": "Western Asia",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "YE",
+    "alpha3Code": "YEM",
+    "nativeName": "اليَمَن",
+    "population": 29825968,
+    "independent": true,
+    "populationDensity": 56.49
+  },
+  {
+    "area": 752618,
+    "cioc": "ZAM",
+    "name": "Zambia",
+    "flag": "https://flagcdn.com/zm.svg",
+    "region": "Africa",
+    "capital": "Lusaka",
+    "demonym": "Zambian",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "ZM",
+    "alpha3Code": "ZMB",
+    "nativeName": "Zambia",
+    "population": 18383956,
+    "independent": true,
+    "populationDensity": 24.43
+  },
+  {
+    "area": 390757,
+    "cioc": "ZIM",
+    "name": "Zimbabwe",
+    "flag": "https://flagcdn.com/zw.svg",
+    "region": "Africa",
+    "capital": "Harare",
+    "demonym": "Zimbabwean",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Shona",
+        "iso639_1": "sn",
+        "iso639_2": "sna",
+        "nativeName": "chiShona"
+      },
+      {
+        "name": "Northern Ndebele",
+        "iso639_1": "nd",
+        "iso639_2": "nde",
+        "nativeName": "isiNdebele"
+      }
+    ],
+    "subregion": "Southern Africa",
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "alpha2Code": "ZW",
+    "alpha3Code": "ZWE",
+    "nativeName": "Zimbabwe",
+    "population": 14862927,
+    "independent": true,
+    "populationDensity": 38.04
+  }
+]
