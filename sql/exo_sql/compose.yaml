@@ -1,15 +1,21 @@
 services:
   mariadb:
-    image: mariadb:10.11.11
+    image: mariadb:12.3
     environment:
       MARIADB_ROOT_PASSWORD: root
+      MARIADB_AUTO_UPGRADE: "1"
     ports:
       - 3306:3306
     volumes:
       - mariadb:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin:5.2
     environment:
       PMA_HOST: mariadb
       PMA_PORT: 3306
@@ -18,8 +24,8 @@ services:
     ports:
       - 8080:80
     depends_on:
-      - mariadb
+      mariadb:
+        condition: service_healthy
 
 volumes:
   mariadb:
-
