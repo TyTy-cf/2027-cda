@@ -17,6 +17,7 @@ export class CountrySelector {
 
         this._apiCountry = new ApiCountry();
         this.createInput();
+        this.showCountry();
     }
 
     private createInput(): void {
@@ -37,8 +38,9 @@ export class CountrySelector {
                 const country: ICountry = countries[indexCountry];
 
                 const liElement = document.createElement('li');
-                liElement.classList.add('w-100', 'd-flex', 'border', 'pe-auto');
+                liElement.classList.add('w-100', 'd-flex', 'border');
                 liElement.style.height = '4rem';
+                liElement.style.cursor = "pointer";
 
                 const imgElement = document.createElement('img');
                 imgElement.classList.add('img-fluid', 'border-end', 'w-25');
@@ -85,5 +87,17 @@ export class CountrySelector {
         searchContainer.appendChild(inputElement);
         searchContainer.appendChild(ulElement);
         this._element?.appendChild(searchContainer);
+    }
+
+    private showCountry(): void{
+        const showElement: HTMLElement = document.createElement("show");
+        showElement.addEventListener('click',() => {
+
+        })
+
+        this._apiCountry?.countries.then((countries) => {
+            for (const indexCountry in countries) {
+                const country: ICountry = countries[indexCountry];
+
     }
 }
