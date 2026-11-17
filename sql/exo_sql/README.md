@@ -92,6 +92,17 @@ END |
 DELIMITER ;
 ```
 
+
+### 3. Faire un trigger qui met à jour la colonne `update_at` de la table `address`, lorsque l'on fait un update sur celle-ci
+
+
+Avant de faire ce trigger vous devez passer cette requête :
+```sql
+ALTER TABLE address
+ADD COLUMN update_at DATETIME DEFAULT NULL;
+```
+
+
 ## Requêtes préparées
 
 
@@ -124,3 +135,8 @@ EXECUTE select_brand_product USING @brandId;
 
 
 ### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche par commande, le total de ces commandes
+
+
+## Requêtes
+
+### 1. 
