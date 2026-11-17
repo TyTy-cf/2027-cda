@@ -184,18 +184,19 @@ DELIMITER ;
 
 ```sql
 SELECT 	u.email,
-		p.number,
-		p.created_at,
-       	CONCAT(a.line, ', ', a.zip_code, ' ', a.city, ' ', a.country),
-       	CONCAT(FORMAT((SUM(pp.price * pp.quantity)/100),2), '€') AS well_formed_price
+          p.number,
+          p.created_at,
+          CONCAT(a.line, ', ', a.zip_code, ' ', a.city, ' ', a.country),
+          CONCAT(FORMAT((SUM(pp.price * pp.quantity)/100),2), '€') AS well_formed_price
 
 FROM purchase AS p
 
-JOIN `user` AS u ON u.id = p.user_id
-JOIN address AS a ON p.address_id = a.id
-JOIN purchase_product AS pp ON pp.purchase_id = p.id
+         JOIN `user` AS u ON u.id = p.user_id
+         JOIN address AS a ON p.address_id = a.id
+         JOIN purchase_product AS pp ON pp.purchase_id = p.id
 
-GROUP BY p.id;
+GROUP BY p.id
+ORDER BY p.created_at DESC;
 ```
 
 
