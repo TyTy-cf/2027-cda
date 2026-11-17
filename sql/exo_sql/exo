@@ -1,0 +1,42 @@
+Requetes :
+
+1.
+
+SELECT COUNT(u.id), SUBSTRING_INDEX(u.email, '@', -1)
+FROM user u
+GROUP BY SUBSTRING_INDEX(u.email, '@', -1)
+
+2.
+
+SELECT YEAR(u.created_at), COUNT(u.id)
+FROM user u
+GROUP BY YEAR(u.created_at);
+
+3.
+
+SELECT COUNT(*)
+FROM product
+WHERE product.label LIKE '%Copper%';
+
+4.
+
+SELECT product.id, product.label
+FROM product
+LEFT JOIN purchase_product pp ON pp.product_id = product.id
+WHERE pp.product_id IS NULL;
+
+5.
+
+SELECT purchase.number, CONCAT(FORMAT(SUM(pp.quantity * pp.price) / 100, 2, 'fr_FR'), '€')
+FROM purchase
+JOIN purchase_product pp ON pp.purchase_id = purchase.id
+GROUP BY purchase.number;
+
+6.
+
+SELECT address.*
+FROM address
+LEFT JOIN purchase ON purchase.address_id = address.id
+WHERE purchase.address_id IS NULL;
+
+
