@@ -118,3 +118,9 @@ EXECUTE select_brand_product USING @brandId;
 
 
 ### 1. Faire une **procédure stockée**qui prend en paramètre un ID de `purchase` et affiche le total de cette commande. Via `purchase_product` on récupère le `price` et on doit le multiplier par `quantity`
+
+
+### 2. Faire une **procédure stockée** qui prend 0 paramètre et affiche le nombre de commande par utilisateur, trié par quantité (du plus de commande au moins de commande)
+
+
+### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche par commande, le total de ces commandes
