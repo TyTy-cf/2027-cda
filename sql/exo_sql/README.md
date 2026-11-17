@@ -92,11 +92,22 @@ END |
 DELIMITER ;
 ```
 
+
+### 3. Faire un trigger qui met à jour la colonne `update_at` de la table `address`, lorsque l'on fait un update sur celle-ci
+
+
+Avant de faire ce trigger vous devez passer cette requête :
+```sql
+ALTER TABLE address
+ADD COLUMN update_at DATETIME DEFAULT NULL;
+```
+
+
 ## Requêtes préparées
 
 
 ### 1. Faire une requête préparée qui prends en paramètre un ID de purchase et affiche toutes les lignes de purchase_product (en plus de celles de purchase)
-
+> À faire sur HeidiSQL !
 
 ```sql
 PREPARE select_brand_product FROM 'SELECT * FROM brand JOIN product ON product.brand_id = brand.id WHERE brand.id = ?';
@@ -122,5 +133,45 @@ EXECUTE select_brand_product USING @brandId;
 
 ### 2. Faire une **procédure stockée** qui prend 0 paramètre et affiche le nombre de commande par utilisateur, trié par quantité (du plus de commande au moins de commande)
 
+```sql
+DELIMITER //
+DROP PROCEDURE IF EXISTS getPurchaseByUser //
+CREATE PROCEDURE getPurchaseByUser()
+BEGIN
+        SELECT u.first_name, u.last_name, COUNT(p.id) nb_purchases
+        FROM user u
+        LEFT JOIN purchase p ON u.id = p.user_id
+        GROUP BY u.id
+        ORDER BY `nb_purchases` DESC;
+END //
+DELIMITER ;
+```
 
 ### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche par commande, le total de ces commandes
+
+
+## Requêtes
+
+
+### 1. Compter les emails des utilisateurs (table `user`) regroupées par domaine (ex: "gmail.com", "yahoo.fr", etc)
+
+
+### 2. Afficher par années le nombre d'utilisateur (table `user`) inscrit
+
+
+### 3. Compter les produits (table `product`) étant fait en "Copper"
+
+
+### 4. Afficher le/les produits (table `product`) n'ayant jamais été acheté (cela peut être 0 !)
+
+
+### 5. Afficher le total des commandes (table `purchase`) au format "xx,xx€" - Les montants sont en centimes en base de données
+
+
+### 5. Afficher le/les adresses (table `address`) n'ayant jamais été utilisé (cela peut être 0 !)
+
+
+### 6. Afficher le/les produits (table `product`) avec leur image par défaut (table `image`, colonne `is_default`)
+
+
+### 7. 
