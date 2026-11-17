@@ -24,6 +24,18 @@ Faire un **trigger** `BEFORE INSERT` sur `ticket` qui, si la colonne `code` est 
 la remplit automatiquement au format `TCK-<screening_id>-<seat_id>` (ex : `TCK-42-1057`).
 - On en profite pour positionner `created_at = NOW()` si aucune date n'est fournie.
 
+```sql
+DELIMITER $$
+DROP TRIGGER IF EXISTS ticket_before_insert $$
+CREATE TRIGGER ticket_before_insert BEFORE INSERT
+ON ticket FOR EACH ROW
+BEGIN
+    IF ticket.code IS NULL OR ticket.code = "" THEN
+	   	SET NEW.code = CONCAT("TCK-", NEW.screening_id, "-", NEW.seat_id);
+    END IF;
+END $$
+DELIMITER ;
+```
 
 ---
 
@@ -97,7 +109,6 @@ salle et langue. Trier par film puis par date.
 ### 6. (Page séance — plan de salle)
 Pour une séance donnée, afficher **tous les sièges de la salle** avec leur statut :
 le `row`, le `number`, et `"Occupé"` ou `"Libre"` selon qu'un billet existe ou non pour ce siège sur cette séance.
-- Indice : `LEFT JOIN` entre `seat` et `ticket`.
 
 ### 7. (Billet / confirmation de commande)
 Afficher le **détail d'une commande** : pour chaque billet → titre du film, date de la séance,
