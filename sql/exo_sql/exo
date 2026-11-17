@@ -39,4 +39,48 @@ FROM address
 LEFT JOIN purchase ON purchase.address_id = address.id
 WHERE purchase.address_id IS NULL;
 
+7.
+
+SELECT product.label, image.path
+FROM product
+LEFT JOIN image ON image.product_id = product.id
+WHERE image.is_default = 1;
+
+
+8.
+SELECT
+    u.email,
+    purchase.number,
+    purchase.created_at,
+    CONCAT(address.last_name, ' ', address.first_name, ', ', address.line, ', ', address.zip_code, ' ', address.city) AS address,
+    CONCAT(FORMAT(SUM(pp.quantity * pp.price) / 100, 2, 'fr_FR'), '€') AS total
+FROM purchase
+JOIN user u ON u.id = purchase.user_id
+JOIN address ON address.id = purchase.address_id
+JOIN purchase_product pp ON pp.purchase_id = purchase.id
+GROUP BY purchase.id;
+
+9.
+
+SELECT brand.label, COALESCE(SUM(pp.quantity), 0) AS nb_vendus
+FROM brand
+LEFT JOIN product pr ON pr.brand_id = brand.id
+LEFT JOIN purchase_product pp ON pp.product_id = pr.id
+GROUP BY brand.label
+ORDER BY nb_vendus DESC;
+
+10.
+
+SELECT product.label, SUM(pp.quantity)
+FROM product
+JOIN purchase_product pp ON pp.product_id = product.id
+GROUP BY product.id, product.label
+ORDER BY SUM(pp.quantity) DESC LIMIT 1;
+
+11.
+
+SELECT LEFT(address.zip_code, 2) AS departement, COUNT(u.id) AS nb_utilisateurs
+FROM user u
+JOIN address ON address.user_id = u.id
+GROUP BY departement;
 
