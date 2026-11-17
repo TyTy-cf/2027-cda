@@ -155,24 +155,81 @@ DELIMITER ;
 
 ### 1. Compter les emails des utilisateurs (table `user`) regroupées par domaine (ex: "gmail.com", "yahoo.fr", etc)
 
+```sql
+SELECT COUNT(*), SUBSTRING_INDEX(u.email, '@', -1) AS domain
+FROM user u
+GROUP BY domain;
+```
 
 ### 2. Afficher par années le nombre d'utilisateur (table `user`) inscrit
 
+```sql
+SELECT 	YEAR(created_at) AS annee,
+		COUNT(*)
+        
+FROM user
+
+GROUP BY annee
+ORDER BY annee DESC;
+```
 
 ### 3. Compter les produits (table `product`) étant fait en "Copper"
 
+```sql
+SELECT * 
+FROM product
+WHERE product.label LIKE "%copper%"
+OR product.description LIKE "%copper%";
+```
 
 ### 4. Afficher le/les produits (table `product`) n'ayant jamais été acheté (cela peut être 0 !)
 
+```sql
+SELECT *
+FROM `product` p
+LEFT JOIN purchase_product pp ON pp.product_id = p.id
+WHERE pp.id IS NULL;
+
+-- Autre solution
+SELECT *
+FROM `product` p
+WHERE p.id NOT IN (
+    SELECT DISTINCT product_id
+    FROM purchase_product
+);
+```
 
 ### 5. Afficher le total des commandes (table `purchase`) au format "xx,xx€" - Les montants sont en centimes en base de données
 
+```sql
+SELECT
+	p.number,
+    CONCAT(FORMAT(SUM(pp.price * pp.quantity)/100, 2), '€') AS price
+
+FROM purchase AS p
+JOIN purchase_product AS pp ON pp.purchase_id = p.id
+
+GROUP BY p.id 
+ORDER BY SUM(pp.price * pp.quantity) DESC;
+```
 
 ### 6. Afficher le/les adresses (table `address`) n'ayant jamais été utilisé (cela peut être 0 !)
 
+```sql
+SELECT a.*
+FROM address a
+LEFT JOIN purchase p ON p.address_id = a.id
+WHERE p.id IS NULL;
+```
 
 ### 7. Afficher le/les produits (table `product`) avec leur image par défaut (table `image`, colonne `is_default`)
 
+```sql
+SELECT p.*, i.path, i.is_default
+FROM `product` p
+LEFT JOIN image i
+	ON i.product_id = p.id AND i.is_default = 1;
+```
 
 ### 8. Afficher les informations suivantes :
 - `user.email`
@@ -202,6 +259,17 @@ ORDER BY p.created_at DESC;
 
 ### 9. Afficher par marque (table `brand`) le nombre de produits vendus
 
+```sql
+SELECT 	b.label,
+        COALESCE(SUM(pp.quantity), 0) AS nb_product
+
+FROM brand b
+LEFT JOIN product p ON p.brand_id = b.id
+LEFT JOIN purchase_product pp ON pp.product_id = p.id
+
+GROUP BY b.id
+ORDER BY `nb_product` DESC 
+```
 
 ### 10. Afficher le ou les produits (table `product`) les plus vendus. Il faut prendre en compte la quantité...
 
