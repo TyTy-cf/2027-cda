@@ -107,7 +107,7 @@ ADD COLUMN update_at DATETIME DEFAULT NULL;
 
 
 ### 1. Faire une requête préparée qui prends en paramètre un ID de purchase et affiche toutes les lignes de purchase_product (en plus de celles de purchase)
-
+> À faire sur HeidiSQL !
 
 ```sql
 PREPARE select_brand_product FROM 'SELECT * FROM brand JOIN product ON product.brand_id = brand.id WHERE brand.id = ?';
@@ -153,4 +153,25 @@ DELIMITER ;
 ## Requêtes
 
 
-### 1. 
+### 1. Compter les emails des utilisateurs (table `user`) regroupées par domaine (ex: "gmail.com", "yahoo.fr", etc)
+
+
+### 2. Afficher par années le nombre d'utilisateur (table `user`) inscrit
+
+
+### 3. Compter les produits (table `product`) étant fait en "Copper"
+
+
+### 4. Afficher le/les produits (table `product`) n'ayant jamais été acheté (cela peut être 0 !)
+
+
+### 5. Afficher le total des commandes (table `purchase`) au format "xx,xx€" - Les montants sont en centimes en base de données
+
+
+### 5. Afficher le/les adresses (table `address`) n'ayant jamais été utilisé (cela peut être 0 !)
+
+
+### 6. Afficher le/les produits (table `product`) avec leur image par défaut (table `image`, colonne `is_default`)
+
+
+### 7. 
