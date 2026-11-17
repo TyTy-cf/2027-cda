@@ -24,18 +24,6 @@ Faire un **trigger** `BEFORE INSERT` sur `ticket` qui, si la colonne `code` est 
 la remplit automatiquement au format `TCK-<screening_id>-<seat_id>` (ex : `TCK-42-1057`).
 - On en profite pour positionner `created_at = NOW()` si aucune date n'est fournie.
 
-### 3. Anonymiser un utilisateur désactivé
-
-Avant de faire ce trigger vous devez passer cette requête :
-```sql
-ALTER TABLE user
-ADD COLUMN is_active TINYINT(1) NOT NULL DEFAULT 1;
-```
-
-Faire un **trigger** `BEFORE UPDATE` sur `user` qui : lorsque l'on modifie un utilisateur,
-on vérifie si le booléen `is_active` passe à `FALSE` (`0`). Si c'est le cas, on **anonymise** ses données :
-- sur la ligne modifiée (`SET NEW.…`) : `first_name`, `last_name` et `email` ;
-- sur son adresse (`UPDATE address WHERE id = NEW.address_id`) : `street_name`, `street_number`, `zip_code`, `city`.
 
 ---
 
@@ -66,7 +54,7 @@ son **nombre de commandes** et le **total dépensé** (au format `"xx,xx€"`).
 
 ## Transaction
 
-### Réservation atomique de plusieurs places
+### Réservation de plusieurs places
 
 Avant cet exercice, on protège la base contre la double réservation avec une **contrainte** :
 ```sql
