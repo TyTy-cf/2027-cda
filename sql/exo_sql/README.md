@@ -133,10 +133,24 @@ EXECUTE select_brand_product USING @brandId;
 
 ### 2. Faire une **procédure stockée** qui prend 0 paramètre et affiche le nombre de commande par utilisateur, trié par quantité (du plus de commande au moins de commande)
 
+```sql
+DELIMITER //
+DROP PROCEDURE IF EXISTS getPurchaseByUser //
+CREATE PROCEDURE getPurchaseByUser()
+BEGIN
+        SELECT u.first_name, u.last_name, COUNT(p.id) nb_purchases
+        FROM user u
+        LEFT JOIN purchase p ON u.id = p.user_id
+        GROUP BY u.id
+        ORDER BY `nb_purchases` DESC;
+END //
+DELIMITER ;
+```
 
 ### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche par commande, le total de ces commandes
 
 
 ## Requêtes
+
 
 ### 1. 
