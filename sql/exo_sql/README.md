@@ -147,7 +147,7 @@ END //
 DELIMITER ;
 ```
 
-### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche par commande, le total de ces commandes
+### 3. Faire une **procédure stockée** qui prend 1 paramètre, l'id d'un user, et affiche le nombre de commande par utilisateur et affiche le total de ces commandes
 
 
 ## Requêtes
@@ -168,10 +168,25 @@ DELIMITER ;
 ### 5. Afficher le total des commandes (table `purchase`) au format "xx,xx€" - Les montants sont en centimes en base de données
 
 
-### 5. Afficher le/les adresses (table `address`) n'ayant jamais été utilisé (cela peut être 0 !)
+### 6. Afficher le/les adresses (table `address`) n'ayant jamais été utilisé (cela peut être 0 !)
 
 
-### 6. Afficher le/les produits (table `product`) avec leur image par défaut (table `image`, colonne `is_default`)
+### 7. Afficher le/les produits (table `product`) avec leur image par défaut (table `image`, colonne `is_default`)
 
 
-### 7. 
+### 8. Afficher les informations suivantes :
+- `user.email`
+- `purchase.number`
+- `purchase.created_at`
+- `address` - concaténation d'une vraie ligne d'adresse (lastname, firstname, line, zipcode, city)
+- `total` (total de la commande au format "xx,xx€")
+- Trier par `created_at`
+
+
+### 9. Afficher par marque (table `brand`) le nombre de produits vendus
+
+
+### 10. Afficher le ou les produits (table `product`) les plus vendus. Il faut prendre en compte la quantité...
+
+
+### 11. Compter le nombre d'utilisateur par département (on a le département par les deux premiers chiffres de `address.zipCode`), un utilisateur qui possède plusieurs adresses compte pour 1 pour chaque adresse 
