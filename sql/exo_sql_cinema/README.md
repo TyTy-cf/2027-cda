@@ -243,6 +243,7 @@ JOIN room r ON r.id = s.room_id
 JOIN cinema c ON c.id = r.cinema_id
 JOIN movie m ON m.id = s.movie_id
 WHERE c.id = 1
+AND s.started_at > NOW()
 ORDER BY s.started_at DESC, m.title ASC;
 ```
 
