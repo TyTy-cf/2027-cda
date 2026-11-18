@@ -289,3 +289,11 @@ HAVING nbVentes = (
 ```
 
 ### 11. Compter le nombre d'utilisateur par département (on a le département par les deux premiers chiffres de `address.zipCode`), un utilisateur qui possède plusieurs adresses compte pour 1 pour chaque adresse 
+
+```sql
+SELECT LEFT(a.zip_code, 2) AS dpt,
+       COUNT(*)
+FROM address a
+JOIN user u ON u.id = a.user_id
+GROUP BY dpt;
+```
