@@ -27,7 +27,7 @@ WHERE pp.product_id IS NULL;
 
 5.
 
-SELECT purchase.number, CONCAT(FORMAT(SUM(pp.quantity * pp.price) / 100, 2git , '€')
+SELECT purchase.number, CONCAT(FORMAT(SUM(pp.quantity * pp.price) / 100, 2 , '€')
 FROM purchase
 JOIN purchase_product pp ON pp.purchase_id = purchase.id
 GROUP BY purchase.number;

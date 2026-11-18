@@ -1,0 +1,163 @@
+Trigger :
+
+1.
+
+ALTER TABLE movie
+ADD COLUMN updated_at DATETIME DEFAULT NULL;
+
+DELIMITER |
+DROP TRIGGER IF EXISTS new_date |
+CREATE TRIGGER new_date BEFORE UPDATE
+ON movie FOR EACH ROW
+BEGIN
+     SET NEW.updated_at = NOW();
+END |
+DELIMITER ;
+
+2.
+
+DELIMITER $$
+DROP TRIGGER IF EXISTS ticket_before_insert $$
+CREATE TRIGGER ticket_before_insert BEFORE INSERT
+ON ticket FOR EACH ROW
+BEGIN
+    IF ticket.code IS NULL OR ticket.code = "" THEN
+	   	SET NEW.code = CONCAT("TCK-", NEW.screening_id, "-", NEW.seat_id);
+    END IF;
+END $$
+DELIMITER ;
+
+Procédures Stockées
+
+1.
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS getOrderTotal //
+CREATE PROCEDURE getOrderTotal(iOrder INT)
+BEGIN
+       SELECT CONCAT(FORMAT(SUM(r.price) / 100, 2, 'fr_FR'), '€')
+       FROM `order`
+       JOIN ticket t ON t.order_id = `order`.id
+       JOIN screening sc ON sc.id = t.screening_id
+       JOIN room r ON r.id = sc.room_id
+       WHERE `order`.id = iOrder;
+END //
+DELIMITER ;
+
+2.
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS getAvailableSeats //
+CREATE PROCEDURE getAvailableSeats(IN iScreening INT)
+BEGIN
+    SET @allSeat = (
+      	SELECT COUNT(se.id)
+        FROM seat se
+        JOIN room r ON r.id = se.room_id
+        JOIN screening sc ON sc.room_id = r.id
+        WHERE sc.id = iScreening
+    );
+
+    SELECT @allSeat - COUNT(*) AS available_seats
+    FROM ticket t
+    WHERE t.screening_id = iScreening;
+END //
+DELIMITER ;
+
+ou
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS getavailableSeats //
+CREATE PROCEDURE getavailableSeats(screeningId INT)
+BEGIN
+    SELECT s.id, s.row, s.number
+    FROM seat s
+    JOIN room r ON r.id = s.room_id
+    JOIN screening scr ON scr.room_id = r.id
+    RIGHT JOIN ticket t ON t.seat_id = s.id
+    WHERE scr.id = screeningId
+        AND t.id IS NULL;
+END //
+DELIMITER ;
+
+3.
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS getUserSummary //
+CREATE PROCEDURE getUserSummary(userId INT)
+BEGIN
+    SELECT u.first_name, u.last_name, COUNT(DISTINCT o.id) nb_order, CONCAT(FORMAT(SUM(r.price)/100, 2, "fr_FR"), "€") total
+    FROM `user` u
+    JOIN `order` o ON o.user_id = u.id
+    JOIN ticket t ON t.order_id = o.id
+    JOIN screening s ON s.id = t.screening_id
+    JOIN room r ON r.id = s.room_id
+    WHERE u.id = userId;
+END //
+DELIMITER ;
+
+Transaction :
+
+1.
+
+DELIMITER //
+DROP PROCEDURE IF EXISTS insertOrder //
+CREATE PROCEDURE insertOrder(idUser INT, idScreening INT, idSeat INT)
+BEGIN
+    START TRANSACTION;
+
+	INSERT INTO `order` (created_at, user_id) VALUES (NOW(), idUser);
+    SET @idOrder = LAST_INSERT_ID();
+
+    INSERT INTO ticket (code, created_at, order_id, screening_id, seat_id) VALUES (CONCAT("TCK-", idScreening, "-", idSeat), NOW(), @idOrder, idScreening, idSeat);
+
+	COMMIT;
+END //
+DELIMITER ;
+
+Requetes :
+
+1.
+
+SELECT m.title, m.duration, COUNT(sc.id)
+FROM screening sc
+JOIN movie m ON sc.movie_id = m.id
+WHERE sc.started_at >= NOW()
+GROUP BY m.title, m.duration
+ORDER BY COUNT(sc.id) DESC;
+
+2.
+
+SELECT m.title, m.duration, m.synopsis,
+       GROUP_CONCAT(t.name) AS genres,
+       s.name AS director
+FROM movie m
+LEFT JOIN movie_tag mt ON mt.movie_id = m.id
+LEFT JOIN tag t ON t.id = mt.tag_id
+LEFT JOIN staff_movie sm ON sm.movie_id = m.id
+LEFT JOIN staff s ON s.id = sm.staff_id
+WHERE m.id = 1 AND sm.role = 'director'
+
+3.
+
+SELECT m.title, s.name, sm.movie_role
+FROM movie m
+JOIN staff_movie sm ON sm.movie_id = m.id
+JOIN staff s ON s.id = sm.staff_id
+WHERE m.id = 1 AND sm.role = 'actor'
+
+4.
+
+SELECT m.title, sc.started_at, sc.language, c.name, r.name
+FROM screening sc
+JOIN movie m ON sc.movie_id = m.id
+JOIN room r ON r.id = sc.room_id
+JOIN cinema c ON r.cinema_id = c.id
+JOIN address a ON a.id = c.address_id
+WHERE sc.started_at >= NOW() AND m.id = 1
+ORDER BY sc.started_at ASC
+
+5.
+
+
+
