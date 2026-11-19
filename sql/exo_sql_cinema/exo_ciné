@@ -159,5 +159,105 @@ ORDER BY sc.started_at ASC
 
 5.
 
+-- exam
 
+1.
 
+SELECT album.name, album.published_at
+FROM album
+ORDER BY album.published_at DESC
+LIMIT 9;
+
+2.
+
+SELECT artist.name, album.name, YEAR(album.published_at)
+FROM artist
+LEFT JOIN album ON album.artist_id = artist.id
+ORDER BY artist.name, album.published_at;
+
+3.
+
+SELECT account.id, account.name, COUNT(playlist.id)
+FROM account
+JOIN playlist ON playlist.account_id = account.id
+GROUP BY account.name
+
+4.
+
+SELECT album.name, SUM(song.duration), COUNT(song.id)
+FROM album
+JOIN album_song ON album_song.album_id = album.id
+JOIN song ON album_song.song_id = song.id
+GROUP BY album.name;
+
+5.
+
+SELECT artist.name, YEAR(artist.created_at)
+FROM artist
+ORDER BY artist.created_at ASC LIMIT 1;
+
+6.
+
+7.
+
+SELECT account.gender, COUNT(account.id)
+FROM account
+GROUP BY account.gender
+
+8.
+
+SELECT playlist.name, COUNT(account_like_playlist.account_id)
+FROM playlist
+JOIN account_like_playlist ON account_like_playlist.playlist_id = playlist.id
+GROUP BY account_like_playlist.playlist_id
+ORDER BY COUNT(account_like_playlist.account_id) DESC
+LIMIT 5
+
+9.
+
+SELECT account.name, COUNT(account_like_playlist.playlist_id)
+FROM account
+JOIN account_like_playlist ON account_like_playlist.account_id = account.id
+GROUP BY account_like_playlist.account_id
+ORDER BY COUNT(account_like_playlist.playlist_id) DESC
+LIMIT 5
+
+10.
+
+SELECT artist.id, artist.name, COUNT(account_like_artist.account_id)
+FROM artist
+JOIN account_like_artist ON account_like_artist.artist_id = artist.id
+GROUP BY artist.name
+ORDER BY COUNT(account_like_artist.account_id) DESC
+LIMIT 3
+
+11.
+
+SELECT account.id, account.name, account_like_playlist.playlist_id
+FROM account
+LEFT JOIN account_like_playlist ON account_like_playlist.account_id = account.id
+WHERE account_like_playlist.playlist_id IS NULL;
+
+12.
+
+DELIMITER |
+CREATE TRIGGER playlist_update BEFORE UPDATE
+ON playlist FOR EACH ROW
+BEGIN
+     SET NEW.updated_at = NOW();
+END |
+DELIMITER ;
+
+13.
+
+DELIMITER |
+CREATE TRIGGER new_inscription BEFORE UPDATE
+ON account FOR EACH ROW
+BEGIN
+	INSERT INTO account_subscription (subscription_id, effective_at, finished_ad)
+    SELECT 1, NOW(), NULL
+    FROM account
+    WHERE account.id = NEW.id;
+
+END |
+DELIMITER ;
