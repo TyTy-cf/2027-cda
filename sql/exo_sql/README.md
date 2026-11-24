@@ -273,5 +273,27 @@ ORDER BY `nb_product` DESC
 
 ### 10. Afficher le ou les produits (table `product`) les plus vendus. Il faut prendre en compte la quantité...
 
+```sql
+SELECT product.*, COALESCE(SUM(pp.quantity), 0) AS nbVentes
+FROM product
+LEFT JOIN purchase_product pp ON pp.product_id = product.id
+GROUP BY product.id
+HAVING nbVentes = (
+    SELECT COALESCE(SUM(pp.quantity), 0) AS nb_product
+    FROM product p
+    LEFT JOIN purchase_product pp ON pp.product_id = p.id
+    GROUP BY p.id
+    ORDER BY `nb_product` DESC
+    LIMIT 1
+);
+```
 
 ### 11. Compter le nombre d'utilisateur par département (on a le département par les deux premiers chiffres de `address.zipCode`), un utilisateur qui possède plusieurs adresses compte pour 1 pour chaque adresse 
+
+```sql
+SELECT LEFT(a.zip_code, 2) AS dpt,
+       COUNT(*)
+FROM address a
+JOIN user u ON u.id = a.user_id
+GROUP BY dpt;
+```
